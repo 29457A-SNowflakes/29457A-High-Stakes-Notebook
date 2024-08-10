@@ -17,5 +17,32 @@
   Off of the back of Over Under we have acquired some very important skills necessary for competitive representation on both a national and global scale such as good building and coding practices which we hope to utilise in order to become even more competitive in all aspects of the V5RC competition where we weren’t last year. We are also moving to a smaller team size as some of our members are moving on. This will mean we may have to work harder but also means a larger range of experience in other areas.
 ], [#image("./Worlds bot 23.png")], [#image("./Jonah design.png", height: 200pt)], [#image("./old bot.png", height: 200pt)])
 = The members
-#grid(columns: 2, gutter: 20pt,
+
+#grid(
+columns: 2, gutter: 20pt,
+[#image("./members/Jonah.png")], [#image("./members/Aubert.png")],
+[
+  Jonah Fitchew
+  - Co-Head Builder
+  - Driveteam
+  Hello I am Jonah Fitchew and my role within the team is the physical construction of the robot, documentation and assisting the driver during matches.
+],
+[
+  Aubert Seysess
+  - Co-Head Builder
+  Hello I am Aubert Seysses and my role within the team is to  help design and virtually CAD the robot, also, I aid with the physical construction of the robot.
+],
+[#image("./members/Dew.png")], [#image("./members/DaSilva.png")],
+[
+  Daniel Dew
+  - Head Programmer
+  - Driveteam
+  My role within the team primarily resides in the programming of the robot's code including autonomous and driver control. I also aid with the design and CAD phases of building.
+],
+[
+  Daniel DaSilva
+  - Programmer
+  Hi I’m Daniel da Silva and my role within the team is to support the development of the robot’s software and to help organise it into the logbook.
+],
+[THOMAS' PHOTO], [THOMAS' DESC.]
 )
