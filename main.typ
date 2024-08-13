@@ -3,7 +3,7 @@
 
 // applies the template
 // the show rule essentially passes the entire document into the `notebook` function. 
-#show text: set text(font: "DejaVu Sans Mono", size: 9pt)
+//#show text: set text(font: "DejaVu Sans Mono", size: 9pt)
 #show: notebook.with(
   team-name: "29457A", // TODO: put your team name here
   season: "High Stakes",

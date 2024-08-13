@@ -4,9 +4,7 @@
 // The show rule passes all content in this file into the `create-body-entry` function.
 // This just means that we don't need an extra level of indentation when writing this entry.
 #show: create-frontmatter-entry.with(
-  title: "Team Introduction",
-  author: "The Snowflakes",
-  date: datetime(year: 2024, month: 1, day: 1),
+  title: "Team Introduction"
 )
 
 = Who are the Snowflakes?
