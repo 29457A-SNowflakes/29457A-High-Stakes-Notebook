@@ -3,9 +3,8 @@
 
 // The show rule passes all content in this file into the `create-body-entry` function.
 // This just means that we don't need an extra level of indentation when writing this entry.
-#show: create-body-entry.with(
+#show: create-frontmatter-entry.with(
   title: "Team Introduction",
-  type: "management",
   author: "The Snowflakes",
   date: datetime(year: 2024, month: 1, day: 1),
 )
@@ -44,5 +43,10 @@ columns: 2, gutter: 20pt,
   - Programmer
   Hi I’m Daniel da Silva and my role within the team is to support the development of the robot’s software and to help organise it into the logbook.
 ],
-[THOMAS' PHOTO], [THOMAS' DESC.]
+[#image("./members/Thomas.png", height: 20%)], [
+  Thomas Robb
+  - Head Tactics
+  - Driveteam
+  Thomas desc.
+]
 )
