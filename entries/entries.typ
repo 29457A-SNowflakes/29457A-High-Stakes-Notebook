@@ -1,4 +1,5 @@
 #include "./example-entry.typ"
 // TODO: add more entries here
 // entries will appear in included order
-#include "./frontmatters/frontmatters.typ"
+
+#include "./game-analasys/game-analasys.typ"
