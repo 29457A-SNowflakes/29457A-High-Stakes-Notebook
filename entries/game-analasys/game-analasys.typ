@@ -5,7 +5,7 @@
   title: "The High Stakes Problem",
   type: "identify",
   date: datetime(year: 2024, month: 08, day: 13),
-  author: "Daniel Dew, Jonah Fitchew"
+  author: "Daniel Dew"
 )
 = The Game
 \
@@ -56,3 +56,45 @@
   - Climbing structures requires lots of power and/or time
   - High Stake would require extreme prescision
 ])
+== Scoring Takeaways
+- All scoring requires vertical capability
+- Employing multiple methods of scoring (mogo, neutral/alliance stake) would require a multiple -- or one more complex, morphing -- systems
+- Emphasis must be put on prescision and reliability as there is little room for error
+= Rules analasys
+== Format
+To avoid simply regurgitating the rules (to people who already understand them), we are going to simply list some rules with a paraphrased description; then how it affects us; then potential solutions -- if a rule presents no problem, we will not cover it.\
+*e.g.*\
+*\<RULE NUMBER\>*
+- _Paraphrased rule description_
+*Problems*
+- This rule affects us like this
+- It also affects us like this
+*Potential Solution*
+- This is one way we can mitigate the risk of infringement...
+- This is another...
+#components.admonition(type: "note")[
+  Inspection, safety and general rules will not be covered, due to their relative simplicity.
+]
+== Scoring rules
+*\<SC3\>*
+#grid(columns: 2, column-gutter: 20pt, [
+- To be considered scored on a stake, the ring must meet certain criteria:
+  + Ring must not be contacting robot #underline([_of same alliance_])
+  + Ring is not contacting foam tile
+  + Ring is encircling the stake#footnote([Long description omited, see https://www.vexrobotics.com/high-stakes-manual#sc3])
+  + Total ring count must not exceed max ring count of the stake (mobile: 6, neutral & alliance: 2, high: 1)
+*Problems*
+- Neutral/alliance stakes can contain more than 2, despite only 2 being counted
+- Mogos with our rings on can be tipped to effectively descore some rings
+*Potential Solutions*
+- Driver may have to take care when scoring on neutral/alliance stake
+- Driver may have to guard or defend filled mogos
+], [
+  #grid(rows: 2, row-gutter: 20pt,
+    [#image("./imgs/scored-rings-1.png", height: 100pt)],
+    [#image("./imgs/scored-rings-2.png", height: 100pt)]
+  )
+])
+*\<SC5\>*
+
+
