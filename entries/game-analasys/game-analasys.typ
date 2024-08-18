@@ -53,5 +53,6 @@
   - 3 tiers/rungs
   - 4 sides
   *Potential Challenges*
-  - Very tall
+  - Climbing structures requires lots of power and/or time
+  - High Stake would require extreme prescision
 ])

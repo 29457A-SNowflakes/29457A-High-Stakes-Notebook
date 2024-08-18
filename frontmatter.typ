@@ -4,4 +4,4 @@
   #components.toc()
 ]
 
-#include "./_frontmatters/frontmatters.typ"
+#include "./entries/_frontmatters/frontmatters.typ"
