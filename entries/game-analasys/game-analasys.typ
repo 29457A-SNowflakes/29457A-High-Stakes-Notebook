@@ -27,7 +27,7 @@
 [#image("./imgs/Mogos.png")], [
   *Scoring Object: Mobile Stakes/Goals*
   There are 5 mobile goals ('mogos') on the field, and they can be freely manipulated by teams.
-  - 10'' diameter hexagional bird's eye view profile
+  - 10'' diameter Hexagonal bird's eye view profile
   - 14.5'' height
   - Rubber cap to make descoring more difficult
   *Potential Challenges*
@@ -43,24 +43,24 @@
   - Rubber caps (identical to mogo)
   - Alliance stakes can only be scored by the corresponding alliance
   *Potential Challenges*
-  - Stakes differ in height from eachother (also from the mogo) meaning different or morphing mechanism to score on all.
+  - Stakes differ in height from each other (also from the mogo) meaning different or morphing mechanism to score on all.
   - Placement (field perimeter) risks throwing rings out of the field (risking S1 infringement)
   - Rubber caps mean force must be required to score/descore
 ],
 [#image("./imgs/Ladder.png")], [
   *High Stake and Ladder*\
-  In the center of the field, there is a 4' ladder that teams can climb in the endgame to gain etra points. It also has a stake that can fit 1 ring at the very top.
+  In the center of the field, there is a 4' ladder that teams can climb in the endgame to gain extra points. It also has a stake that can fit 1 ring at the very top.
   - 49.89'' (4.165') tall
   - 3 tiers/rungs
   - 4 sides
   *Potential Challenges*
   - Climbing structures requires lots of power and/or time
-  - High Stake would require extreme prescision
+  - High Stake would require extreme precision
 ])
 == Scoring Takeaways
 - All scoring requires vertical capability
 - Employing multiple methods of scoring (mogo, neutral/alliance stake) would require a multiple -- or one more complex, morphing -- systems
-- Emphasis must be put on prescision and reliability as there is little room for error
+- Emphasis must be put on precision and reliability as there is little room for error
 = Rules analasis
 == Format
 To avoid simply regurgitating the rules (to people who already understand them), we are going to simply list some rules with a paraphrased description; then how it affects us; then potential solutions -- if a rule presents no problem, we will not cover it.\
@@ -82,7 +82,7 @@ To avoid simply regurgitating the rules (to people who already understand them),
 - To be considered scored on a stake, the ring must meet certain criteria:
   + Ring must not be contacting robot #underline([_of same alliance_])
   + Ring is not contacting foam tile
-  + Ring is encircling the stake#footnote([Long description omited, see https://www.vexrobotics.com/high-stakes-manual#sc3])
+  + Ring is encircling the stake#footnote([Long description omitted, see https://www.vexrobotics.com/high-stakes-manual#sc3])
   + Total ring count must not exceed max ring count of the stake (mobile: 6, neutral & alliance: 2, high: 1)
 *Problems*
 - Neutral/alliance stakes can contain more than 2, despite only 2 being counted
@@ -112,7 +112,7 @@ To avoid simply regurgitating the rules (to people who already understand them),
     + Values of all scored rings will be doubled
   - Placed in a *negative* corner:
     + Values of all scored rings will be set to 0
-    + For each ring, an equilavent ammount of points will be effectively removed from that alliance's score
+    + For each ring, an equivalent amount of points will be effectively removed from that alliance's score
     + Points scored from auton bonuses and climbing #underline([cannot be removed])
 Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[here].\
 *Problems*
@@ -130,9 +130,9 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
     + The robot's lowest point is above that level's minimum height
 ], [#image("./imgs/levels.png", height: 90pt)])
 *Problems*
-- Climbing must be completely independant, it cannot rely on lower rungs or the floor
+- Climbing must be completely independent, it cannot rely on lower rungs or the floor
 *Potential Solutions*
-- When considering climbing, large power consumtion -- due to independant climbing -- must be considered, possibly with use of a winch and/or a PTO#footnote([PTO: Power Take-Off])
+- When considering climbing, large power consumption -- due to independent climbing -- must be considered, possibly with use of a winch and/or a PTO#footnote([PTO: Power Take-Off])
 *\<SC8\>*
 - *Autonomous Win point* is awarded to _any_ alliance that have completed the following tasks (as long as they have not broken any rules):
   + At least 3 scored rings of that alliance's colour
@@ -156,7 +156,7 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
 ])
 \
 *Problems*
-- Mechansims that rely on expansion must be contained within the footprint of the robot, or not expand over 6'' on one side only
+- Mechanisims that rely on expansion must be contained within the footprint of the robot, or not expand over 6'' on one side only
 *Potential Solutions*
 - Design all expanding mechanisms to expand on one side only
 - Use as little space of the 18'' x 18'' to maximise expansion capability
@@ -185,7 +185,7 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
 *Potential Solutions*
 - For both problems, driver care can be applied to avoid SG6 infringement
 - A distance/colour sensor could be used in conjunction with an algorithm to stop manipulating rings once at the possesion limit
-  - Using a coulour sensor could allow for a coulour sorting algorithm to only intake alliance's rings
+  - Using a colour sensor could allow for a colour sorting algorithm to only intake alliance's rings
 *\<SG7\>*
 - Dont cross the autonomous line during autonomous
   - Robots must not contact or break the plane of the autonomous line#footnote([basically the halfway line]) during autonomous
@@ -197,12 +197,12 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
 Certain solutions appear more than once, meaning we can prioritise them to mitigate more risks at lower time/complexity costs.
 == Driver Skill
 We have concluded that driving is a factor in nearly all the rules specifically targeted defence and offence, High Stakes is a skillful game that requires lots of practice from the driver. Putting emphasis on training our driver, using drills, friendly matches etc. must be a priority.
-== Control and Prescision
-We have also concluded that prescicion is key to avoiding rule infringement and also to maintain effectivness. All mechanisms must be designed with extreme prescision with lots of time allocate for fine-tuning to a) maximise effectiveness of mechanism and b) avoid breaking rules such as SG4 and SG7.
+== Control and Precision
+We have also concluded that prescicion is key to avoiding rule infringement and also to maintain effectiveness. All mechanisms must be designed with extreme precision with lots of time allocate for fine-tuning to a) maximise effectiveness of mechanism and b) avoid breaking rules such as SG4 and SG7.
 = The Plan
-This game and rule analasys has allowed us to form a plan on how we will approach the coming weeks as we organise ourselves to tackle the season.
-== Timeline Considerationss
+This game and rule analasis has allowed us to form a plan on how we will approach the coming weeks as we organise ourselves to tackle the season.
+== Timeline Considerations
 - The emphasis on driver practice means we will try our best to allow for plenty of driver practice
 - The further emphasis on autonomous tuning means we will have to make ample room for autonomous testing in the timeline
 == Careful Design
-- We will also be making sure that all our designs our designed with strength, prescicion and effectiveness in mind during all stages of the design process -- this is especially prominent during te CAD phase
+- We will also be making sure that all our designs our designed with strength, prescicion and effectiveness in mind during all stages of the design process -- this is especially prominent during the CAD phase
