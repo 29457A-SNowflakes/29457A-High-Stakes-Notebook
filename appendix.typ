@@ -9,3 +9,4 @@
 #create-appendix-entry(title: "Glossary")[
   #components.glossary()
 ]
+#create-appendix-entry(title: "Bibliography")[#bibliography("sources.bib")]

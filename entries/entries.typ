@@ -3,5 +3,5 @@
 // entries will appear in included order
 
 #include "./game-analasys/game-analasys.typ"
-#include "./Drivetrain-select-edp/FeaturesOfADrivetrain.typ"
-#include "./Drivetrain-select-edp/BrainstormSolutionTankDrive.typ"
+#include "./Drivetrain-select-edp/BrainstormSolution.typ"
+#include "./Drivetrain-select-edp/DecideDrivetrain.typ"
