@@ -4,3 +4,4 @@
 
 #include "./game-analasys/game-analasys.typ"
 #include "./Drivetrain-select-edp/FeaturesOfADrivetrain.typ"
+#include "./Drivetrain-select-edp/BrainstormSolutionTankDrive.typ"
