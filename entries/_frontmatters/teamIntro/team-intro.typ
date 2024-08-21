@@ -33,8 +33,9 @@ columns: 2, gutter: 20pt,
 [
   Daniel Dew
   - Head Programmer
+  - Driver
   - Driveteam
-  My role within the team primarily resides in the programming of the robot's code including autonomous and driver control. I also aid with the design and CAD phases of building.
+  My role within the team primarily resides in the programming of the robot's code including autonomous and driver control. I also aid with the design and CAD phases of building. I am also the primary driver.
 ],
 [
   Daniel DaSilva
@@ -45,6 +46,6 @@ columns: 2, gutter: 20pt,
   Thomas Robb
   - Head Tactics
   - Driveteam
-  Thomas desc.
+  My role within the team is to brainstorm tactics and communicate with the other members to ensure that designs and tactics align. During competitions I am also responsible for taking note of performances, both our's and other team's; to help find possible alliances.
 ]
 )
