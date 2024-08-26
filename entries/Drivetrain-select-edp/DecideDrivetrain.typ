@@ -23,7 +23,7 @@ At the beginning of any season the needs of the three main aspects of a drivetra
  (name: "Stability"),
  (name: "Ease of build"),
  (name: "Size of Wheels"),
- (name: "gear ratio achievable")
+ (name: "Gear ratio achievable")
  ),
  ("\n\n\nDifferential\n\n\n", 3, 5, 5, 4, 5),
  ("\n\n\nMecanum\n\n\n", 5, 3, 2, 1, 1),

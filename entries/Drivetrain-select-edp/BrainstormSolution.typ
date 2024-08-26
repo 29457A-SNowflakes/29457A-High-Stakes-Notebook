@@ -5,7 +5,7 @@
   title: "Brainstorming Drivetrain",
   type: "brainstorm",
   date: datetime(year: 2024, month: 08, day: 18),
-  author: "Jonah Fitchew"
+  author: "Jonah Fitchew, Daniel da Silva"
 )
 #set quote(block: true)
 = What are the different types of Drive?
@@ -86,13 +86,13 @@ Here we see a CAD model of an H Drive found on the website Purdue Sigbots made b
   pros: [
     
     - Simplicity: The H Drive is easier to build and program compared to more complex holonomic drives like Mecanum or X Drive
-    - Good Strafing Ability: The central wheel allows for decent sideways movement (strafing), providing a balance between maneuverability and straightforward design
+    - Good Strafing Ability: The central wheel allows for decent sideways movement (strafing), providing a balance between manoeuverability and straightforward design
     - Efficient Use of Space: The parallel wheel layout in H Drive leaves more space for other components on the robot compared to an X Drive
 
   ],
   cons: [
     - Limited Lateral Power: The central strafing wheel in H Drive has less traction and pushing power compared to the Mecanum or X Drive, leading to weaker side-to-side movement
-    - Less Agility: H Drive doesn't handle diagonal movement as smoothly as X Drive or Mecanum, reducing its maneuverability in accurate and precise movements
+    - Less Agility: H Drive doesn't handle diagonal movement as smoothly as X Drive or Mecanum, reducing its manoeuverability in accurate and precise movements
     - Vulnerability to Central Wheel Issues: The reliance on a single central wheel for strafing means that any failure or inefficiency in that wheel significantly impacts performance
     - Programming Complexity: H drives also consider some (although less than X and mecanum) programming challenges
     - Space: Having the wheel in the middle can result in less space for other subsystems such as odometry pods
@@ -106,7 +106,7 @@ Here we see a CAD model of an H Drive found on the website Purdue Sigbots made b
 Here is a live model of the mecanum drive found on the Servo magazine website about holonomic locomotion
 #components.pro-con(
   pros: [
-    - Holonomic Movement: Mecanum wheels allow for full omnidirectional movement, including forward, backward, sideways, and diagonal, giving excellent maneuverability
+    - Holonomic Movement: Mecanum wheels allow for full omnidirectional movement, including forward, backward, sideways, and diagonal, giving excellent manoeuverability
     - Good Pushing Power: Compared to other holonomic drives like X Drive or H Drive, Mecanum maintains relatively good traction and pushing power
     - Versatility: Mecanum Drive offers a solid balance of movement options while still being able to handle various competition tasks, making it adaptable to different areas of teh competition like skills
   ],
@@ -117,3 +117,86 @@ Here is a live model of the mecanum drive found on the Servo magazine website ab
   ]
  )
 Mecanum Drive is one of if not the most frowned upon drivetrain in the whole of VEX as it utilises the otherwise useless Mecanum wheels which take up a large amount of room and are not very versatile. however in a Mecanum drive you acquire the ability to complete control and assurance that movement is not the problem, however in building this drivetrain the ability to gear is almost completely gone, as in order to maintain the very much wanted 3-4 wide hole gap between the drivetrain C Channels the mecanum wheel leaves no room for a gear, admonishing any gear ratios wanted.
+\
+\
+\
+\
+\
+\
+== Use of Traction Wheels:
+#image("./imgs/traction.png", height: 120pt)
+([#link("https://wiki.purduesigbots.com/~gitbook/image?url=https%3A%2F%2F3510336827-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-M7yGVyBrcpSR8SDSikj%252Fuploads%252FS3xZ85wDXYKKvG03tSQH%252Ftractionwheelprogression.png%3Falt%3Dmedia%26token%3D5f849e46-eb49-45db-9d72-c53c01651a2e&width=768&dpr=1&quality=100&sign=ac01caeb&sv=1")[Image credit]])\
+For our drive an important consideration was the inclusion and amount of traction wheels we wanted. Having more traction wheels increases our grip but also reduces our skidding which can mean that our bot will struggle to do tight turns quickly. However, not having enough traction wheels means we may be easier to push around and struggle in to push others.\
+To maximise grip whilst retaining agility, it is common to use traction wheels in the centre to reduce unwanted forces, whilst combining them with other wheels such as omniwheels on the edges for greater turning ability.
+#components.pro-con(
+  pros: [
+    - Increased Grip: More grip allows for more power, which means its easier to push game elements or other bots around.
+    - Resistance: Since they have a single degree of freedom traction wheels make our robot more resistant against being pushed when attacking our defending
+  ],
+  cons: [
+    - Rigidity: Having one degree of freedom means that the bot will struggle more to perform tight turns, which may be important to perform midmatch or during the autonomous which often relies on turns being consistent and accurate.
+  ]
+ )
+Overall, it is important to decide how many traction wheels we use and where. Ultimately, deciding this depends on a teams game strategy and the type of bot they are going for.\
+([#link("https://wiki.purduesigbots.com/hardware/misc.-vex-parts-1/motion/traction-wheels")[Citation]])
+
+=== All Omniwheel Drive:\
+#grid(
+  columns: (280pt, 1fr),
+  rows: (auto),
+  gutter: 20pt,
+  [Having our drive consist of only omniwheels has some advantages such as allowing for a lot more skidding and tight manoeuvering. However, a lack of traction wheels means our bot have less torque to push and also will be easier to push. This pushing power loss can be compensated for by playing more evasively in order to outmanoeuver opponents. A good example of an all omniwheel drive was 9364H's bot in OU ([#link("https://www.youtube.com/watch?v=EMaQuOrPwew")[Pits and Parts]]), who additionally engineered their bot for speed and agility to control the arena and punish double zoning in that game. See image on right for example.],
+  grid.cell(
+    colspan: 1,
+    image("./imgs/IronEagles.png", width: 120%),
+  ),
+)
+
+== Number of Wheels:
+#grid(
+  columns: (260pt, 1fr),
+  rows: (auto),
+  gutter: 20pt,
+  [Another important consideration is the amount of wheels, which we want on our drive. Similar to traction wheel ratio, having more wheel affects our power:agility ratio. Having more wheels increases surface area in contact with the ground, which correlates with more traction. An increase in traction will mean that we have less skidding, which can be useful for turning, but it will also mean that the power is transferred more efficiently, which allows us to have more rpm or torque. See explanation for this on the right.],
+  grid.cell(
+    colspan: 1,
+    image("./imgs/Power.png", width: 90%),
+  ),
+)
+=== 4 Wheels
+Having 4 wheels is the minimum number of wheels a drivetrain can have. It sacrifices power for manoeuverability but is easier to implement since it doesn’t require motor stacking.
+#components.pro-con(
+  pros: [
+    - Agility: Slides more so it has greater theoretical turning ability
+    - Easy to implement: Since theres fewer wheels there's fewer gears to deal with allowing for more space for game specific components such as wings, intakes or lifts
+    - Lighter: Less components so robot will weigh less meaning motors have less load to move
+  ],
+  cons: [
+    - Less power: Fewer wheels so there's less traction, which means less pushing power
+    - Lighter: Less weight so its easier to push around
+  ]
+ )
+ === 6 Wheels
+6 wheels is a balance between manoeuverability and power. However, its trickier to implement since it requires motor stacking.
+#components.pro-con(
+  pros: [
+    - Agility: Still slides but not as much as a 4 Wheel Drive
+    - Power: Balanced power but still less traction than an 8 Wheel Drive
+  ],
+  cons: [
+    - More complex: Requires motor stacking so its design as a drivetrain is more complex, which can mean its more difficult to implement game scoring subsystems.
+  ]
+ )
+ === 8 Wheels
+ An 8 Wheel Drive provides the most traction of the three options, which gives it the most power but means it will slide less and so will struggle with turns more.
+ #components.pro-con(
+  pros: [
+    - Most Power: Has the most power because of the greater traction
+    - Heavier: More wheels and more gearing weigh more so its more resistant to pushing and will push with more force
+  ],
+  cons: [
+    - Less Agile: The higher traction stops the robot from sliding as much so it will have less turning ability.
+    - Heavier: The greater weight will put more strain on motors, which leads to higher chance of motor burnout. However, can be circumvented by quickswaps or cooling the motors with a fan.
+  ]
+ )
+ Overall, its important to consider the strengths and weaknesses of the wheels chosen and amount of wheels, since the power lost from using fewer wheels can be compensated by using some traction wheels to create overall high performance or similarly an 8 wheel drive can become more manoeuverable if the drive includes some omniwheels or is entirely made of them. Therefore by considering what the wheels and wheel ammount can do for the drivetrain it is possible to create a drivetrain, that doesn’t suffer from any major weakness within the scope of what our team is trying to achieve.
