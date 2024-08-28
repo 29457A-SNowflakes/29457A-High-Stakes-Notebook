@@ -59,9 +59,9 @@
 ])
 == Scoring Takeaways
 - All scoring requires vertical capability
-- Employing multiple methods of scoring (mogo, neutral/alliance stake) would require a multiple -- or one more complex, morphing -- systems
+- Employing multiple methods of scoring (mogo, neutral/alliance stake) would require multiple systems or 1 complex system such as a lift
 - Emphasis must be put on precision and reliability as there is little room for error
-= Rules analasis
+= Rules Analysis
 == Format
 To avoid simply regurgitating the rules (to people who already understand them), we are going to simply list some rules with a paraphrased description; then how it affects us; then potential solutions -- if a rule presents no problem, we will not cover it.\
 *e.g.*\
@@ -103,7 +103,7 @@ To avoid simply regurgitating the rules (to people who already understand them),
   + Contact with robot is irrelevant
 #components.admonition(type: "note")[Only 1 mogo can be considered placed in each corner, even if 2 meet the requirements.]
 *Problems*
-- Mogos can be knocked over do mitigate effect of corner
+- Mogos can be knocked over to mitigate effect of corner
 *Potential Solutions*
 - Driver can guard/defend the corner, especially as robot contact is irrelevant.
 *\<SC6\>*
@@ -130,9 +130,9 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
     + The robot's lowest point is above that level's minimum height
 ], [#image("./imgs/levels.png", height: 90pt)])
 *Problems*
-- Climbing must be completely independent, it cannot rely on lower rungs or the floor
+- Climbing must be completely independant, it cannot rely on lower rungs or the floor
 *Potential Solutions*
-- When considering climbing, large power consumption -- due to independent climbing -- must be considered, possibly with use of a winch and/or a PTO#footnote([PTO: Power Take-Off])
+- When considering climbing, large power consumption -- due to independant climbing -- must be considered, possibly with use of a winch and/or a PTO#footnote([PTO: Power Take-Off])
 *\<SC8\>*
 - *Autonomous Win point* is awarded to _any_ alliance that have completed the following tasks (as long as they have not broken any rules):
   + At least 3 scored rings of that alliance's colour
@@ -200,7 +200,7 @@ We have concluded that driving is a factor in nearly all the rules specifically 
 == Control and Precision
 We have also concluded that prescicion is key to avoiding rule infringement and also to maintain effectiveness. All mechanisms must be designed with extreme precision with lots of time allocate for fine-tuning to a) maximise effectiveness of mechanism and b) avoid breaking rules such as SG4 and SG7.
 = The Plan
-This game and rule analasis has allowed us to form a plan on how we will approach the coming weeks as we organise ourselves to tackle the season.
+This game and rule analysis has allowed us to form a plan on how we will approach the coming weeks as we organise ourselves to tackle the season.
 == Timeline Considerations
 - The emphasis on driver practice means we will try our best to allow for plenty of driver practice
 - The further emphasis on autonomous tuning means we will have to make ample room for autonomous testing in the timeline

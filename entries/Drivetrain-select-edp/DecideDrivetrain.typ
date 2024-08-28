@@ -28,10 +28,12 @@ At the beginning of any season the needs of the three main aspects of a drivetra
  ("\n\n\nDifferential\n\n\n", 3, 5, 5, 4, 5),
  ("\n\n\nHolonomic\n\n\n", 4, 4, 2, 4, 3),
 )
-For our current purposes and team requirements, a differential drive is the most optimal drive to consider using. This is because of their simplicity; which we feel is valuable this early in the season since most other drives suffer from odd motor placements making design more complex, the power they provide; which is always helpful for pushing tasks, and their stability means we are less likely to tip over mid match. In addition, we have deemed that the downsides are either not substantial or can be compensated for by other parts of the drive such as the lost manoeuverability can be made up for by having some omniwheels.
-
+For our current purposes and team requirements, a Differential Drive is the most optimal drive to consider using. This is because of their simplicity; which we feel is valuable this early in the season since most other drives suffer from odd motor placements or other restrictions which make designing around them more complex, the power they provide; which is always helpful for pushing tasks, and their stability means we are less likely to tip over mid match. In addition, we have deemed that the downsides of a Differential Drive are either not substantial or can be compensated for by other parts of the drive. For example the lost manoeuverability can be made up for by incorporating omniwheels into our drivetrain.
+\
+\
+\
 === Choosing Wheel Ammount
-Choosing the correct amount of wheels is an important consideration when designing the drivetrain. It is an extra way to achieve an optimal balance between torque and agility. The three main considerations for wheel ammount is:
+Choosing the correct amount of wheels is an important consideration when designing the drivetrain. It is an extra way to achieve an optimal balance between torque and agility. The three main considerations for wheel ammount are:
 - Traction
 - Manouverability
 - Complexity
@@ -46,10 +48,17 @@ Choosing the correct amount of wheels is an important consideration when designi
  ("\n\n\n6 Wheels\n\n\n", 4, 3, 4, 3),
  ("\n\n\n8 Wheels\n\n\n", 3, 5, 3, 5),
 )
-From our analysis we decided that an 8 Wheel drive is our best choice, since it synergises most strongly with a differential drive. Both give great freedom for gearing, allowing greater control over torque and speed. Additionally, both elements will contribute to a higher power drive train. The simplicity of the differential drive compensates for the higher complexity of having 8 wheels. Neither design elements give us the greatest manoeuverability, which is the greatest problem with our design at this current stage.
-
+From our analysis we decided that an 8 Wheel Drive is our best choice, since it synergises most strongly with a Differential Drive. Combining these two gives us great freedom for gearing, allowing greater control over torque and speed. Additionally, both elements will contribute to a higher power drive train. The simplicity of the Differential Drive compensates for the higher complexity of having 8 wheels. Unfortunately, neither of these design elements give us the greatest manoeuverability, which is the greatest problem with our design at this current stage. This can be addressed with the wheels we choose, since having 8 Wheels gives us the most flexibility over combinations of wheel types.
+\
+\
+\
+\
+\
+\
+\
+\
 === Wheel types
-The combination of an 8 Wheel Drive and Differential Drive gives our bot great power, whilst also being relatively simple to build. The main consideration for the wheels, which we do is to give us greater manoeuverability.
+The combination of an 8 Wheel Drive and Differential Drive gives our bot great power, whilst also being relatively simple to build. The main consideration for the combination of wheels, which we choose is that they give our bot greater manoeuverability since that is the main problem with our current solution.
 #components.decision-matrix(
  properties: (
  (name: "Manouverability"),

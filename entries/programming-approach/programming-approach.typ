@@ -80,6 +80,10 @@ int currentDate = dateNow();
     - Some words can look confusing e.g 'A' in 'thisIsAVariable' ('A' can be hard to see)
   ]
 )\
+\
+\
+\
+
 - Snake Case
 #underline([_Explanation:_])\
 - Using underlinging to represent whitespace
@@ -92,11 +96,6 @@ int date_now() {
 bool this_is_a_variable = true;
 int current_date = date_now();
 ```
-\
-\
-\
-\
-\
 #underline([_Pros/Cons:_])
 #components.pro-con(
   pros: [
@@ -107,7 +106,12 @@ int current_date = date_now();
     - Variable names can get very long
     - Somewhat difficult to program with due to frequent use of '\_'
   ]
-)\
+)
+#components.admonition(type: "note")[
+  The difficulty from frequently using '\_' can be circumvented by using a program such as Auto HotKey to rebind '\_' to something such as "Shift" + "Space". However, this work around may not be worth it for the express purpose of making a naming convention easier.
+]
+\
+
 - Boolean 'is' naming
 #underline([_Explanation:_])\
 - Start all booleans with 'is'
@@ -120,6 +124,11 @@ bool getIsSaturday() {
 }
 bool isSaturday = getIsSaturday();
 ```
+\
+\
+\
+\
+\
 #underline([_Pros/Cons:_])
 #components.pro-con(
   pros: [
@@ -142,9 +151,6 @@ bool thisIsAVar = true; // variable = var
 int currDate = getCurrDate(); // current = curr
 ```
 \
-\
-\
-\
 #underline([_Pros/Cons:_])
 #components.pro-con(
   pros: [
@@ -152,7 +158,7 @@ int currDate = getCurrDate(); // current = curr
   ],
   cons: [
     - Not all abbreviations will make sense to everyone
-    - Not using standard english can make documentation harder
+    - Not using standard english can make documentation harder: text autocompletion in modern IDEs means that long names aren't a problem to type.
   ]
 )\
 - Unit classification
@@ -167,6 +173,8 @@ int getMotorSpeed() { // Dont need unit classification for subprograms
 }
 int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
 ```
+\
+\
 #underline([_Pros/Cons:_])
 #components.pro-con(
   pros: [
@@ -191,7 +199,7 @@ int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
   ],
   cons: [
     - Classes can take time to write
-    - Variables defined in different files can lead to null pointers during initializing#footnote([Basically, the c++ compiler does not have a specified order to intiializing variables in different files, meaning if 1 variable depends on an unititialized variable (from another file) it can throw a memory error])
+    - Variables defined in different files can lead to null pointers during initializing#footnote([Basically, the c++ compiler does not have a specified order to intialising variables in different files, meaning if 1 variable depends on an unititialised variable (from another file) it can throw a memory error])
   ]
 )
 //maybe for decide

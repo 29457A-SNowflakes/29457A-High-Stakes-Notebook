@@ -21,10 +21,10 @@ At its core, VEX Robotics is nothing but an engineering problem. It provides a g
 #quote(attribution: [Henry Gordon Stott])[
   Engineering: The art of organizing and directing men, and of controlling the forces and materials of nature for the benefit of the human race.
 ]
-= Our Enginnering Design Process
+= Our Engineering Design Process
 \
-For every new problem, we try to stick to an engineering method (similar to a scientific method) where different phases are used to maintain orginisation. The process applies to all forms of design, including programming and sometimes even tactics.
-== Phases of designs
+For every new problem, we try to stick to an engineering method (similar to a scientific method) where different phases are used to maintain organisation. The process applies to all forms of design, including programming and sometimes even tactics.
+== Phases of Design
 For each of the phases in our EDP, a corresponding icon is provided, these are used throughout the notebook to label a phase.
 \
 #grid(columns: (6.5em, auto), gutter: 20pt,
@@ -40,7 +40,7 @@ For each of the phases in our EDP, a corresponding icon is provided, these are u
 [#label(label: "decide", size:6.5em)], [
   *Decide Solution*
   \
-  Once all possible solution have been brought to the table, one possible solution is picked to move to the next phase; to ensure that the desicision is definitely the best one available, additional proceses can be used to decide the best (i.e. descision matrices). Ideally, all members offer their thougths on the solutions.
+  Once all possible solution have been brought to the table, one possible solution is picked to move to the next phase; to ensure that the decision is definitely the best one available, additional proceses can be used to decide the best (i.e. decision matrices). Ideally, all members offer their thoughts on the solutions.
 ],
 [
   #align(center)[
@@ -63,6 +63,6 @@ For each of the phases in our EDP, a corresponding icon is provided, these are u
   *Test Solution*
   \
   Once the solution has been implemented onto the robot, we can begin testing the solution to find out how effective it is. This is a key phase as it shows us how the solution up to different scenarios.\
-  Depending on its effectiveness, the results of a test may prompt us to move back into the implement phase, as changes sometimes have to be made. This creates a feedback loop that iteratevly improves the solution until it meets our desired standards.
+  Depending on its effectiveness, the results of a test may prompt us to move back into the implement phase, as changes sometimes have to be made. This creates a feedback loop that iteratively improves the solution until it meets our desired standards.
 ])
-For our robot, we decompose the larger problem into a set of smaller, approachable problems. From there, each and every problem is approached using this EDP; this allows us to stay orginised and avoid descision paralasys.
+For our robot, we decompose the larger problem into a set of smaller, approachable problems. From there, each and every problem is approached using this EDP; this allows us to stay organised and avoid decision paralysis.
