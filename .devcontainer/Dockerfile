@@ -19,6 +19,16 @@ WORKDIR /home/vscode/
 
 # Install fonts
 RUN wget https://github.com/google/fonts/raw/main/ofl/blinker/Blinker-Regular.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Bold.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-BoldItalic.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Italic.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Light.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-LightItalic.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Medium.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-MediumItalic.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Regular.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Thin.ttf && \
+    wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-ThinItalic.ttf && \
     wget https://github.com/google/fonts/raw/main/ofl/firasans/FiraSans-Regular.ttf && \
     mkdir -p /home/vscode/.local/share/fonts/ && \
     mv ./*.ttf /home/vscode/.local/share/fonts
