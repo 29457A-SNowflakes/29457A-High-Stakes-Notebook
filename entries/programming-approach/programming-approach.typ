@@ -222,7 +222,40 @@ There are many different Version Control Software. For this logbook, we are usin
 
 = Program Structure
 As well as using subprograms and classes for organisation, the usage of libraries and splitting the code up into different files helps keep the software for the robot structured and helps prevent accidental changes when working on different parts of the code. Our experience from last year taught us that its best practise to have the code for driver control, match autonomous and autonomous skills on seperate files. In last years game OU this principal was taken further since we had different routes for our left and right side autonomous for matches.\
-Last year, for autonomous control we ended the season learning how to use PROS alongside the Okapalib and later LemLib libraries. We are planning to use this again this season.
+//Last year, for autonomous control we ended the season learning how to use PROS alongside the Okapalib and later LemLib libraries. We are planning to use this again this season.
+#components.admonition(type: "warning")[
+  Global variables have to be initialised in 1 file to avoid Null Pointer Exceptions since the C++ compiler doesn’t specify initialisation order.
+]
 
 = Safe Programming
-Daniel wdym by this??????
+When working in medium level languages such as C++, the necessity for optimising your code and ensuring you handle computer memory and pointers properly increases. Failing to do so effectively, will cause crashes and problems on your machine and at a large scale can even throw the world into #link("https://www.sonarsource.com/blog/what-code-issues-caused-the-crowdstrike-outage/")[disarray].\
+If we use C++ again this year, we must make sure to initialize variables in the right order and ensure we handle memories and pointers properly. General things we can do ensure this are: using smart pointers, using tools such as static analyser; and finally using STL containers.
+== Smart Pointers
+These help reduce the amount of manual memory management. The Microsoft #link("https://learn.microsoft.com/en-us/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170")[documentation] states that they are #highlight(fill: silver)[crucial to the RAII or Resource Acquisition Is Initialization programming idiom.] The basic premise of RAII is to ensure finite resources are not wasted and so must control their usage and destroyed once its no longer useful - ie when a variable goes out of scope. The usage of Smart Pointers greatly reduces the chance of bugs and memory leaks since memory is automatically deallocated when the resource is no longer used.\
+Below is a comparison of a raw pointer vs smart pointers.
+```cpp
+void UseRawPointer()
+{
+    // Using a raw pointer -- not recommended.
+    Song* pSong = new Song(L"Nothing on You", L"Bruno Mars"); 
+
+    // Use pSong...
+
+    // Don't forget to delete!
+    delete pSong;   
+}
+
+void UseSmartPointer()
+{
+    // Declare a smart pointer on stack and pass it the raw pointer.
+    unique_ptr<Song> song2(new Song(L"Nothing on You", L"Bruno Mars"));
+
+    // Use song2...
+    wstring s = song2->duration_;
+    //...
+
+} // song2 is deleted automatically here.
+```
+#components.admonition(type: "note")[
+  For the majority of C++ programming, smart pointers aren't necessary to manage especially within the context of VEX programming.
+]
