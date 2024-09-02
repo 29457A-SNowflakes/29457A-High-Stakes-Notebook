@@ -5,4 +5,4 @@
 #include "./game-analasys/game-analasys.typ"
 #include "./Drivetrain-select-edp/BrainstormSolution.typ"
 #include "./Drivetrain-select-edp/DecideDrivetrain.typ"
-#include "./programming-approach/programming-approach.typ"
+#include "./programming-approach/all.typ"
