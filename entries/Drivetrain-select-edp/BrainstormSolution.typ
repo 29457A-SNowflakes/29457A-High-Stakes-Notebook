@@ -4,12 +4,12 @@
 #show: create-body-entry.with(
   title: "Brainstorming Drivetrain",
   type: "brainstorm",
-  date: datetime(year: 2024, month: 08, day: 18),
+  date: datetime(year: 2024, month: 08, day: 4),
   author:  "Jonah Fitchew, Daniel da Silva",
   witness: "Daniel Dew"
 )
 = What are the different types of Drive?
-The first solution to our somewhat obvious problem "We need a drivetrain" is the most conventional VEX drivetrain of them all - the Differential Drive, which features mirrored sides in a typical "tank" formation and allows for independant manipulation of each side in order to achieve the movement we want to see. Second is the Omni Drive which features one omni wheel in the centre of the drivetrain and allows for horizintal movement as well as the conventional forward and backwards. Third is the Mecanum Drive which takes advantage of the VEX mecanum wheels which allow for strafing and a limited form of horizontal movement. 
+The first solution to our somewhat obvious problem "We need a drivetrain"#footnote([The typical 'identify problem' page is ommited due to the obvious problem of needing a drivetrain.]) is the most conventional VEX drivetrain of them all - the Differential Drive, which features mirrored sides in a typical "tank" formation and allows for independant manipulation of each side in order to achieve the movement we want to see. Second is the Omni Drive which features one omni wheel in the centre of the drivetrain and allows for horizintal movement as well as the conventional forward and backwards. Third is the Mecanum Drive which takes advantage of the VEX mecanum wheels which allow for strafing and a limited form of horizontal movement. 
 
 == Differential Drive
 #components.pro-con(

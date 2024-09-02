@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "VEX Robotics Drivetrain Selection",
   type: "decide",
-  date: datetime(year: 2024, month: 08, day: 18),
+  date: datetime(year: 2024, month: 08, day: 6),
   author: "Jonah Fitchew, Daniel da Silva"
 )
 #set quote(block: true)

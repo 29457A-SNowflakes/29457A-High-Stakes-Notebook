@@ -7,7 +7,7 @@
   type: "decide",
   author: "Daniel Dew",
   witness: "Daniel daSilva",
-  date: datetime(year: 2024, month: 8, day: 20),
+  date: datetime(year: 2024, month: 8, day: 11),
 )
 
 

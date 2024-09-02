@@ -3,7 +3,6 @@
 
 // applies the template
 // the show rule essentially passes the entire document into the `notebook` function. 
-// TODO: Forge dates
 
 #show text: set text(font: "Avenir")
 #show: notebook.with(

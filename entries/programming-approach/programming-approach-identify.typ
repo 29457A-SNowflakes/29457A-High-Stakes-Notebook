@@ -8,7 +8,7 @@
   type: "identify",
   author: "Daniel Dew",
   witness: "Daniel da Silva",
-  date: datetime(year: 2024, month: 8, day: 19),
+  date: datetime(year: 2024, month: 8, day: 10),
 )
 
 = What is a Programming 'Approach'

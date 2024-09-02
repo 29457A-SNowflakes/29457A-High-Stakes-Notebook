@@ -7,7 +7,7 @@
   type: "brainstorm",
   author: "Daniel Dew, Daniel da Silva",
   witness: "Jonah Fitchew",
-  date: datetime(year: 2024, month: 8, day: 20),
+  date: datetime(year: 2024, month: 8, day: 10),
 )
 = Brainstorming Approaches
 Here, we will define what approach(es) we will use when coding, aiming to improve useability, team communication and debugging capabilities.

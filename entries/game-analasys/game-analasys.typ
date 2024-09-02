@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "The High Stakes Problem",
   type: "identify",
-  date: datetime(year: 2024, month: 08, day: 13),
+  date: datetime(year: 2024, month: 08, day: 01),
   author: "Daniel Dew",
   witness: "Jonah Fitchew"
 )
