@@ -12,7 +12,6 @@
 The first solution to our somewhat obvious problem "We need a drivetrain" is the most conventional VEX drivetrain of them all - the Differential Drive, which features mirrored sides in a typical "tank" formation and allows for independant manipulation of each side in order to achieve the movement we want to see. Second is the Omni Drive which features one omni wheel in the centre of the drivetrain and allows for horizintal movement as well as the conventional forward and backwards. Third is the Mecanum Drive which takes advantage of the VEX mecanum wheels which allow for strafing and a limited form of horizontal movement. 
 
 == Differential Drive
-// differential pwease
 #components.pro-con(
  pros: [ 
   #list(
@@ -28,43 +27,27 @@ The first solution to our somewhat obvious problem "We need a drivetrain" is the
   )
  ]
 )
-#image("./imgs/geareddrive.jpeg", height: 160pt)
-#link("https://www.vexforum.com/t/gearing-on-a-six-motor-drive/109357")[Differential Drive]
+#figure([#image("./imgs/geareddrive.jpeg", height: 160pt)], caption: [From this forum #link("https://www.vexforum.com/t/gearing-on-a-six-motor-drive/109357")[thread]@6MotorGearing])
 == Holonomic Drives
 #components.pro-con(
  pros: [ 
-  #list(
-   "Holonomic Movement - Can move in any direction (forward, backward, sideways, diagonal) with ease.
-",
-    "Manouverability - good for accurate and small adjustments",
-    "Agility - Quick, fluid directional changes without rotating the robot." 
-  )
+    - Holonomic Movement - Can move in any direction (forward, backward, sideways, diagonal) with ease.
+    - Manouverability - good for accurate and small adjustments
+    - Agility - Quick, fluid directional changes without rotating the robot.
+
  ], 
- cons: [#list(
-   "Lower traction -  Limited pushing power due to low traction of the wheel in the middle",
-    "Complex programming - Requires more advanced coding for full control."
-     
-  )
- ]
+ cons: [
+    - Lower traction -  Limited pushing power due to low traction of the wheel in the middle
+    - Complex programming - Requires more advanced coding for full control.
+  ]
 )
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+
 = Variants of Drives:
 == Holonomic Drivetrains
 === X Drive:
-#image("./imgs/XDrive.png", height: 200pt)
-Here we see a render of an XDrive done by in_ithica | 3818 on the VEX CAD discord server
+#figure([#image("./imgs/XDrive.png", height: 200pt)], caption: [
+  Here we see a render of an XDrive done by in_ithica | 3818 on the VEX CAD discord server @XDriveDiscord
+])
 #components.pro-con(
   pros: [
     + Higher Speed: X Drive is generally faster than both Mecanum and H-Drive, as it naturally provides more efficient power transfer for quick movements due to the 45-degree wheel orientation
@@ -82,8 +65,10 @@ X Drive has traditionally been used by teams for extremely precise programming a
 \ 
 
 === H Drive:
-#image("./imgs/HDrive.jpg", height: 200pt)
-Here we see a CAD model of an H Drive found on the website Purdue Sigbots made by the University of Kentucky @brls
+#figure([#image("./imgs/HDrive.jpg", height: 200pt)], caption: [
+  Here we see a CAD model of an H Drive found on the website Purdue Sigbots made by the University of Kentucky @brls
+])
+
 #components.pro-con(
   pros: [
     
@@ -104,8 +89,10 @@ Here we see a CAD model of an H Drive found on the website Purdue Sigbots made b
 \ 
 
 === Mecanum Drive:
-#image("./imgs/MecanumDrive.jpg", height: 200pt)
-Here is a live model of the Mecanum Drive found on the Servo magazine website about holonomic locomotion
+#figure([#image("./imgs/MecanumDrive.jpg", height: 200pt)], caption: [
+  Here is a live model of the Mecanum Drive found on the Servo magazine website about holonomic locomotion @ServoMagHolo
+])
+
 #components.pro-con(
   pros: [
     - Holonomic Movement: Mecanum wheels allow for full omnidirectional movement, including forward, backward, sideways, and diagonal, giving excellent manoeuverability
@@ -126,8 +113,8 @@ The Mecanum Drive is one of if not the most frowned upon drivetrain in the whole
 \
 \
 == Use of Traction Wheels:
-#image("./imgs/traction.png", height: 120pt)
-#link("https://wiki.purduesigbots.com/hardware/misc.-vex-parts-1/motion/traction-wheels")[Image credit]\
+#figure([#image("./imgs/traction.png", height: 120pt)], caption: [From #link("https://wiki.purduesigbots.com/hardware/misc.-vex-parts-1/motion/traction-wheels")[BRLS Wiki] @brls])
+
 For our drive an important consideration was the inclusion and amount of traction wheels which we wanted to use. Having more traction wheels increases our grip but also reduces our skidding which can mean that our bot will struggle to do tight turns quickly. However, not having enough traction wheels means we may be easier to push around and struggle more to push others.\
 To maximise grip whilst retaining agility, it is common to use traction wheels in the centre to reduce unwanted pushing forces, whilst combining them with other wheels such as omniwheels on the edges for greater turning ability.
 #components.pro-con(
@@ -139,15 +126,14 @@ To maximise grip whilst retaining agility, it is common to use traction wheels i
     - Rigidity: Having one degree of freedom means that the bot will struggle more to perform tight turns, which may be important to perform midmatch or during the autonomous which often relies on turns being consistent and accurate.
   ]
  )
-Overall, it is important to decide how many traction wheels we use and where. Ultimately, deciding this depends on a teams game strategy and the type of bot they are going for.\
-#link("https://wiki.purduesigbots.com/hardware/misc.-vex-parts-1/motion/traction-wheels")[Citation on traction wheels]
+Overall, it is important to decide how many traction wheels we use and where. Ultimately, deciding this depends on a teams game strategy and the type of bot they are going for.
 
 === All Omniwheel Drive:\
 #grid(
   columns: (280pt, 1fr),
   rows: (auto),
   gutter: 20pt,
-  [Having our drive consist of only omniwheels has some advantages such as allowing for a lot more skidding and tight manoeuvering. However, a lack of traction wheels means our bot will have less torque to push and also will be easier to push. This pushing power loss can be compensated for by playing more evasively in order to outmanoeuver opponents. A good example of an all omniwheel drive was 9364H's bot in OU #link("https://www.youtube.com/watch?v=EMaQuOrPwew")[Pits and Parts], who additionally engineered their bot for speed and agility to control the arena and punish double zoning in that game. See image on right for example (This image was cropped from Pits and Parts video cited above).],
+  [Having our drive consist of only omniwheels has some advantages such as allowing for a lot more skidding and tight manoeuvering. However, a lack of traction wheels means our bot will have less torque to push and also will be easier to push. This pushing power loss can be compensated for by playing more evasively in order to outmanoeuver opponents. A good example of an all omniwheel drive was 9364H's bot in OU #link("https://www.youtube.com/watch?v=EMaQuOrPwew")[Pits and Parts @9364HPitsParts], who additionally engineered their bot for speed and agility to control the arena and punish double zoning in that game. See image on right for example (This image was cropped from Pits and Parts video cited above).],
   grid.cell(
     colspan: 1,
     image("./imgs/IronEagles.png", width: 120%),
@@ -216,24 +202,24 @@ Having 4 wheels is the minimum number of wheels a drivetrain can have. It sacrif
     colspan: 1,
     image("./imgs/gears.png", width: 90%),
   ),
-  [Another factor which contributes to the balance between torque and agility is the gear ratio chosen. If the force applied on the driven gear is further from its pivot compared to the distance from the driving gears pivot then the driven gear will turn with more force but it will turn slower compared to the driving gear. If this coupling is reversed then the driven gear will turn with less force but it will turn faster compared to the driving gear. The gear ratio is often described as either $"driven gear Ω"/"driving gear Ω"$ where Ω is angular velocity or $"driven gear teeth"/"driving gear teeth"$. Like with wheel type and amount the gear ratio of the drive can be used to further optimise a drive to have greater speed or greater pushing power. On the left is an example of a 2:3 gear coupling. #link("https://en.wikipedia.org/wiki/Gear_train")[Image Credit]]
+  [Another factor which contributes to the balance between torque and agility is the gear ratio chosen. If the force applied on the driven gear is further from its pivot compared to the distance from the driving gears pivot then the driven gear will turn with more force but it will turn slower compared to the driving gear. If this coupling is reversed then the driven gear will turn with less force but it will turn faster compared to the driving gear. The gear ratio is often described as either $"driven gear Ω"/"driving gear Ω"$ where Ω is angular velocity or $"driven gear teeth"/"driving gear teeth"$. Like with wheel type and amount the gear ratio of the drive can be used to further optimise a drive to have greater speed or greater pushing power. On the left is an image @GearTrainWiki of a 2:3 gear coupling. It's also important to consider that wheel size also acts like a gear and so affects torque and speed.
+  ]
 )
-It's also important to consider that wheel size also acts like a gear and so affects torque-speed.
 #components.admonition(type: "note")[
-  Whilst it's not very commonly used in the context of V5, it's theoretically possible to have a gear transmission to switch between high torque and high speed, which may have a niche to save on motors when trying to make a bot capable of having high speed and pushing ability without commiting as many motors from 88W limit.
+  Whilst it's not very commonly used in the context of V5, it's theoretically possible to have a gear transmission to switch between high torque and high speed, which would allow for dynamic gear ratio changing.
 ]
 === Direct Drives
-It is also important to consider the viability of direct drives, where power is drawn directly from the motors. This can be useful as it has a lower build complexity allowing for more space and parts for other game scoring subsystems. They can be consisdered when you want to go with specific rpms such as 200 or 600, in order to have a unique torque-speed ratio compared to the rest of the competition. Below is a comparison between a direct drive and a 6 motor geared drive. #link("https://www.vexforum.com/t/creating-a-basic-drive/106873")[Direct Drive] #link("https://www.vexforum.com/t/gearing-on-a-six-motor-drive/109357")[Geared Drive]
+It is also important to consider the viability of direct drives, where power is drawn directly from the motors. This can be useful as it has a lower build complexity allowing for more space and parts for other game scoring subsystems. They can be consisdered when you want to go with specific rpms such as 200 or 600, in order to have a unique torque-speed ratio compared to the rest of the competition. Below is a comparison between a direct drive and a 6 motor geared
 #grid(
   columns: (1fr, 1fr),
   rows: (auto),
   gutter: 5pt,
   grid.cell(
     colspan: 1,
-    image("./imgs/directdrive.jpeg", width: 90%),
+    figure([#image("./imgs/directdrive.jpeg", width: 55%)], caption: [#link("https://www.vexforum.com/t/creating-a-basic-drive/106873")[Direct Drive @CreatingBasicDrive]]),
   ),
   grid.cell(
     colspan: 1,
-    image("./imgs/geareddrive.jpeg", width: 95%),
+    figure([#image("./imgs/geareddrive.jpeg", width: 62%)], caption: [#link("https://www.vexforum.com/t/gearing-on-a-six-motor-drive/109357")[Geared Drive @6MotorGearing]]),
   )
 )
