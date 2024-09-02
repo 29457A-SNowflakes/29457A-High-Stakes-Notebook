@@ -9,6 +9,7 @@
   witness: "Jonah Fitchew"
 )
 = The Game
+(All images found from the manual @manual )
 \
 == Scoring & Game Objectives
 #grid(columns: 2, gutter: 20pt, [
@@ -83,9 +84,8 @@ To avoid simply regurgitating the rules (to people who already understand them),
   + Ring must not be contacting robot #underline([_of same alliance_])
   + Ring is not contacting foam tile
   + Ring is encircling the stake#footnote([Long description omitted, see https://www.vexrobotics.com/high-stakes-manual#sc3])
-  + Total ring count must not exceed max ring count of the stake (mobile: 6, neutral & alliance: 2, high: 1)
+  + Total ring count must not exceed max ring count of the stake (mobile & neutral: 6, alliance: 2, high: 1)
 *Problems*
-- Neutral/alliance stakes can contain more than 2, despite only 2 being counted
 - Mogos with our rings on can be tipped to effectively descore some rings
 *Potential Solutions*
 - Driver may have to take care when scoring on neutral/alliance stake
