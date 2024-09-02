@@ -3,16 +3,16 @@
 
 // applies the template
 // the show rule essentially passes the entire document into the `notebook` function. 
-
+// TODO: Forge dates
 
 #show text: set text(font: "Avenir")
 #show: notebook.with(
-  team-name: "29457A", // TODO: put your team name here
+  team-name: "29457A",
   season: "High Stakes",
   year: "2024-2025",
-  theme: radial-theme, // TODO: change the theme to one you like
+  theme: radial-theme,
   cover: align(center+horizon)[
-    TODO
+    TODO: TITLE PAGE
   ],
 )
 #include "./frontmatter.typ"
