@@ -1,9 +1,9 @@
 #import "./packages.typ": *
 
 #glossary.add-term(
-  "Example word",
+  "'Mogo'",
 )[
-  This is an example word which will appear in the glossary.
+  An abbreviation for 'mobile goal'; sometimes used to abbreviate a mobile goal clamp
 ]
 
 #create-appendix-entry(title: "Glossary")[
