@@ -1,3 +1,3 @@
-#include "./programming-approach-identify.typ"
-#include "./programming-approach-brainstorm.typ"
+#include "./PA-identify.typ"
+#include "./PA-brainstorm.typ"
 #include "./PA-decide.typ"

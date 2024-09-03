@@ -19,7 +19,7 @@ At the beginning of any season the needs of the three main aspects of a drivetra
 \ 
 #components.decision-matrix(
  properties: (
- (name: "Manouverability"),
+ (name: "Manoeuvrability"),
  (name: "Stability"),
  (name: "Ease of build"),
  (name: "Size of Wheels"),
@@ -32,14 +32,14 @@ For our current purposes and team requirements, a Differential Drive is the most
 \
 \
 \
-=== Choosing Wheel Ammount
+=== Choosing Wheel Amount
 Choosing the correct amount of wheels is an important consideration when designing the drivetrain. It is an extra way to achieve an optimal balance between torque and agility. The three main considerations for wheel ammount are:
 - Traction
-- Manouverability
+- Manoeuvrability
 - Complexity
 #components.decision-matrix(
  properties: (
- (name: "Manouverability"),
+ (name: "Manoeuvrability"),
  (name: "Traction"),
  (name: "Complexity"),
  (name: "Gear ratio achievable")
@@ -48,7 +48,7 @@ Choosing the correct amount of wheels is an important consideration when designi
  ("\n\n\n6 Wheels\n\n\n", 4, 3, 4, 3),
  ("\n\n\n8 Wheels\n\n\n", 3, 5, 3, 5),
 )
-From our analysis we decided that an 8 Wheel Drive is our best choice, since it synergises most strongly with a Differential Drive. Combining these two gives us great freedom for gearing, allowing greater control over torque and speed. Additionally, both elements will contribute to a higher power drive train. The simplicity of the Differential Drive compensates for the higher complexity of having 8 wheels. Unfortunately, neither of these design elements give us the greatest manoeuverability, which is the greatest problem with our design at this current stage. This can be addressed with the wheels we choose, since having 8 Wheels gives us the most flexibility over combinations of wheel types.
+From our analysis we decided that an 8 Wheel Drive is our best choice, since it synergises most strongly with a Differential Drive. Combining these two gives us great freedom for gearing, allowing greater control over torque and speed. Additionally, both elements will contribute to a higher power drivetrain. The simplicity of the Differential Drive compensates for the higher complexity of having 8 wheels. Unfortunately, neither of these design elements give us the greatest manoeuverability, which is the greatest problem with our design at this current stage. This can be addressed with the wheels we choose, since having 8 Wheels gives us the most flexibility over combinations of wheel types.
 \
 \
 \
@@ -61,7 +61,7 @@ From our analysis we decided that an 8 Wheel Drive is our best choice, since it 
 The combination of an 8 Wheel Drive and Differential Drive gives our bot great power, whilst also being relatively simple to build. The main consideration for the combination of wheels, which we choose is that they give our bot greater manoeuverability since that is the main problem with our current solution.
 #components.decision-matrix(
  properties: (
- (name: "Manouverability"),
+ (name: "Manoeuvrability"),
  (name: "Traction")
  ),
  ("\n\n\nAll Traction Wheels\n\n\n", 1, 4),

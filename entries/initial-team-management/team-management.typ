@@ -9,13 +9,13 @@
   witness: "Daniel DaSilva"
 )
 = Teamwork Wins Championships
-To ensure that we acheive our maximum, we must organise ourselves into a team that works hard to solve the problems presented to us. We can do this by sorting ourselves by roles and skillsets.
+To ensure that we achieve our maximum, we must organise ourselves into a team that works hard to solve the problems presented to us. We can do this by sorting ourselves by roles and skillsets.
 #set quote(block: true)
 #admonition(type: "quote", [
-  #quote(attribution: [Michael Jordon])[Talent wins games. Teamwork wins championships.]\
+  #quote(attribution: [Michael Jordan])[Talent wins games. Teamwork wins championships.]\
 ])
 = Goals & Objectives
-Before we begin to design and build a robot for High Stakes, we must first define clear goals of what we _as a team_ want to achieve, this will allow all members to work toards common objectives.\
+Before we begin to design and build a robot for High Stakes, we must first define clear goals of what we _as a team_ want to achieve. This will allow all members to work towards common objectives.\
 == Our Goals For High Stakes
 - A Force To Be Reckoned With
   - We want to become a team that is competitive and 'formidable on the field'

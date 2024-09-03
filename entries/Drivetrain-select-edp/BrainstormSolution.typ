@@ -9,7 +9,7 @@
   witness: "Daniel Dew"
 )
 = What are the different types of Drive?
-The first solution to our somewhat obvious problem "We need a drivetrain"#footnote([The typical 'identify problem' page is ommited due to the obvious problem of needing a drivetrain.]) is the most conventional VEX drivetrain of them all - the Differential Drive, which features mirrored sides in a typical "tank" formation and allows for independant manipulation of each side in order to achieve the movement we want to see. Second is the Omni Drive which features one omni wheel in the centre of the drivetrain and allows for horizintal movement as well as the conventional forward and backwards. Third is the Mecanum Drive which takes advantage of the VEX mecanum wheels which allow for strafing and a limited form of horizontal movement. 
+The first solution to our somewhat obvious problem "We need a drivetrain"#footnote([The typical 'identify problem' page is omitted due to the obvious problem of needing a drivetrain.]) is the most conventional VEX drivetrain of them all - the Differential Drive, which features mirrored sides in a typical "tank" formation and allows for independent manipulation of each side in order to achieve the movement we want to see. Second is the Omni Drive which features one omni wheel in the centre of the drivetrain and allows for horizontal movement as well as the conventional forward and backwards. Third is the Mecanum Drive which takes advantage of the VEX mecanum wheels which allow for strafing and a limited form of horizontal movement. 
 
 == Differential Drive
 #components.pro-con(
@@ -21,7 +21,7 @@ The first solution to our somewhat obvious problem "We need a drivetrain"#footno
   )
  ],
  cons: [#list(
-   "Limited manouverability - Only supports forward, backward, and turning; no lateral (sideways) movement.",
+   "Limited manoeuvrability - Only supports forward, backward, and turning; no lateral (sideways) movement.",
     "Not agile - Slow to make fine, precise movements or quick direction changes",
      
   )
@@ -32,7 +32,7 @@ The first solution to our somewhat obvious problem "We need a drivetrain"#footno
 #components.pro-con(
  pros: [ 
     - Holonomic Movement - Can move in any direction (forward, backward, sideways, diagonal) with ease.
-    - Manouverability - good for accurate and small adjustments
+    - Manoeuvrability - good for accurate and small adjustments
     - Agility - Quick, fluid directional changes without rotating the robot.
 
  ], 
@@ -97,7 +97,7 @@ X Drive has traditionally been used by teams for extremely precise programming a
   pros: [
     - Holonomic Movement: Mecanum wheels allow for full omnidirectional movement, including forward, backward, sideways, and diagonal, giving excellent manoeuverability
     - Good Pushing Power: Compared to other holonomic drives like X Drive or H Drive, Mecanum maintains relatively good traction and pushing power
-    - Versatility: Mecanum Drive offers a solid balance of movement options while still being able to handle various competition tasks, making it adaptable to different areas of teh competition like skills
+    - Versatility: Mecanum Drive offers a solid balance of movement options while still being able to handle various competition tasks, making it adaptable to different areas of the competition like skills
   ],
   cons: [
     - Complexity: Mecanum Drives are more complex to build and design than simpler drives like H Drive, requiring precise motor control and alignment for effective movement.
@@ -187,7 +187,7 @@ Having 4 wheels is the minimum number of wheels a drivetrain can have. It sacrif
     - Heavier: The greater weight will put more strain on motors, which leads to higher chance of motor burnout. However, this can be circumvented by quickswaps or cooling the motors with a fan.
   ]
  )
- Overall, it's important to consider the strengths and weaknesses of the wheels chosen and amount of wheels, since the power lost from using fewer wheels can be compensated by using some traction wheels to create overall high performance or similarly an 8 wheel drive can become more manoeuverable if the drive includes some omniwheels or is entirely made of them. Therefore by considering what the wheels and wheel ammount can do for the drivetrain it is possible to create a drivetrain, that doesn’t suffer from any major weakness within the scope of what our team is trying\ to achieve.
+ Overall, it's important to consider the strengths and weaknesses of the wheels chosen and amount of wheels, since the power lost from using fewer wheels can be compensated by using some traction wheels to create overall high performance or similarly an 8 wheel drive can become more manoeuverable if the drive includes some omniwheels or is entirely made of them. Therefore by considering what the wheels and wheel amount can do for the drivetrain it is possible to create a drivetrain, that doesn’t suffer from any major weakness within the scope of what our team is trying\ to achieve.
 \
 \
 \
@@ -209,7 +209,7 @@ Having 4 wheels is the minimum number of wheels a drivetrain can have. It sacrif
   Whilst it's not very commonly used in the context of V5, it's theoretically possible to have a gear transmission to switch between high torque and high speed, which would allow for dynamic gear ratio changing.
 ]
 === Direct Drives
-It is also important to consider the viability of direct drives, where power is drawn directly from the motors. This can be useful as it has a lower build complexity allowing for more space and parts for other game scoring subsystems. They can be consisdered when you want to go with specific rpms such as 200 or 600, in order to have a unique torque-speed ratio compared to the rest of the competition. Below is a comparison between a direct drive and a 6 motor geared
+It is also important to consider the viability of direct drives, where power is drawn directly from the motors. This can be useful as it has a lower build complexity allowing for more space and parts for other game scoring subsystems. They can be considered when you want to go with specific rpms such as 200 or 600, in order to have a unique torque-speed ratio compared to the rest of the competition. Below is a comparison between a direct drive and a 6 motor geared
 #grid(
   columns: (1fr, 1fr),
   rows: (auto),

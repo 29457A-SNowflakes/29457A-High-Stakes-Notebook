@@ -13,7 +13,7 @@
 
 = How Do We Decide Our Programming Approach?
 While we typically use quantative methods for deciding aspects of our robot, such as the drivetrain (for example using descision matrices); we will avoid using such methods when deciding our programming approach. While we believe taking care when picking a programming approach is _very_ important, much of it is still personal preference and can be decided by simply evaluating what fits us best.
-= Deciding Our Programming Appzroach
+= Deciding Our Programming Approach
 Here we will dsipaly the choices we made on the different aspects of the programming approach.
 == Language and Software
 #admonition(type: "decision", [
