@@ -14,6 +14,18 @@ To ensure that we acheive our maximum, we must organise ourselves into a team th
 #admonition(type: "quote", [
   #quote(attribution: [Michael Jordon])[Talent wins games. Teamwork wins championships.]\
 ])
+= Goals & Objectives
+Before we begin to design and build a robot for High Stakes, we must first define clear goals of what we _as a team_ want to achieve, this will allow all members to work toards common objectives.\
+== Our Goals For High Stakes
+- A Force To Be Reckoned With
+  - We want to become a team that is competitive and 'formidable on the field'
+  - We can quantify this goal mostly by how high we place in qualifiers -- we want to aim for top 5 seed in most competitions
+- Nationals
+  - We also would like to qualify for the UK National Championship
+  - We achieved this goal last season so would love to get this oppurtunity again.
+- Worlds/Internationals
+  - This is a very difficult goal to achieve, with only \~5 spaces from the UK
+  - We were also good enough to get this oppurtunity last season, with us going to the 2024 World Championships in Dallas
 = Organizing Ourselves
 == Roles
 We can first organize ourseles by our skillsets; we can do this by asigning roles#footnote([Roles can also be seen in the _Team Introduction_ pages]):
@@ -25,7 +37,7 @@ We can first organize ourseles by our skillsets; we can do this by asigning role
 Orginising ourselves like this ensures that when a problem arises, we all know how to approach the challenge with our unique skillsets; it can also be helpful when introducing the team, as it helps judges and peers understand what we do within the team.
 //* team leader? 
 == Project Assignments & To-Dos
-Throughout the season, there will be lots to do over various projects -- from designing a new robot (or subsystem), to writing a couple lines of code. To manage all these tasks, we will generally asign a project or to-do to a few members -- using the roles as guidelines (e.g. buidling tasks asigned to builders, programming to programmers etc.); progress on said tasks will be discussed in in-person meatings#footnote([Due to holdays, no in-person meetings have happened yet -- our first in-person meeting is scheduled for 03/09/24]), or using our channels of online communication.
+Throughout the season, there will be lots to do over various projects -- from designing a new robot (or subsystem), to writing a couple lines of code. To manage all these tasks, we will generally asign a project or to-do to a few members -- using the roles as guidelines (e.g. buidling tasks asigned to builders, programming to programmers etc.); progress on said tasks will be discussed in in-person meatings#footnote([Due to holdays, no in-person meetings have happened yet -- our first full in-person meeting is scheduled for 03/09/24]), or using our channels of online communication.
 === Trello
 #link("https://trello.com/")[Trello] is a project management software that allows teams to create dynamic to-do lists. 'Cards' can be dragged into different columns to display their state (e.g. 'todo', 'Working on' or 'completed'), we can asign members to certain tasks, give them deadlines, or add a checklist for each. We found it to be exceptionally useful last season, and we plan on using it for this season.
 #figure([#image("./trello.png")], caption: [An example of a trello todo list])
