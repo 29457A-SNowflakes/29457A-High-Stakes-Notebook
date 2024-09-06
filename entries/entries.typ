@@ -4,3 +4,5 @@
 #include "./Drivetrain-select-edp/BrainstormSolution.typ"
 #include "./Drivetrain-select-edp/DecideDrivetrain.typ"
 #include "./programming-approach/all.typ"
+#include "./graphing-edp/all.typ"
+#include "./manual-update-09/update.typ"
