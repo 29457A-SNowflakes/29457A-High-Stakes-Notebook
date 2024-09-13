@@ -26,11 +26,11 @@ Before we begin to design and build a robot for High Stakes, we must first defin
 - Worlds/Internationals
   - This is a very difficult goal to achieve, with only \~5 spaces from the UK
   - We were also good enough to get this oppurtunity last season, with us going to the 2024 World Championships in Dallas
-= Organizing Ourselves
+= Organising Ourselves
 == Roles
-We can first organize ourseles by our skillsets; we can do this by asigning roles#footnote([Roles can also be seen in the _Team Introduction_ pages]):
+We can first organise ourselves by our skillsets; we can do this by asigning roles#footnote([Roles can also be seen in the _Team Introduction_ pages]):
 - Head Tactics: Thomas Robb
-- Programming Support & Notebook: Daniel daSilva
+- Programming Support & Notebook: Daniel da Silva
 - Head Programmer & Driver: Daniel Dew,
 - Co-Head Builder: Aubert Seysses
 - Co-Head Builder: Jonah Fitchew
@@ -43,13 +43,13 @@ Throughout the season, there will be lots to do over various projects -- from de
 #figure([#image("./trello.png")], caption: [An example of a trello todo list])
 == Discord & Online Communication
 #grid(columns: 2, gutter: 20pt, [
-  As a less formal method of communication, we use both Discord and Whatsapp to discuss team objectives and progress. Discord is especially helpful as it helps us to orginise our chats into channels (see right). Another useful application to discord is sharing files and resources amongst ourselves -- for example we can share small code changes on the discord for testing.
+  As a less formal method of communication, we use both Discord and Whatsapp to discuss team objectives and progress. Discord is especially helpful as it helps us to organise our chats into channels (see right). Another useful application to discord is sharing files and resources amongst ourselves -- for example we can share small code changes on the discord for testing.
 ], [
   #image("./discord.png", height: 150pt, width: 50pt, fit: "stretch")
 ])
 == Early Season Projects
 We have a list of goals we want to acomplish for early season:
-- Orginised notebook
+- Organised notebook
 - Designed and built drivetrain
 - Designed and built subsystem for mogo manipulation
 - Designed and built subsystem for ring manipulation
