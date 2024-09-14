@@ -4,6 +4,9 @@
 // applies the template
 // the show rule essentially passes the entire document into the `notebook` function. 
 
+
+
+
 #show text: set text(font: "Avenir")
 #show: notebook.with(
   team-name: "29457A",
