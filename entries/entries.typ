@@ -3,4 +3,5 @@
 #include "./initial-team-management/team-management.typ"
 #include "./Drivetrain-select-edp/BrainstormSolution.typ"
 #include "./Drivetrain-select-edp/DecideDrivetrain.typ"
+#include "./Drivetrain-select-edp/ImplementDrivetrain.typ"
 #include "./programming-approach/all.typ"
