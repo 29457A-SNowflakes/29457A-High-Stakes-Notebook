@@ -5,7 +5,8 @@
   title: "Building Our Drivetrain",
   type: "build",
   date: datetime(year: 2024, month: 08, day: 6),
-  author: "Jonah Fitchew"
+  author: "Jonah Fitchew",
+  witness: "Daniel Dew"
   )
 #set quote(block: true)
 
@@ -16,20 +17,20 @@
 Before building anything in VEX, we must first utilise Computer-Aided Design software (CAD) to visualise what the robot is going to look like and whether or not the ideas we have will work. CAD allows us to use any and all VEX parts that can be bought, and it allows for outlandish ideas to be visualised on a screen before any time or money is wasted on something that will not be viable in competition.
 
 Because of this wonderful resource, we always start any part of the robot that we aim to build in the virtual space, using *Autodesk Fusion 360*, which allows us to import the VEX parts library and take advantage of the range of features it offers.
-
 = Our Aim with CAD
-Our aim is to have a fully virtual version of our drivetrain so that we can build it in real life with the closest accuracy possible and in the cleanest, most sustainable way. This should help us build an error-free robot and avoid having to rebuild. As the saying goes, *"CAD twice, build once."*
+Our aim is to have a fully virtual version of our drivetrain so that we can build it in real life with the closest accuracy possible and in the cleanest, most sustainable way. This should help us build an error-free robot and avoid having to rebuild.
+#admonition(type: "quote")[#quote([_CAD twice, build once._\
+\
+])] // sigma quote
 
-#image("./imgs/29295ADrive.png")
-
-Here we see an example of a finished CAD model of a drivetrain done by team 29295A (@29295ADrive).
+#figure(image("./imgs/29295ADrive.png"), caption: [Aan example of a finished CAD model of a drivetrain done by team 29295A @29295ADrive.])
 
 = Starting Off
 The simplest thing to CAD is probably a drivetrain, as it does not often differ from season to season, being fairly evolved in its entirety. We have decided on the following specifications for our drivetrain:
 
-- *450 RPM at a 3:4 gearing*
-- *8 wheels*
-- *6 motors in a differential format*
+- 450 RPM at a 3:4 gearing
+- 8 wheels
+- 6 motors in a differential format
 
 Therefore, it is fairly easy to create a general CAD model that could provide an idea of what to build with the real metal. However, to create a complete replica of what is going to be built, one must spend a little more time on the intricacies of the CAD model, taking time to add each individual spacer and screw to ensure clarity when the time comes to build.
 
