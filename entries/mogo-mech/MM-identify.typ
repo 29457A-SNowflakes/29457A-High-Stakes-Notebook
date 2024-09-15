@@ -15,4 +15,13 @@ Therefore we need to design a subsystem that can:
 - Grab and release mogos
 - Securely hold grabbed mogos
 
-//However, we have decided to first focus on the EDP of the holding the mogo, since a ring mech isn't useful if we can't hold a mogo in the first place and then we will look at the EDP for rings afterwards.
+#admonition(type: "example")[
+  == Further Motivation
+  One case study for the need of mogo manipulation is the early season 'Mall of America' (MOA) signiture event. Throughout this competition, the manipulation of filled or semi-filled mogos was key to winning a match -- in most, if not all, it was actually the deciding factor. During our analysis of the key games during MOA, and our analysis and familiarisation of the manual, it became increasingly obvious that leaving this aspect of High Stakes out of our design would be a bad descision.
+  #grid(columns: 2, gutter: 20pt, [
+    #figure(image("./imgs/moa-manipulation1.png", height: 160pt), caption: [A snapshot from a video taken during the MOA finals match 1 @MOAFinals, showing all robots manipulating mogos to their advantage.])
+  ], 
+  [
+    #figure(image("./imgs/moa-manipulation2.png", height: 160pt), caption: [One of the Tournament Champions from MOA, 11101B Barcbots, using a mogo & clamp. (Snapshot from Pits & Parts showcase @BarcbotsPitsNParts).])
+  ])
+]
