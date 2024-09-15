@@ -11,7 +11,7 @@
   date: datetime(year: 2024, month: 9, day: 8),
 )
 
-= Piston Based Clamping
+= Piston based clamping
 The two most common ways to clamp things in VEX is by either using pistons or motors. We will start by looking at piston based clamping.
 In general, piston based clamping works using a lever applying effort to one side to support a load on the other. Below is a basic concept sketched in photoshop.
 #image("./imgs/Piston Mech.png", height: 160pt)
@@ -45,16 +45,26 @@ Looking around for inspiration, the best design we came across was made by #link
 ])
 
 Here's a list of advantages and disadvantages for a motor based solution.
+#image("./imgs/Piston Mech.png", height: 160pt)
+#figure([#image("./imgs/Motor Mech Slip Gear.png", height: 160pt)], caption: [
+  A more experimental concept, which could use slip gears and rubber bands for active grabbing and passive retraction,  based on the ideas from the example above.
+])
+
+= Passive mechanism
+Another alternative to clamping is creating a mechanism to align the mogo to plough it. The benefits of this solution is that it is less complex to implement meaning less chance of failure, in addition it doesn't use pistons or motors so it doesn't come with either of their drawbacks. Below is an example of how that could look.
+#image("./imgs/Ploughing Mech.png", height: 160pt)
+Here's a list of pros and cons for this solution.
 #components.pro-con(
   pros: [
-    - More actuations than piston based solution
-    - Doesn’t use up PSI from pneumatic tanks
+    - Doesn’t contribute to power budget
+    - Doesn’t use up PSI or need pneumatic tanks
+    - Simple
   ],
   cons: [
-    - Slower extention time
-    - Uses 5.5W/11W from power budget
-    - Motor burn out
-    - Weaker gripping
-    - Potentially heavier
+    - No gripping power
+    - Mogos can be lost on turns
+    - Mogos can be stolen by opposing bots
+    - Little control on positioning for ring mech
   ]
 )
+The severity of the cons disqualify it from further consideration. However, the use of a piece of polycarb to align it may be worth considering in our final design.
