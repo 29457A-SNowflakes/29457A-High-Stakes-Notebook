@@ -65,6 +65,6 @@ Here's a list of pros and cons for this solution.
     - Mogos can be lost on turns
     - Mogos can be stolen by opposing bots
     - Little control on positioning for ring mech
+    - Restrictive: can't go full speed or reverse with mogo
   ]
 )
-The severity of the cons disqualify it from further consideration. However, the use of a piece of polycarb to align it may be worth considering in our final design.
