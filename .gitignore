@@ -1,2 +1,2 @@
-main.pdf
+*.pdf
 !_compiled_pdf/main.pdf
