@@ -183,4 +183,9 @@ They can be used in the same configuration and context as OSEs, and are often mo
     - They are £43.19 each (we would need at least 2)
   ]
 )
+= Positioning Takeaways
+From our research, these sensors can be used in the ways depicted to find position, either relatively from starting point or absoloutely from the centre of the field. 
+
 //TODO additional/complimentry sensors
+= Complimentry Sensors
+When implementing autonomous routines, there are a range of complimentry sensors that can be used alongside the positioning sensors
