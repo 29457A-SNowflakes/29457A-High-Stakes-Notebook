@@ -14,7 +14,7 @@
   year: "2024-2025",
   theme: radial-theme,
   cover: align(center+horizon)[
-    TODO: TITLE PAGE
+    #image("NBFrontCover.png")
   ],
 )
 #include "./frontmatter.typ"
