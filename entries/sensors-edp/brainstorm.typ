@@ -188,4 +188,77 @@ From our research, these sensors can be used in the ways depicted to find positi
 
 //TODO additional/complimentry sensors
 = Complimentry Sensors
-When implementing autonomous routines, there are a range of complimentry sensors that can be used alongside the positioning sensors
+When implementing autonomous routines, there are a range of complimentry sensors that can be used alongside the positioning sensors to further improve the complexity or reliabilty of the routines.
+== Limit Switches & Bumper Switches
+Limit switches are small sensors that detect whether a small, flexible metal lever is being compressed.
+\
+Similarly, Bumper Switches also detect compression -- but uses a button-like structure instead.
+#align(center, [
+  #grid(columns: 2, gutter: 20pt, [
+    #figure(image("./imgs/limitswitch.png", height: 75pt), caption: [An image of a limit switch @BPGuide])
+  ], [
+    #figure(image("./imgs/bumper-switch.png", height: 75pt), caption: [An image of a bumper switch @BPGuide])
+  ])
+])
+=== Uses:
+- Stop action once limit is reached, i.e. a lift reaching minimum extension
+- Stop robot once contacting wall
+#pro-con(
+  pros: [
+    - Hardware solution _can_ be simpler#footnote([Although most likely not.])
+  ],
+  cons: [
+    - Uses 3-wire ADI port
+    - Code based solutions exist and are generally easier
+  ]
+)
+== Optical and AI Sensors
+=== Optical Sensors
+
+Optical sensors are small sensors that detect 2 things: distance and colour. Distance will only tell the program roughly hgow far the object is (e.g. near or far) and so cannot be used as a replacement for the distance sensor; however, the colour sensing can be a very useful tool, especially in High Stakes where game objects are colour coded for alliances.
+#grid(columns: 2, gutter: 20pt,
+figure(image("./imgs/V5 Optical Sensor.png", height: 60pt), caption: [An image of the V5 Optical Sensor and it's light window @OpticalGuide]),
+figure(image("./imgs/optical-menu.png", height: 60pt), caption: [A screenshot of the Optical Sensor's menu @OpticalGuide. Note the distance _is not_ classified by a value.])
+)
+#admonition(type: "example")[
+  *Example Optical Sensor Usage*\
+  One example of how an optical sensor can be used is *colour sorting*; if the robot has an intake, where rings are picked up from the floor and transporeted onto a mogo, an optical sensor can be used to trigger  something that interupts the rings' travel -- therefore not scoring it on a mogo.
+]
+#admonition(type: "note")[
+  While this section is on _autonomous sensors_, optical sensors can be used (like the above) during driver control to aid the driver.
+]
+#pro-con(
+  pros: [
+    - Colour sorting mechs can take significant ammount of work off driver
+    - Colour soting allows for some built in tolerance to autonomous
+  ],
+  cons: [
+    - Requires more complex programming
+    - Can be somewhat inconsistent, especially at longer ranges
+  ]
+)
+
+#grid(columns: 2, gutter: 20pt,
+  [
+    === AI Sensors
+    AI Sensors are the more complex, bigger brothers of the opical sensors. Similarly to an oprical sensor, they can detect colours, however, they also have a larger field of view, are caplable of detecting multiple contrasting objects, including their size, distance and angle -- and can even be trained to detect certain objects.
+  ],
+  [
+    #figure(image("./imgs/AI vision.png", height: 30pt), caption: [Image of the AI vision sensor @AIGuide])
+    #figure(image("./imgs/AI Vision Sensor detect.png", height: 30pt), caption: [An example of how AI vision sensors can detect 3D objects @AIGuide])
+  ]
+)
+#pro-con(
+  pros: [
+    - Aligning with objects during autonomous
+    - More precise than colour and distance sensors
+  ],
+  cons: [
+    - Much more complex programming
+    - Some objects have to be trained, therefore much *more tuning*
+  ]
+)
+= Brainsorm Summary
+In summary, many (oh so many) sensors can be used in autonomous, to provide the basis of routines, or to aid with preripheral functions.
+== Going Forward
+We can now begin to narrow down the options based on what we as a team want to target, and how we can most efficiently improve out autonomous routines.
