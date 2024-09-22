@@ -23,7 +23,7 @@ To know where to go, the robot must first know where it is; generally there are 
     caption: [Field Dimensions defined uisng the centre as the origion(12'x12') @OverUnderSensorGuide]
   )
 ])
-= Other Nescesarry Aspects
+= Other Necessary Aspects
 To make full autons, we also need to know the state of various other aspects of the robot -- including:
 - State of pistons
 - State of subsystem motors
@@ -46,4 +46,4 @@ float motorPos = thisMotor.get_position_relative(); // access state/position of 
 float time = pros::millis(); // time in milliseconds from start program
 ```
 = Aproaching Sensors
-As always, it is best to have a plan on how we are going to approach picking which sensors and methods to use. There are many factors involved, but some are much more important than others; for instance, we are very keen on reliability -- and, for early season, we want to focus on high scoring 'support' autons -- therefore we can bias our search in favour of reliabilty and (for high scoring) speed. Cost is also a big factor, so we must be careful to do thourough research on all possible solutions to avoid misusing our budget.
+As always, it is best to have a plan on how we are going to approach picking which sensors and methods to use. There are many factors involved, but some are much more important than others; for instance, we are very keen on reliability -- and, for early season, we want to focus on high scoring 'support' autons -- therefore we can focus our search in favour of reliabilty and (for high scoring) speed. Cost is also a big factor, so we must be careful to do thorough research on all possible solutions to avoid misusing our budget.

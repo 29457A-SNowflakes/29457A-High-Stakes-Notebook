@@ -6,7 +6,7 @@
   type: "build",
   date: datetime(year: 2024, month: 08, day: 6),
   author: "Jonah Fitchew",
-  witness: "Daniel Dew"
+  witness: "Daniel Dew, Daniel da Silva"
   )
 #set quote(block: true)
 
@@ -23,7 +23,7 @@ Our aim is to have a fully virtual version of our drivetrain so that we can buil
 \
 ])] // sigma quote
 
-#figure(image("./imgs/29295ADrive.png"), caption: [Aan example of a finished CAD model of a drivetrain done by team 29295A @29295ADrive.])
+#figure(image("./imgs/29295ADrive.png"), caption: [An example of a finished CAD model of a drivetrain done by team 29295A @29295ADrive.])
 
 = Starting Off
 The simplest thing to CAD is probably a drivetrain, as it does not often differ from season to season, being fairly evolved in its entirety. We have decided on the following specifications for our drivetrain:
@@ -39,7 +39,7 @@ A few members of our team are fairly proficient in CAD, especially Fusion 360, d
 
 #image("./imgs/our dt.png")
 
-Here is the CAD model of our drivetrain that we will use to create the drivetrain for our first iteration robot. This CAD model will help us with actual building and hopefully speed up the whole process.
+Here is the CAD model of our drivetrain that we will use to build the drivetrain for our first iteration robot. This CAD model will help us with actual building and hopefully speed up the whole process.
 
 = Building the Drivetrain
 
@@ -55,7 +55,7 @@ We then used an engineer’s square to ensure that each angle was *90 degrees*. 
 #image("./imgs/Braced Drive.jpg", height: 250pt)
 
 = Step 2: Screwjoints and Friction
-Now that the drive is braced and sturdy, we can attach the wheels and test the friction both for the wheels themselves and when they are attached to the gears in the motors. To do this, we used the function on the brain that allows us to see how much power each motor is pulling at any given time. Typically, a VEX motor outputs about *0.2W of friction* on its own, meaning this is the target for friction for the entire drivetrain, allowing for peak efficiency and an acceleration curve that can beat anyone on the field.
+Now that the drive is braced and sturdy, we can attach the wheels and test the friction both for the wheels themselves and when they are attached to the gears in the motors. To do this, we used the function on the brain that allows us to see how much power each motor is pulling at any given time. Typically, a VEX motor outputs about *0.2W of friction* on its own, meaning this is the target for friction for the entire drivetrain, allowing for peak efficiency and an acceleration curve that can beat anyone else on the field.
 
 To attach the wheels with minimum friction, we used something called a *screwjoint*, which utilises the fact that a VEX screw is much sturdier and less prone to bending than an axle. When working with a geared drivetrain, this is particularly helpful as the motors do not need to power the wheels directly.
 
