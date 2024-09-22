@@ -63,6 +63,34 @@
 - Employing multiple methods of scoring (mogo, neutral/alliance stake) would require multiple systems or 1 complex system such as a lift
 - Emphasis must be put on precision and reliability as there is little room for error
 = Rules Analysis
+== Scoring Table
+Ultimately, scoring can be summarized into one table, called a scoring table. While it will not allow us to gain insight on the specific intricacies of each rule and the challenge it presents -- it can allow us to quickly see what aspects of the game score more points, therefore allowing to adjust our game strategy.
+#align(center)[
+  #box(fill: gradient.linear(rgb(113, 120, 128), rgb(60, 63, 66), angle:45deg), inset: 15pt, radius: 8pt)[
+    #table(columns: 3, stroke: rgb(0, 0, 0, 0), align: horizon,
+      [Rule name],
+      [Points scored],
+      [Associated Rule],
+      [Autonomous Bonus],
+      [6 Points],
+      [#link("https://www.vexrobotics.com/high-stakes-manual#sc2")[\<SC2\>]],
+      [Ring Scored on Stake],
+      [1 Points],
+      [#link("https://www.vexrobotics.com/high-stakes-manual#sc3")[\<SC3\>]],
+      [Each _Top_ Ring on Stake],
+      [3 Points],
+      [#link("https://www.vexrobotics.com/high-stakes-manual#sc4")[\<SC4\>]],
+      [Ring Scored on High Stake],
+      [-\
+        (Ring is considered as the 2 above, and may apply bonus as seen in \<SC9\>)
+      ],
+      [#link("https://www.vexrobotics.com/high-stakes-manual#sc9")[\<SC9\>]],
+      [Climb Level 1/2/3],
+      [3/6/12 Points],
+      [#link("https://www.vexrobotics.com/high-stakes-manual#sc7")[\<SC7\>]]
+    )
+  ]
+]
 == Format
 To avoid simply regurgitating the rules (to people who already understand them), we are going to simply list some rules with a paraphrased description; then how it affects us; then potential solutions -- if a rule presents no problem, we will not cover it.\
 *e.g.*\
