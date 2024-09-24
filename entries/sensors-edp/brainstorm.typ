@@ -186,7 +186,7 @@ They can be used in the same configuration and context as OSEs, and are often mo
 = Positioning Takeaways
 From our research, these sensors can be used in the ways depicted to find position, either relatively from starting point or absoloutely from the centre of the field. 
 
-//TODO additional/complimentry sensors
+
 = Complimentry Sensors
 When implementing autonomous routines, there are a range of complimentry sensors that can be used alongside the positioning sensors to further improve the complexity or reliabilty of the routines.
 == Limit Switches & Bumper Switches

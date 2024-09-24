@@ -41,7 +41,29 @@ A few members of our team are fairly proficient in CAD, especially Fusion 360, d
 
 Here is the CAD model of our drivetrain that we will use to create the drivetrain for our first iteration robot. This CAD model will help us with actual building and hopefully speed up the whole process.
 
+\
+\
+\
+\
+\
+\
+= Drivetrain CAD Drawings
+Before Starting to construct our drivetrain we have created a set of engineering drawings which show the measurements of the drivetrain in inches which is helpful for design of parts that do not come directly from vex, such as polycarbonate pieces which we will use throughout the build process for custom parts serving purposes that VEX may not solve directly or inefficiently:
+
+#image("./imgs/DrivetrainDrawings2.PNG", height: 200pt)
+Here we see the top down view of the drivetrain (without bracing) showing the measurements (in inches) 
+
+#image("./imgs/DrivetrainDrawings1.PNG")
+Here is the side on view showing the height of our drivetrain, which is fairly low to the ground due which will aid us in our quest to achieve low centre of mass 
+\
+\
+\
+\
+\
+\
+\
 = Building the Drivetrain
+
 
 = Step 1: Building the Chassis
 The first step when building a drivetrain is to construct the chassis. This consists of the *4 C-channels* that hold the wheels together, plus the bracing that keeps them aligned, allowing for smooth driving with minimal friction.
