@@ -8,3 +8,6 @@
 #include "./mogo-mech/all.typ"
 #include "./sensors-edp/all.typ"
 #include "./StrategyForComps/JWSChecklist.typ"
+#include "./ring-edp/all.typ"
+#include "./manual-update1/manual-update.typ"
+#include "./one-offs/program-showcase.typ"

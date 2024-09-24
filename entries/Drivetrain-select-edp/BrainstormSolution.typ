@@ -105,10 +105,7 @@ X Drive has traditionally been used by teams for extremely precise programming a
     - Programming Complexity: Mecanum Drives are also harder to program
   ]
  )
-The Mecanum Drive is one of if not the most frowned upon drivetrain in the whole of VEX, as it utilises the otherwise useless Mecanum wheels which take up a large amount of room and are not very versatile. However in a Mecanum Drive you acquire the ability to complete control and assurance that movement is not the problem, however in building this drivetrain the ability to gear is almost completely gone, as in order to maintain the very much wanted 3-4 wide hole gap between the drivetrain C Channels the mecanum wheel leaves no room for a gear, admonishing any gear ratios wanted.
-\
-\
-\
+The Mecanum Drive is one of if not the most frowned upon drivetrain in the whole of VEX, as it utilises the otherwise useless Mecanum wheels which take up a large amount of room and are not very versatile. However in a Mecanum Drive you acquire the ability to complete control and assurance that movement is not the problem, however in building this drivetrain the ability to gear is almost completely gone, as in order to maintain the very much wanted 3-4 wide hole gap between the drivetrain C Channels the mecanum wheel leaves no room for a gear, meaning many gear ratios are no longer achievable.
 \
 \
 \
@@ -216,10 +213,10 @@ It is also important to consider the viability of direct drives, where power is 
   gutter: 5pt,
   grid.cell(
     colspan: 1,
-    figure([#image("./imgs/directdrive.jpeg", width: 55%)], caption: [#link("https://www.vexforum.com/t/creating-a-basic-drive/106873")[Direct Drive @CreatingBasicDrive]]),
+    figure([#image("./imgs/directdrive.jpeg", width: 82.5%)], caption: [#link("https://www.vexforum.com/t/creating-a-basic-drive/106873")[Direct Drive @CreatingBasicDrive]]),
   ),
   grid.cell(
     colspan: 1,
-    figure([#image("./imgs/geareddrive.jpeg", width: 62%)], caption: [#link("https://www.vexforum.com/t/gearing-on-a-six-motor-drive/109357")[Geared Drive @6MotorGearing]]),
+    figure([#image("./imgs/geareddrive.jpeg", width: 93%)], caption: [#link("https://www.vexforum.com/t/gearing-on-a-six-motor-drive/109357")[Geared Drive @6MotorGearing]]),
   )
 )
