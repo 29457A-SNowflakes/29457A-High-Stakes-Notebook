@@ -14,8 +14,12 @@ As head of tactics, we decided that it should be my responisiblity to know absol
 Over the summer, I spent a lot of my time memorising the manual, so I would be ready for our first competition, and I was excited to see what would change in the September 3rd update , which was the first major update of the manual since its release. These next few pages will summarise the key things that i took out of this update, and the impact that i think they will have on the game subsequently. 
 
 = Field tape layout
-
-#figure([#image("./IMG_0042.jpeg", height: 120pt, width: 120pt)], caption: [Field before update]) #figure([#image("./IMG_0041.jpeg", height: 120pt, width: 120pt)], caption: [Field after update])
+#align(center)[
+  #grid(columns: 2, gutter: 20pt,
+    [#figure(image("./before-tape.jpeg", height: 120pt, width: 120pt), caption: [Field before update @manual])],
+    [#figure(image("./after-tape.jpeg", height: 120pt, width: 120pt), caption: [Field after update @manual])],
+  )
+]
 
 This is one of the most major changes in this manual update, as it not only greatly reduces the amount of space for the mobile goals, but it also makes it so it will be much easier to tell whcih mobile goal is considered scored. It is also relevant to note that the placed mobile goal criteria in SC5, and now the 3 criteria are:
 + The mobile goal is contacting the floor/tape line
