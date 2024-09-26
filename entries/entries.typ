@@ -10,3 +10,4 @@
 #include "./ring-edp/all.typ"
 #include "./manual-update1/manual-update.typ"
 #include "./one-offs/program-showcase.typ"
+#include "./JWS_autons/all.typ"
