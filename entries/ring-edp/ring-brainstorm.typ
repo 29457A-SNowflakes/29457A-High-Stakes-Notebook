@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Brainstorming Ring First Stage Intake",
+  title: "Brainstorming First Stage Intake",
   type: "brainstorm",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
