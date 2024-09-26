@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Manipulating Field Elements",
+  title: "Manipulating Field Elements: Rings",
   type: "identify",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
