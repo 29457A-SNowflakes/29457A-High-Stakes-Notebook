@@ -49,7 +49,7 @@ Below are a list of pros and cons for a flex wheel based intake:
   ]
 )
 == Wrist/Elbow Mechanism
-Another possibility for a ring intake is a claw and wrist mechanism, which utilises a claw - made using polycarb pincers and pistons - in conjunction with a series of motors on pivots to create a robotic arm mechanism, which can pick up a ring and lift it up to various heights and positions and also flip the ring stack held upside down. This solution can allow you to pick up to 2 rings in front of the robot and place them directly onto a mogo or a wall stake using various preprogrammed stakes. If tuned properly, this can be made consistent. However, this solution creates a very difficult programming task. In addition, this mech requires at least 2-3 motors, which is *at least* 11W out of the power budget. Whilst the ring mechanism is *important*, this is a high cost compared to other solutions, which can do the same job for fewer motors. A good example of this solution implementation is #link("https://www.youtube.com/watch?v=n-SY6KoDmmI")[6310A's first bot of the season].
+Another possibility for a ring intake is a claw and wrist mechanism, which utilises a claw - made using polycarb pincers and pistons - in conjunction with a series of motors on pivots to create a robotic arm mechanism, which can pick up a ring and lift it up to various heights and positions and also flip the ring stack held upside down. This solution can allow you to pick up to 2 rings in front of the robot and place them directly onto a mogo or a wall stake using various preprogrammed stakes. If tuned properly, this can be made consistent. However, this solution creates a very difficult programming task as all the motor positions and transitions between states must be mapped out and addressed. In addition, this mech requires at least 2-3 motors, which is *at least* 11W out of the power budget. Whilst the ring mechanism is *important*, this is a high cost compared to other solutions, which can do the same job for fewer motors. A good example of this solution implementation is #link("https://www.youtube.com/watch?v=n-SY6KoDmmI")[6310A's first bot of the season].
 \
 Initial analysis of wrist style solution:
 #figure(image("./imgs/1stStageIntakeFlexWheel.png", height: 250pt), caption: [Wrist Mech Sketch])
@@ -102,11 +102,12 @@ Considerations with this solution:
   ],
   cons: [
     - Tuning can take time
+    - Struggles with "cycling" if hook is misaligned#footnote["However this cycling issue can be overcome with clever #link("https://youtu.be/PVJiYMsHSSw?si=ZN1KCC9s3HV31TQx&t=162")[design]"]
   ]
 )
 
 == Hood mechanism
-Another option is using a conveyor belt in conjunction with a hood mechanism in order to outtake directly onto a mogo. Like a hook mechanism this also requires a lot of tuning in order to get right. A hood can be used in conjunction with a bucket mechanism in order to have rings to get on wall/alliance stakes.
+Another option is using a conveyor belt in conjunction with a hood mechanism in order to outtake directly onto a mogo. Like a hook mechanism this also requires a lot of tuning in order to get right. A hood can be used in conjunction with a #link("https://www.youtube.com/watch?v=pvWlkUtRuoo")[bucket mechanism] in order to have rings to get on wall/alliance stakes.
 \
 Below is some initial evaluation:
 #components.pro-con(
