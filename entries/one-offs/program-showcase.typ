@@ -6,7 +6,7 @@
   type: "program",
   date: datetime(year: 2024, month: 08, day: 01),
   author: "Daniel Dew",
-  witness: "Daniel daSilva"
+  witness: "Daniel da Silva"
 )
 #set quote(block: true)
 = Programming Objecives
