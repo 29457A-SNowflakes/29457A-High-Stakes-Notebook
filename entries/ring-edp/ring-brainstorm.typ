@@ -13,7 +13,7 @@
 
 = First Stage Intake
 The first requirement is being able to intake rings into the bot. There are several ways this can be done using either flex wheels, claw mechanism, intake rollers or rubber bands + a non slip mat. In the context of our robot any solution that uses more than 22W is *not possible* because our robot's drivetrain uses 66W out of our budget already and we are not willing to comprimise our drive train's performance.
-== Rubber bands + Non slip mat First Stage Intake Design
+== Rubber bands + Non-slip Mat First Stage Intake Design
 Our first consideration is the use of a mechanism comprising two gears, a low/high strength shaft, rubber bands and a non slip mat. This solution is similar to a flex wheel based solution because the rubber bands provide flexibility but don't grip as much as flex wheels since they don't conform to the ring shape.
 \
 Here are a list of pros and cons for rubber bands.
@@ -27,7 +27,7 @@ Here are a list of pros and cons for rubber bands.
     - Rubber bands can snap
   ]
 )
-#figure(image("./imgs/1stStageIntakeFlexWheel.png", height: 250pt), caption: [Photoshop sketch of a non-slip mat intake])
+#figure(image("./imgs/1stStageIntakeRubberBandNonSlip.png", height: 250pt), caption: [Photoshop sketch of a non-slip mat intake])
 == Flex Wheel First Stage Intake
 A Flex Wheel intake works by having several flex wheels in series on a high or low strength shaft powered by a motor, either directly powered or with a chain. It is similar to the RB/Non slip mat solution but since the wheels conform to the ring shape the total surface area contacting with the ring is greatly increased. An increase in surface area means that there is an increase in the total traction, which increases the total gripping power. Overall, this means that it is easier to intake rings whilst also being fairly consistent from a variety of angles. Another advantage is that unlike with rubber bands we can control where the grip is concentrated on the rings, which is important since the rings are torus shaped meaning wheels in the centre are less useful since the places where the rings can be gripped changes are they are rings are being intook. Additionally, we can further control how much deformation the flex wheels undergo since they are various durometers of wheels, which mean that we can control the stiffness of the intake.
 \
@@ -52,7 +52,7 @@ Below are a list of pros and cons for a flex wheel based intake:
 Another possibility for a ring intake is a claw and wrist mechanism, which utilises a claw - made using polycarb pincers and pistons - in conjunction with a series of motors on pivots to create a robotic arm mechanism, which can pick up a ring and lift it up to various heights and positions and also flip the ring stack held upside down. This solution can allow you to pick up to 2 rings in front of the robot and place them directly onto a mogo or a wall stake using various preprogrammed stakes. If tuned properly, this can be made consistent. However, this solution creates a very difficult programming task as all the motor positions and transitions between states must be mapped out and addressed. In addition, this mech requires at least 2-3 motors, which is *at least* 11W out of the power budget. Whilst the ring mechanism is *important*, this is a high cost compared to other solutions, which can do the same job for fewer motors. A good example of this solution implementation is #link("https://www.youtube.com/watch?v=n-SY6KoDmmI")[6310A's first bot of the season].
 \
 Initial analysis of wrist style solution:
-#figure(image("./imgs/1stStageIntakeFlexWheel.png", height: 250pt), caption: [Wrist Mech Sketch])
+#figure(image("./imgs/6210A.png", height: 250pt), caption: [Wrist Mech Example])
 //However, the VEX clamp struggles to initially grab the ring but has decent grip once held
 #components.pro-con(
   pros: [
@@ -85,7 +85,7 @@ Below are the benefits and drawbacks of Intake Rollers:
     - Only one size
   ]
 )
-#figure(image("./imgs/1stStageIntakeFlexWheel.png", height: 250pt), caption: [How Intake Rollers could look])
+#figure(image("./imgs/1stStageIntakeIntakeRollers.png", height: 250pt), caption: [How Intake Rollers could look])
 
 = Second Stage Intake
 Once we have the ability to intake rings into the robot we need to consider how we want to get rings scored onto mobile goals. If we go with a wrist mechanism, this isn't needed. However, we shall look at second stage anyway since we haven't yet decided what our first stage will be. The main two design archetypes to consider are a *hood* mechanism or a *hook* mech.
