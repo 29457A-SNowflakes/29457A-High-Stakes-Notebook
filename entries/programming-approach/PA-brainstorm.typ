@@ -202,7 +202,7 @@ int currDate = getCurrDate(); // current = curr
     - Not all abbreviations will make sense to everyone
     - Not using standard english can make documentation and understanding code harder: text autocompletion in modern IDEs means that long names aren't a problem to type.
   ]
-)\
+)
 === Unit classification
 #underline([_Explanation:_])\
 - Suffixing all variable names (where applicable) with a unit (e.g. rpm, lbs, kgs etc.)
@@ -215,8 +215,6 @@ int getMotorSpeed() { // Dont need unit classification for subprograms
 }
 int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
 ```
-\
-\
 #underline([_Pros/Cons:_])
 #components.pro-con(
   pros: [
@@ -231,7 +229,6 @@ int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
 == Using Subprograms and Classes
 - Subprograms are smaller blocks of code that can be run anywhere in user code
 - Classes are structures that allow for variables to be 'owned' and can drastically help organisation#footnote([We may do a deep dive on classes at a later point])
-
 #components.pro-con(
   pros: [
     - Organised and readable code

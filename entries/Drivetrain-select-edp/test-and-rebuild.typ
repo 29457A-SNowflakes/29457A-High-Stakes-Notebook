@@ -58,11 +58,11 @@ In our first build through of the drive we did not take the greatest care and pr
   (name: "Left Side Consumption / W", data: ((200, 1.6), (400, 2.4), (600, 6.2))),
 )
 == Conclusion From Results:
-- Drivebase has a near unnaceptable ammount of friction  on both sides
+- Drivebase has a near unaceptable ammount of friction on both sides
 - Problems are slightly amplified on the left side of the drive
 == Possible Reasons For Suboptimal Results
 - Not enough slop (tolerance on the wheels) 
 - Gear to wheel modules over tightened causing warping in the gears 
 - Bent low strength shaft in motors 
 - Driving gears contacting wheels 
-- Inconstant spacing
+- Inconsistent spacing

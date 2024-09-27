@@ -21,12 +21,12 @@ Before the competition begins, we must ensure that we bring everything we need t
 - Screws 
 - Nuts 
 - Long C Channel (for quick replacements)
-- All pistons (in case we have an unexpeccted malfunction)
+- All pistons (in case we have an unexpected malfunction)
 - Pit decorations
 - Saw (quick replacements/adherences, that require cuts)
 - Rubber bands 
 - Laptop (last minute code adjustments)
-- Liscence plates (red and blue)
+- Licence plates (red and blue)
 - Fan (for cooling overheated motors)
 - Zipties 
 - Controller 
@@ -53,9 +53,9 @@ While this seems like a dramatic caption, we need to define clear and easy to fi
 == Faliure During Match
 Handling a faliure (non-driving) during a match can be handled like this:
 #align(center)[
-  #figure(image("./jws_imgs/crisis.png", height: 200pt), caption: [A flowchart depicting how faliures during a match can be handled])
+  #figure(image("./jws_imgs/crisis.png", height: 230pt), caption: [A flowchart depicting how faliures during a match can be handled])
 ]
-= Reconaissance at JWS
+= Reconnaissance at JWS
 // THOMAS:
 // how take notes? how affects things? etc.
 = Pit Checklist For JWS

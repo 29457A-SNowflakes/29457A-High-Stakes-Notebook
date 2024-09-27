@@ -3,7 +3,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Autonomous Sensors",
+  title: "Brainstorming Autonomous Sensors",
   type: "brainstorm",
   author: "Daniel Dew",
   witness: "Jonah Fitchew",

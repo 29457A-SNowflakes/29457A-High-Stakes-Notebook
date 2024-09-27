@@ -4,7 +4,7 @@
 
 <SensorsIdentify>
 #show: create-body-entry.with(
-  title: "Autonomous Sensors",
+  title: "The need for autonomous sensors",
   type: "identify",
   author: "Daniel Dew",
   witness: "Jonah Fitchew",

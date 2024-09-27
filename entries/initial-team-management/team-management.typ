@@ -6,7 +6,7 @@
   type: "management",
   date: datetime(year: 2024, month: 08, day: 02),
   author: "Daniel Dew",
-  witness: "Daniel DaSilva"
+  witness: "Daniel da Silva"
 )
 = Teamwork Wins Championships
 To ensure that we achieve our maximum, we must organise ourselves into a team that works hard to solve the problems presented to us. We can do this by sorting ourselves by roles and skillsets.
@@ -15,7 +15,7 @@ To ensure that we achieve our maximum, we must organise ourselves into a team th
   #quote(attribution: [Michael Jordan])[Talent wins games. Teamwork wins championships.]\
 ])
 = Goals & Objectives
-Before we begin to design and build a robot for High Stakes, we must first define clear goals of what we _as a team_ want to achieve. This will allow all members to work towards common objectives.\
+Before we begin to design and build a robot for High Stakes, we must first define clear goals of what we *as a team* want to achieve. This will allow all members to work towards common objectives.\
 == Our Goals For High Stakes
 - A Force To Be Reckoned With
   - We want to become a team that is competitive and 'formidable on the field'
@@ -34,7 +34,7 @@ We can first organise ourselves by our skillsets; we can do this by asigning rol
 - Head Programmer & Driver: Daniel Dew,
 - Co-Head Builder: Aubert Seysses
 - Co-Head Builder: Jonah Fitchew
-Orginising ourselves like this ensures that when a problem arises, we all know how to approach the challenge with our unique skillsets; it can also be helpful when introducing the team, as it helps judges and peers understand what we do within the team.
+Organising ourselves like this ensures that when a problem arises, we all know how to approach the challenge with our unique skillsets; it can also be helpful when introducing the team, as it helps judges and peers understand what we do within the team.
 //* team leader? 
 == Project Assignments & To-Dos
 Throughout the season, there will be lots to do over various projects -- from designing a new robot (or subsystem), to writing a couple lines of code. To manage all these tasks, we will generally asign a project or to-do to a few members -- using the roles as guidelines (e.g. buidling tasks asigned to builders, programming to programmers etc.); progress on said tasks will be discussed in in-person meatings#footnote([Due to holdays, no in-person meetings have happened yet -- our first full in-person meeting is scheduled for 03/09/24]), or using our channels of online communication.
@@ -61,11 +61,11 @@ We have a list of goals we want to acomplish for early season:
   date-interval: 7,
   date-format: "[day]/[month]",
   tasks: (
-    ("Originised Start to Notebook", (0, 1)),
+    ("Organised start to notebook", (0, 1)),
     ("Designed and built drivetrain", (0,2)),
     ("Subsystem for mogo manipulation", (1,3)),
     ("Subsystem for rign manipulation", (2, 5)),
-    ("Driver Practice", (5,9)),
+    ("Driver practice", (5,9)),
     ("Autonomous routines", (5,9)),
   )
 )

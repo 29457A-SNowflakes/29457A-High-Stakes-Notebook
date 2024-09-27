@@ -31,7 +31,7 @@ I did a significant ammount of research on Rust with vexide, talking to the main
 Variable naming is mostly inconsequential, so we chose what we were most familiar with. It is important to stick with this, as collaborative programming is much easier when the conventions are stuck to.\
 Arguments can be made to say that stricter rules must be followed, for example this #link("https://youtu.be/-J3wNP6u5YU?si=T4dFzww_gmp-wbJH")[video] states why long variable names dont matter, and that unit classification is important. However, in VEX, code changes are often made in a hurry, and its easier to focus on a few instinctual rules than to have strict ones that force the programmer to pour over the code after rushed changes are made to fix formatting -- we are also unlikely to go above 1-2 people making changes to the code, so punctuality matters less.
 == Version Control
-As programmers get more experienced, it becomes more and more apparent that version control is a _*must have*_; as projects grow larger, mistakes become easier, making the ability to revert code into a stable state is essential.
+As programmers get more experienced, it becomes more and more apparent that version control is a *must have*; as projects grow larger, mistakes become easier, making the ability to revert code into a stable state is essential.
 #admonition(type: "decision", [
   We decided to use the most common form of version control: Git
 ])
