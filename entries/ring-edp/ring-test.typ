@@ -34,7 +34,7 @@ We ran 3 sets of tests. Making note of how often the ring was successfully score
 ]
 = Analysis:
 As we aimed for as close to 100% accuracy as possible, these results that we recieved were unacceptable, failing to score between 30-40% would significantly negatively impact our game performance. Interestingly the robot scored nomonaly(10%) better when in motion compared to at rest. Understanding why this is the case can lead us to more consistant results. 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\
 \
 = Close slow motion video analisis 
 After recording and watching a few slow motion videos we discovered a pattern in the movement of the rings when accelerating vs when stationary and came up with a hypothesis based on the pattern.
@@ -50,7 +50,7 @@ After recording and watching a few slow motion videos we discovered a pattern in
 - The other solution we came up with was to curve the hook giving the rings a larger center of rotation and therfore a smoother, larger ark.
 = Second set of tests validating solutions
 #align(center)[
-  #box(inset: 15pt, radius: 8pt, fill: gradient.linear(rgb(4, 176, 27), rgb(27, 107, 38), angle:-45deg))[
+  #box(inset: 10pt, radius: 8pt, fill: gradient.linear(rgb(4, 176, 27), rgb(27, 107, 38), angle:-45deg))[
     #table(columns: 5, rows: 3,
       [Test no.], [], [% success rate], [], [],
       [], [Reading  1], [Reading  2], [Reading  3], [Average],
@@ -61,7 +61,7 @@ After recording and watching a few slow motion videos we discovered a pattern in
   ]
 ]
 = Graph of comparitive ring scoring consistency
- #figure(image("./imgs/Epicbargraph.png", height: 175pt),) 
+ #figure(image("./imgs/Epicbargraph.png", height: 170pt),) 
 
 = Conclusion 
 As is demonstrated in the graph above, implementing our solutions and widening the ark significaly improved scoring consistency raising it by around 20%, which is much closer to the goal of 100% and well into acceptable ranges. 
