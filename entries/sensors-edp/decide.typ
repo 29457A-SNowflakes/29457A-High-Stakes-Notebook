@@ -3,7 +3,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Autonomous Sensors",
+  title: "Deciding on Autonomous Sensors",
   type: "decide",
   author: "Daniel Dew",
   witness: "Jonah Fitchew",

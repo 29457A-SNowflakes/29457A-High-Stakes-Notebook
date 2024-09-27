@@ -109,7 +109,8 @@ The Mecanum Drive is one of if not the most frowned upon drivetrain in the whole
 \
 \
 \
-== Use of Traction Wheels:
+\
+=== Use of Traction Wheels:
 #figure([#image("./imgs/traction.png", height: 120pt)], caption: [From #link("https://wiki.purduesigbots.com/hardware/misc.-vex-parts-1/motion/traction-wheels")[BRLS Wiki] @brls])
 
 For our drive an important consideration was the inclusion and amount of traction wheels which we wanted to use. Having more traction wheels increases our grip but also reduces our skidding which can mean that our bot will struggle to do tight turns quickly. However, not having enough traction wheels means we may be easier to push around and struggle more to push others.\
@@ -124,7 +125,19 @@ To maximise grip whilst retaining agility, it is common to use traction wheels i
   ]
  )
 Overall, it is important to decide how many traction wheels we use and where. Ultimately, deciding this depends on a teams game strategy and the type of bot they are going for.
-
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 === All Omniwheel Drive:\
 #grid(
   columns: (280pt, 1fr),
@@ -137,7 +150,7 @@ Overall, it is important to decide how many traction wheels we use and where. Ul
   ),
 )
 
-== Number of Wheels:
+=== Number of Wheels:
 #grid(
   columns: (260pt, 1fr),
   rows: (auto),
@@ -189,8 +202,14 @@ Having 4 wheels is the minimum number of wheels a drivetrain can have. It sacrif
 \
 \
 \
-
- == A Look at Gear Ratios
+\
+\
+\
+\
+\
+\
+\
+=== A Look at Gear Ratios
  #grid(
   columns: (190pt, 1fr),
   rows: (auto),

@@ -693,7 +693,7 @@ void initialize() {
 ]
 === Moving the drive
 #admonition(type: "decision")[
-    For driver control, I (driver and programmer) have decided to use a control scheme called *single stick curvature drive*, it is very similar to single stick arcade, but the turning inputs are scaled differently depending on throttle input (essentially creating an arc with the turning) -- I chose this because arcade is typically limited in terms of precise control, and tank, while it technically is easier to provide ultra precise turn circles, is not very intuitive and would be very difficult to learn in such a short timeframe. (We will evaluate this desision as the season progresses.)
+    For driver control, I (driver and programmer) have decided to use a control scheme called *single stick curvature drive*, it is very similar to single stick arcade, but the turning inputs are scaled differently depending on throttle input (essentially creating an arc with the turning) -- I chose this because arcade is typically limited in terms of precise control, and tank, while it technically is easier to provide ultra precise turn circles, is not very intuitive and would be very difficult to learn in such a short timeframe. (We will evaluate this decision as the season progresses.)
 ]
 Fortunately, LemLib condenses the somewhat long mathematical function into 1 function call:
 ```cpp

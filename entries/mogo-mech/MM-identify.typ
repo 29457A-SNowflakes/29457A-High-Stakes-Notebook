@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Manipulating Mobile Goals",
+  title: "Manipulating Field Elements: Mogos",
   type: "identify",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

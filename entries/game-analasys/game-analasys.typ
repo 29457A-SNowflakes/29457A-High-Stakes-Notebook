@@ -222,15 +222,17 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
 *Potential Solutions*
 - Extreme care and consideration must be used when planning out the autonomous movements
 = Primary Takeaways
-Certain solutions appear more than once, meaning we can prioritise them to mitigate more risks at lower time/complexity costs.
+Certain solutions appear more than once, meaning we can *prioritise them* to mitigate more risks at lower time/complexity costs.
 == Driver Skill
-We have concluded that driving is a factor in nearly all the rules specifically targeted defence and offence, High Stakes is a skillful game that requires lots of practice from the driver. Putting emphasis on training our driver, using drills, friendly matches etc. must be a priority.
+We have concluded that driving is a factor in nearly all the rules especially those targeted for defence and offence. High Stakes is a skillful game that requires lots of practice from the driver. Putting emphasis on training our driver, using drills, friendly matches etc. must be a priority.
 == Control and Precision
-We have also concluded that prescicion is key to avoiding rule infringement and also to maintain effectiveness. All mechanisms must be designed with extreme precision with lots of time allocate for fine-tuning to a) maximise effectiveness of mechanism and b) avoid breaking rules such as SG4 and SG7.
+We have also concluded that precision is key to avoiding rule infringement and also to maintain effectiveness. All mechanisms must be designed with extreme precision with lots of time allocated for fine-tuning in order to:
+- maximise effectiveness of mechanism
+- avoid breaking rules such as SG4 and SG7.
 = The Plan
 This game and rule analysis has allowed us to form a plan on how we will approach the coming weeks as we organise ourselves to tackle the season.
 == Timeline Considerations
-- The emphasis on driver practice means we will try our best to allow for plenty of driver practice
-- The further emphasis on autonomous tuning means we will have to make ample room for autonomous testing in the timeline
+- We will place emphasis on having time for plenty of driver practice
+- We plan to spend lots of time tuning the autonomous, in order to get it *consistent*, which means we will have to make ample room for autonomous testing in the timeline
 == Careful Design
-- We will also be making sure that all our designs our designed with strength, prescicion and effectiveness in mind during all stages of the design process -- this is especially prominent during the CAD phase
+- We will also be making sure that all our designs are designed with *strength, precision and effectiveness* in mind during all stages of the design process -- this is especially prominent during the CAD phase

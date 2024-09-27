@@ -16,7 +16,7 @@
 = CADing the Drivetrain
 Before building anything in VEX, we must first utilise Computer-Aided Design software (CAD) to visualise what the robot is going to look like and whether or not the ideas we have will work. CAD allows us to use any and all VEX parts that can be bought, and it allows for outlandish ideas to be visualised on a screen before any time or money is wasted on something that will not be viable in competition.
 
-Because of this wonderful resource, we always start any part of the robot that we aim to build in the virtual space, using *Autodesk Fusion 360*, which allows us to import the VEX parts library and take advantage of the range of features it offers.
+Because of this wonderful resource, we always start any part of the robot that we aim to build in the virtual space, using #link("https://www.autodesk.com/products/fusion-360/personal")[*Autodesk Fusion 360*], which allows us to import the VEX parts library and take advantage of the range of features it offers.
 = Our Aim with CAD
 Our aim is to have a fully virtual version of our drivetrain so that we can build it in real life with the closest accuracy possible and in the cleanest, most sustainable way. This should help us build an error-free robot and avoid having to rebuild.
 #admonition(type: "quote")[#quote([_CAD twice, build once._\
