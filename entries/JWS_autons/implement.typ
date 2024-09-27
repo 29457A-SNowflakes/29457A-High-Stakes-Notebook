@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Coding Autonomous: JWS",
   type: "program",
-  date: datetime(year: 2024, month: 08, day: 01),
+  date: datetime(year: 2024, month: 08, day: 25),
   author: "Daniel Dew",
   witness: "Thomas Robb"
 )

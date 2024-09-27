@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Planning Autonomous: JWS",
   type: "brainstorm",
-  date: datetime(year: 2024, month: 08, day: 01),
+  date: datetime(year: 2024, month: 09, day: 25),
   author: "Daniel Dew",
   witness: "Thomas Robb"
 )

@@ -7,7 +7,7 @@
   type: "brainstorm",
   author: "Daniel Dew",
   witness: "Jonah Fitchew",
-  date: datetime(year: 2024, month: 9, day: 13),
+  date: datetime(year: 2024, month: 8, day: 20),
 )
 = Brainstorming Sensors
 Ultimately, the combinations that are possible in VEX are almost limiteless -- for that reason, we will only brainstorm what we feel is likely to be effective or has been proven to work.

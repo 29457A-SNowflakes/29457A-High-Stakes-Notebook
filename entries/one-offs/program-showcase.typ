@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Program Showcase: Early Season",
   type: "program",
-  date: datetime(year: 2024, month: 08, day: 01),
+  date: datetime(year: 2024, month: 09, day: 24),
   author: "Daniel Dew",
   witness: "Daniel da Silva"
 )

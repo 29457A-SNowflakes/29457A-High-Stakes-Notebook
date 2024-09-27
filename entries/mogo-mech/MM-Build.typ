@@ -8,7 +8,7 @@
   type: "build",
   author: "Jonah Fitchew",
   witness: "Daniel Dew",
-  date: datetime(year: 2024, month: 9, day: 8),
+  date: datetime(year: 2024, month: 9, day: 16),
 )
 = CADing The Mogo Mech 
 As with any part of our robot we first like to start any build process by modelling the part on CAD, the benefits of this is that it provides an exact formulaic instruction to follow that theoretically works in the way we want it to, this allows us to have complex builds with parts in hard to reach places that we can prepare in advance, the reason this is so good is that it decreases rebuilds and failiures, making sure that we maximise our time and don't have to keep taking everything apart because a bearing is out of place

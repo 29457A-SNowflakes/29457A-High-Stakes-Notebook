@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Building Our Drivetrain",
   type: "build",
-  date: datetime(year: 2024, month: 08, day: 6),
+  date: datetime(year: 2024, month: 08, day: 7),
   author: "Jonah Fitchew",
   witness: "Daniel Dew, Daniel da Silva"
   )

@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Manual Update [03.09.24]",
   type: "identify",
-  date: datetime(year: 2024, month: 08, day: 01),
+  date: datetime(year: 2024, month: 09, day: 16),
   author: "Thomas Robb",
   witness: "Jonah Fitchew"
 )

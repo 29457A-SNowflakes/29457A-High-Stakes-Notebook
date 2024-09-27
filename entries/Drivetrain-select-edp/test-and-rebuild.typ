@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Testing Our Drivetrain",
   type: "test",
-  date: datetime(year: 2024, month: 08, day: 01),
+  date: datetime(year: 2024, month: 08, day: 10),
   author: "Aubert Seysses",
   witness: "Daniel Dew"
 )
