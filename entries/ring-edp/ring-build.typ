@@ -12,7 +12,7 @@
 )
 = CADing the Intake:
 As with all other elements of our robot our intake started life as a digital model on the screen so taht we could think through how it will work in person, but as we identified that the ring would have to go through a 2 stage process we decided to split this CAD into two parts, forst focusing on the intial rollers that bring the ring into our robot, the process for CADing this involved slightly more skill than the other elements of the robot due to the necessity that the angles of slope and flex wheel height is correct, 
-//#image("./imgs/IntakeFirstStageCAD.png")
+#image("./imgs/IntakeFirstStageCAD.png")
 Here we can see the detailed CAD model of the initial stage of our intake which gives us a detailed plan of which to construct the physical mechanism off of, as can be seen this design looks much like the designs of previous seasons due to similarities from year to year in how game elements respond to manipulation. 
 
 = Constructing the Intake:

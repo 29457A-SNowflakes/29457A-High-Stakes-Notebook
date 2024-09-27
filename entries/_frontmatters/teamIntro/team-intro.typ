@@ -27,6 +27,7 @@ columns: 2, gutter: 20pt,
 [
   Aubert Seysess
   - Co-Head Builder
+  - Head Chef
   Hello I am Aubert Seysses and my role within the team is to  help design and virtually CAD the robot, also, I aid with the physical construction of the robot.
 ],
 [#image("./members/Dew.png")], [#image("./members/DaSilva.png")],
@@ -46,6 +47,7 @@ columns: 2, gutter: 20pt,
   Thomas Robb
   - Head Tactics
   - Driveteam
+  - Mentor 
   My role within the team is to brainstorm tactics and communicate with the other members to ensure that designs and tactics align. During competitions I am also responsible for taking note of performances, both our's and other team's; to help find possible alliances.
 ]
 )
