@@ -12,7 +12,7 @@
 )
 = CADing the Intake:
 As with all other elements of our robot our intake started life as a digital model on the screen so taht we could think through how it will work in person, but as we identified that the ring would have to go through a 2 stage process we decided to split this CAD into two parts, forst focusing on the intial rollers that bring the ring into our robot, the process for CADing this involved slightly more skill than the other elements of the robot due to the necessity that the angles of slope and flex wheel height is correct, 
-//#image("./imgs/IntakeFirstStageCAD.png")
+#image("./imgs/IntakeFirstStageCAD.png")
 Here we can see the detailed CAD model of the initial stage of our intake which gives us a detailed plan of which to construct the physical mechanism off of, as can be seen this design looks much like the designs of previous seasons due to similarities from year to year in how game elements respond to manipulation. 
 
 = Constructing the Intake:
@@ -39,3 +39,5 @@ finally we added the flex wheels and the motor to the rest of the frame, we used
 - Why C Channel frame? this frame is lightweight and rigid allowing for weight savings without the cost of a flimsy mechanism, we also have a lot on hand so extra purchases were not necessary 
 - Why High strength shaft? high strength shaft is incredibly rigid in construction and removes one element where friction could occur, the flex wheels, flex wheels already have an insert to convert them from hexagons a second to convert to low strength shaft is one we want to avoid. 
 - Why Flex wheels? Flex wheels were on hand from last season which mininimises costs, also as rings are of a similar feel to triballs we felt that the grip they would provide on a ring would be similarly optimal to that on a triball, they are also fairly low profile and lightweight
+\
+Sadly though this first stage construction was theoreticaly functional it was not built with the drive brcing inmind and therfore must be rebuilt. Though it needs rebuilding we hope to incorperate at least part of this desing into the redesing. 

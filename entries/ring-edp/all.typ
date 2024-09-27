@@ -2,4 +2,5 @@
 #include "./ring-brainstorm.typ"
 #include "./ring-decide.typ"
 #include "./ring-build.typ"
+#include "./ring-Rebuild.typ"
 #include "./ring-test.typ"
