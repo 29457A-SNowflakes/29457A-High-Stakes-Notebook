@@ -2,11 +2,11 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Manipulating Mobile Goals",
+  title: "Manipulating Field Elements: Mogos",
   type: "identify",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
-  date: datetime(year: 2024, month: 9, day: 8),
+  date: datetime(year: 2024, month: 9, day: 1),
 )
 
 = The Need For a Mobile Goal Mechanism

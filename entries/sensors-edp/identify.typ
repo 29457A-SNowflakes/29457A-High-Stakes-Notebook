@@ -4,11 +4,11 @@
 
 <SensorsIdentify>
 #show: create-body-entry.with(
-  title: "Autonomous Sensors",
+  title: "The need for autonomous sensors",
   type: "identify",
   author: "Daniel Dew",
   witness: "Jonah Fitchew",
-  date: datetime(year: 2024, month: 9, day: 13),
+  date: datetime(year: 2024, month: 8, day: 20),
 )
 = The Problem
 During every match, there is a 15 second autonomous period; there is also a minute-long autonomous skills challenge -- which contributes towards our skills score. Ultimately both autonomous challeneges boil down to 1 simple challenge: finding where the robot is.
