@@ -12,3 +12,4 @@
 #include "./JWS_autons/all.typ"
 #include "./one-offs/JWSChecklist.typ"
 #include "./one-offs/JWSReflection.typ"
+#include "./pre-cov-rebuild/all.typ"
