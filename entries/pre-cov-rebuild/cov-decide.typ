@@ -23,3 +23,51 @@ Additionally, we must consider the order in which we implement changes noting th
 \
 \
 That all being said we are most likely to approach the time before the upcoming competition by firstly recadding/building then improving autonomous and getting in drivers practice simultaneously. Below we shall discuss what we have planned to change in terms of our robot's design based on performance in the most recent competition (as of time of writing), which was the JWS regional.
+\
+\
+= Rebuild changes
+We have concluded that there's nothing wrong with our drive base since we took a lot of care into getting that right the first time. However, in order to make room for the changes, which we want to do to the bot we need to redo the drive bracing. One of the things which is being reworked is the mogo mech: we are going for the same dual piston design architecture but with a vertical layout rather than a pivot based design. This will *drastically* change the angle at which the mogo is clamped. However, this ties into the changes we are making to our intake and ring mech. We are planning to retain our current first stage design but we want to drastically lower the profile of the mech.
+\
+Below is all the changes which we have considered in terms of existing parts/systems
+\
+\
+\
+\
+\
+== Differential vs Holonomic
+#components.decision-matrix(
+ properties: (
+ (name: "Manoeuvrability"),
+ (name: "Stability"),
+ (name: "Complexity"),
+ (name: "Wheel Size"),
+ (name: "Gear ratio achievable")
+ ),
+ ("\n\n\nDifferential\n\n\n", 3, 5, 5, 4, 5),
+ ("\n\n\nHolonomic\n\n\n", 4, 4, 2, 4, 2),
+)
+\
+== Looking again at the number of wheel's used
+#components.decision-matrix(
+ properties: (
+ (name: "Manoeuvrability"),
+ (name: "Traction"),
+ (name: "Complexity"),
+ (name: "Gear ratio achievable")
+ ),
+ ("\n\n\n4 Wheels\n\n\n", 5, 2, 5, 3),
+ ("\n\n\n6 Wheels\n\n\n", 4, 3, 4, 3),
+ ("\n\n\n8 Wheels\n\n\n", 3, 5, 3, 5),
+)
+\
+\
+== Reconsidering the types of wheels which we use.
+#components.decision-matrix(
+ properties: (
+ (name: "Manoeuvrability"),
+ (name: "Traction")
+ ),
+ ("\n\n\nAll Traction Wheels\n\n\n", 1, 4),
+ ("\n\n\nMixture\n\n\n", 3, 3),
+ ("\n\n\nAll Omniwheel\n\n\n", 4, 1),
+)
