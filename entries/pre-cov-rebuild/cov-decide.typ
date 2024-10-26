@@ -26,7 +26,7 @@ That all being said we are most likely to approach the time before the upcoming 
 \
 \
 = Rebuild changes
-We have concluded that there's nothing wrong with our drive base since we took a lot of care into getting that right the first time. However, in order to make room for the changes, which we want to do to the bot we need to redo the drive bracing. One of the things which is being reworked is the mogo mech: we are going for the same dual piston design architecture but with a vertical layout rather than a pivot based design. This will *drastically* change the angle at which the mogo is clamped. However, this ties into the changes we are making to our intake and ring mech. We are planning to retain our current first stage design but we want to drastically lower the profile of the mech.
+We have concluded that there's nothing wrong with our drive base since we took a lot of care into getting that right the first time and we found that our drive worked well for us in matches. However, in order to make room for the changes, which we want to do to the bot we need to redo the drive bracing. One of the things which is being reworked is the mogo mech: we are going for the same dual piston design architecture but with a vertical layout rather than a pivot based design. This will *drastically* change the angle at which the mogo is clamped. However, this ties into the changes we are planning to make to our intake and ring mech. We are planning to retain our current first stage design but we want to lower the profile of the mech. We are also considering implementing a wall stakes mechanism in our second iteration.
 \
 Below is all the changes which we have considered in terms of existing parts/systems
 \

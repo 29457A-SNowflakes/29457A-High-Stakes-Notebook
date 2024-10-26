@@ -15,10 +15,10 @@ After a succesful competition at the JWS regional there is much to reflect on ab
 Although we were among the top contenders in terms of competition at JWS, forming the first seeded alliance and making it to semifinals through some arduous matches it is clear that we need to improve in some of the aspects of our robot.
 
 == The intake:
-In the first iteration of our robot we used a flex wheel intake using 3 seperated flex wheels running off of a direct 600rpm motor cartridge at 11W. Due to the low amount of flex wheels we had on hand this intake mechanism does not provide strong enough purchase on the ring to intake in a way that we deem suitable, as we noticed in many matches that the intake would often be unable to pick up rings if they were not pressed up against the wall in a situation such as this:
-[
+In the first iteration of our robot we used a flex wheel intake using 3 separated flex wheels running off of a direct 600rpm motor cartridge at 11W. Due to the low amount of flex wheels we had on hand this intake mechanism does not provide strong enough purchase on the ring to intake in a way that we deem suitable, as we noticed in many matches that the intake would often be unable to pick up rings if they were not pressed up against the wall in a situation such as this:
+
   #figure( [#image("./jws_imgs/ringagainstwall.png", height: 150pt)], caption: [Ring pushing against the field barrier, force is applied against the intake rollers allowing smooth transition] )
-]
+
 Our aim is to be able to intake rings without driving over them as this will allow for more consistent autonomous routines and smoother gameplay as there will be no pause between intaking rings with the inconsistensies provided by the first iteration.
 
 == Scoring mechanism:
@@ -31,7 +31,7 @@ In iteration 1 of our robot we used a simple diagonal clamp for our method of se
 Iteration 1 utilised a 450RPM 2.75" 8 wheeled drivetrain which treated us well throughout the entire competition, hence we see no opportunities for improvement or problems with it, the hotswappable motors allows us to cool the drivetrain directly and quickly and 450RPM allowed us to be the fastest on the field at most times. The bracing we implemented made sure the drive was even and frictionless even under intense duress.  we will be moving forward with this drivetrain.
 
 = In conclusion:
-the elements of our robot with serious flaws / needing improvement are:
+The elements of our robot with serious flaws / needing improvement are:
 - Intake (grip on ring is weak and exterior forces are required for consistency)
 - Scoring mechanism (slow and inconsistent leading to slow cycle times and mis-scoring)
 - Mogo Mech (easy to steal from, flimsy and bent parts of the drivetrain)
