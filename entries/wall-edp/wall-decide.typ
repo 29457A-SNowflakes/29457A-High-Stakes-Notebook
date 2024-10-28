@@ -29,5 +29,5 @@ We will compare each of these qualities:
  ("\n\n\nPassive Redirect\n\n\n", 2, 3, 4, 1),
  ("\n\n\nPiston Redirect\n\n\n", 0, 4, 3, 4),
  ("\n\n\nLady Brown\n\n\n", 4, 5, 5, 5),
- ("\n\n\nLady Brown\n\n\n", 3, 5, 5, 4),
+ ("\n\n\nFish\n\n\n", 5, 3, 5, 4),
 )
