@@ -39,6 +39,7 @@ Pros and cons for a piston redirect:
   ],
   cons: [
     - Limited actuations
+    - Requires hood based intake
   ]
 )
 \
@@ -54,9 +55,22 @@ Pros and cons for lady brown:
   pros: [
     - Very fast
     - No redirect required
-    - Relaible ring sorting potential
+    - Reliable ring sorting potential
   ],
   cons: [
     - Extra motor required
+  ]
+)
+
+= Fish Mech
+A very recent mech has enterred the meta, that is very similar to a lady brown mech in terms of design. It also uses a two bar mechanism but the pivot is positioned so that it picks the rings up during their ascent instead of at the apex. Fish mech typically uses a claw to grapple the rings. However, our analysis has led us to conclude that it is much easier to defend against because it's quite slow and the angle has to be perfect.
+
+Pros and cons for fish:
+#components.pro-con(
+  pros: [
+    - No redirect required
+  ],
+  cons: [
+    - Eclipsed by lady brown
   ]
 )
