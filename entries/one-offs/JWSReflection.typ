@@ -38,9 +38,10 @@ Overall, we believe that the interview went fairly well. We discussed practicall
 It is sometimes very useful to note down what each person initially thinks, as often the 'face value' notes are the most useful to keep in mind.
 //TODO: FILL OUT
 == Daniel Dew
-Personally, I think the competition was a success, not only becasue we brought home the Judges Award, but also because of the key practice and experience we gained. As the programmer and driver, HIgh Stakes brings several complex problems that seem huge and rather difficult, JWS helped to solve some of those issues and put the game into perspective -- a much needed boost of confidence.
+Personally, I think the competition was a success, not only becasue we brought home the Judges Award, but also because of the key practice and experience we gained. As the programmer and driver, High Stakes brings several complex problems that seem huge and rather difficult, JWS helped to solve some of those issues and put the game into perspective -- a much needed boost of confidence.
 == Jonah
-== Daniel DaSilva
+== Daniel da Silva
+In my opinion, I'm very happy with our debut to this season. After a slightly rocky start, we were able to recover and not lose a match until the Semi-Finals, despite this I think the drive team did excellent in the face of difficult opposition. I'm very excited to see how much we improve from here.
 == Thomas
 == Aubert
 = Results and Reflection
