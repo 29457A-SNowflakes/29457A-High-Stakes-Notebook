@@ -14,6 +14,7 @@
 = Introduction
 After discussing the results of the JWS Regional Competition in person, we have decided to compile our thoughts into a chapter as an evaluative exercise and in order to keep us on track with the goals we outlined at the start of the season in the chapter: Managing the Team. We believe that doing a review in this way will help us improve and become better for next time.
 
+= The Competition
 == Qualification
 In the JWS Regional, they cancelled our practice match because they were runnning behind schedule, which lead to our first ever draw in a VEX match as for Q2 we forgot to fill our pneumatics, which meant that we couldn't possess mogos or score rings onto it. From this we can takeaway that VEX competitions are chaotic and its difficult to predict what is going to happen therefore its important we are as careful as possible to avoid making minor mistakes as they can have match affecting results. For the rest of the competition, we were extremely cautious about our tanks and made sure they were always filled every match. By accounting for everything that we can control, we will in future greatly reduce our chance of failure.
 \
@@ -33,7 +34,16 @@ Since we didn't have enough time to perfect our autonomous skills before this co
 == Interview
 Overall, we believe that the interview went fairly well. We discussed practically every aspect of our robots design with the judges and also everyone contributed the conversation at several places throughout the interview.
 
-== Results and Reflection
+= Notes From Team
+It is sometimes very useful to note down what each person initially thinks, as often the 'face value' notes are the most useful to keep in mind.
+//TODO: FILL OUT
+== Daniel Dew
+Personally, I think the competition was a success, not only becasue we brought home the Judges Award, but also because of the key practice and experience we gained. As the programmer and driver, HIgh Stakes brings several complex problems that seem huge and rather difficult, JWS helped to solve some of those issues and put the game into perspective -- a much needed boost of confidence.
+== Jonah
+== Daniel DaSilva
+== Thomas
+== Aubert
+= Results and Reflection
 Overall for our opening competition of the season, we are on the whole quite proud of what we achieved in this competition. We learnt valuable strategic information such as the importance of having an organised pit team and having the robot fully ready before a match. In addition, we played generally quite well winning most of our qualifiers, ranking 4th and getting picked by 1st seed. Additionally, we were awarded the Judges Award as special recognition for our ability and our interview performance.
 \
 In terms of how this competition puts us in relation to our goals, we are still on track for "A Force to be Reckoned With" making first seed this competition but we did not win an award that qualifies us to nationals at this competition. Winning a worlds qualifying award is not possible at this stage, because there aren't any Signature Events in the UK and none are reasonably close enough to fit into our budget or school routines given we are Year 12 team (equivalent to Junior Year in US). This means that Nationals is a much more important goal to work towards than Worlds currently.

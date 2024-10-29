@@ -30,6 +30,7 @@ RUN wget https://github.com/google/fonts/raw/main/ofl/blinker/Blinker-Regular.tt
     wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-Thin.ttf && \
     wget https://github.com/googlefonts/RobotoMono/blob/main/fonts/ttf/RobotoMono-ThinItalic.ttf && \
     wget https://github.com/google/fonts/raw/main/ofl/firasans/FiraSans-Regular.ttf && \
+    wget https://github.com/Papillard/Avenir/blob/master/AvenirBold.ttf && \
     mkdir -p /home/vscode/.local/share/fonts/ && \
     mv ./*.ttf /home/vscode/.local/share/fonts
 

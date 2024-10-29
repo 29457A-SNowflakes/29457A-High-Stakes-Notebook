@@ -10,6 +10,9 @@
   witness: "Daniel Dew",
   date: datetime(year: 2024, month: 9, day: 16),
 )
+
+// TODO: SPaG
+
 After a succesful competition at the JWS regional there is much to reflect on about the performance of our robot, as we now have true match data showing how we can perform in a competition environment,
 = What needs improving?
 Although we were among the top contenders in terms of competition at JWS, forming the first seeded alliance and making it to semifinals through some arduous matches it is clear that we need to improve in some of the aspects of our robot.
