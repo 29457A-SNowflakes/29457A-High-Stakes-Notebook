@@ -4,10 +4,10 @@
 
 
 #show: create-body-entry.with(
-  title: "Decisions after JWS",
+  title: "Problems Presented at JWS",
   type: "identify",
-  author: "Jonah Fitchew",
-  witness: "Daniel Dew",
+  author: "Jonah Fitchew, Daniel Dew",
+  witness: "Thomas Robb",
   date: datetime(year: 2024, month: 9, day: 16),
 )
 
@@ -41,3 +41,15 @@ The elements of our robot with serious flaws / needing improvement are:
 
 = Decision to rebuild:
 After analysing each part of our robot that required improvement it is obvious what the next step for our robot's development is, a rebuild of everything apart from the drivetrain. this will allow us to move forward into competitions with a higher chance of winning and moving forward to nationals. Our rebuild will involve improved versions of all of the above.
+
+= Managing the Team for Rebuilding -- Daniel Dew
+With such a tight timeline, as we must be ready for the Coventry Regionals, it is extremely important that we maintain high standards, therefore team management must be used effectively to achieve maximum results.
+== Keeping On Top of Tasks
+With a rebuild, comes many different aspects to keep on top of on including:
+- CADing the new iteration
+- Building the new iteration
+- Logging/notebooking on changes
+- Programming -- suitable code, auton routines etc
+- Driver Practice -- including skills
+To manage this huge new influx, we will be heavily using Trello, the task management software mentioned before.
+// ...
