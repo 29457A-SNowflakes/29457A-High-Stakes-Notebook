@@ -1,4 +1,4 @@
- #import "/packages.typ": *
+#import "/packages.typ": *
 #import components: *
 
 
@@ -51,6 +51,42 @@ With a rebuild, comes many different aspects to keep on top of on including:
 - Logging/notebooking on changes
 - Programming -- suitable code, auton routines etc
 - Driver Practice -- including skills
-To manage this huge new influx, we will be heavily using Trello, the task management software mentioned before.
-// ...
-
+To manage this huge new influx, we will be heavily using Trello, the task management software mentioned before: we can label each new task with a new label, indicating the new iteration, urgent tasks can also be labeled -- and as always the type of task is indicated (example below).
+#figure(image("./post-jws-imgs/task-labels.png", height: 50pt), caption: [A notebook task labeled as urgent and a part of 'Iteration 2.0'])
+== Planning the Rebuild -- Time
+Another huge aspect of managing the team through a rebuild is time management, below I have outlined (in a Gantt Chart) the timeline of this new design cycle.
+#gantt-chart(
+  start: datetime(year: 2024, month: 09, day: 28),
+  end: datetime(year: 2024, month: 11, day: 16),
+  date-interval: 7,
+  date-format: "[day]/[month]",
+  tasks: (
+    ("Logbook", (0, 8)),
+    ("CAD", (0, 2)),
+    ("Build", (1, 5)),
+    ("Program", (2, 6)),
+    ("Autons", (6, 8)),
+    ("Practice", (7, 8)),
+  )
+)
+#admonition(type: "note")[
+  #set text(size: 8.75pt)
+  == Notes on Gantt Chart
+  - Logbook
+    - Logbook is done throughout, and kept up to date based on developments
+  - CAD
+    - CAD for base features aimedto be finished by 05/10
+    - Complex system CAD aimed to be finished by 12/10
+    - Building of core features can overlap with CADing of complex features
+  - Build
+    - Marked timings is for newer or more complex features, therefore simple changes (< 2hrs work) can be done whenever
+    - Overlap with CAD as mentioned above
+  - Programming:
+    - Programming can be developed as building requires (e.g, new feature built, feature is then implemented in program)
+    - Supplementry features can be developed whenever
+  - Autons
+    - Tuning of control system parameters must not take place until robot is >90% finished, to avoid weight changes affecting control systems.
+    - We must aim for at least 2 match autons (different sides) and a programming skills route.
+  - Practice
+    - Drills, friendly matches, and familiarisation.
+]
