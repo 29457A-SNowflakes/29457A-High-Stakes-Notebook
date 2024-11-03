@@ -21,7 +21,7 @@ In the JWS Regional, they cancelled our practice match because they were runnnin
 \
 Our second qualifying match - Q11, we played against 10478S Gearers and 13765T MTS_Bubblegum, whilst being allied to 10478B SubZeroRobotics. We lost this match 19-3 because we let them take positive corner first, which gave them a sizable point advantage.
 \
-However, we managed to win our 5 other matches, winning AWP for 1 of them. In a later chapter our head strategist, Thomas Robb, will provide an indepth analysis of strategy and plays made during qualification and elimination. This meant that we qualified 4th out of 24 teams. Looking at our objectives, this means that we have definately succeeded with our first objective "A Force to Be Reckoned With".
+However, we managed to win our 5 other matches, winning AWP for 1 of them. In a later chapter our head strategist, Thomas Robb, will provide an indepth analysis of strategy and plays made during qualification and elimination. This meant that we qualified 4th out of 24 teams. Looking at our objectives, this means that we have definitely succeeded with our first objective "A Force to Be Reckoned With".
 
 == Aliance Selection and Elimination
 For Alliance Selection, 17711E Entropy were our alliance partner, meaning we made No. 1 Seed for elimination. We picked each other because we were both consistent bots, both with the ability to carry the match if needed to. We won our QF match against 1875N Noodle and 13765T MTS_Bubblegum by securing positive corners.
@@ -43,6 +43,7 @@ Personally, I think the competition was a success, not only becasue we brought h
 == Daniel da Silva
 In my opinion, I'm very happy with our debut to this season. After a slightly rocky start, we were able to recover and not lose a match until the Semi-Finals, despite this I think the drive team did excellent in the face of difficult opposition. I'm very excited to see how much we improve from here.
 == Thomas
+In such an unpredictable game like high stakes, coming 4th was a success for us, and we were delighted to alliance with Entropy, which is in my opinion, one of the most powerful teams out there. Despite losing the semi-finals through a very close replayed match, we were thrilled to have not only come away with a judges award, but also a (hopefully!) strengthened bond with Entropy, as,despite losing, our teams worked well together with not only great robots, but great drivers too. Looking back, we have definitely noticed flaws and mistakes in both the robot, and also our game strategy, which will both be duly implemented in time for our next competition. We enjoyed being back competing, and teams will definitely be seeing us again.
 == Aubert
 = Results and Reflection
 Overall for our opening competition of the season, we are on the whole quite proud of what we achieved in this competition. We learnt valuable strategic information such as the importance of having an organised pit team and having the robot fully ready before a match. In addition, we played generally quite well winning most of our qualifiers, ranking 4th and getting picked by 1st seed. Additionally, we were awarded the Judges Award as special recognition for our ability and our interview performance.
