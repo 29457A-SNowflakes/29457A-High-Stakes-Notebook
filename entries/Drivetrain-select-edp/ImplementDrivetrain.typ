@@ -29,7 +29,9 @@ The simplest thing to CAD is probably a drivetrain, as it does not often differ 
 - 8 wheels
 - 6 motors in a differential format
 
-Therefore, it is fairly easy to create a general CAD model that could provide an idea of what to build with the real metal. However, to create a complete replica of what is going to be built, one must spend a little more time on the intricacies of the CAD model, taking time to add each individual spacer and screw to ensure clarity when the time comes to build.
+Therefore, it is fairly easy to create a general CAD model that could provide an idea of what to build with real metal. However, to create a complete replica of what is going to be built, one must spend a little more time on the intricacies of the CAD model, taking time to add each individual spacer and screw to ensure clarity when the time comes to build.
+\
+\
 
 = Our CAD Model
 A few members of our team are fairly proficient in CAD, especially Fusion 360, due to needs outside of robotics. The process of creating a CAD model exactly to our wants and needs did not take very long.
@@ -37,7 +39,9 @@ A few members of our team are fairly proficient in CAD, especially Fusion 360, d
 #image("./imgs/our dt.png")
 
 Here is the CAD model of our drivetrain that we will use to build the drivetrain for our first iteration robot. This CAD model will help us with actual building and hopefully speed up the whole process.
-
+\
+\
+\
 \
 \
 \
@@ -45,13 +49,13 @@ Here is the CAD model of our drivetrain that we will use to build the drivetrain
 \
 \
 = Drivetrain CAD Drawings
-Before Starting to construct our drivetrain we have created a set of engineering drawings which show the measurements of the drivetrain in inches which is helpful for design of parts that do not come directly from vex, such as polycarbonate pieces which we will use throughout the build process for custom parts serving purposes that VEX may not solve directly or inefficiently:
+Before starting construction on our drivetrain, we have created a set of engineering drawings which show the measurements of the drivetrain in inches which is helpful for design of parts that do not come directly from VEX, such as polycarbonate pieces which we will use throughout the build process for custom parts serving purposes that VEX may not solve directly or inefficiently:
 
 #image("./imgs/DrivetrainDrawings2.PNG", height: 200pt)
 Here we see the top down view of the drivetrain (without bracing) showing the measurements (in inches) 
 
 #image("./imgs/DrivetrainDrawings1.PNG")
-Here is the side on view showing the height of our drivetrain, which is fairly low to the ground due which will aid us in our quest to achieve low centre of mass 
+Here is the side on view showing the height of our drivetrain, which is fairly low to the ground due, which will aid us in our quest to achieve a low centre of mass.
 \
 \
 \
@@ -63,13 +67,13 @@ Here is the side on view showing the height of our drivetrain, which is fairly l
 
 
 = Step 1: Building the Chassis
-The first step when building a drivetrain is to construct the chassis. This consists of the *4 C-channels* that hold the wheels together, plus the bracing that keeps them aligned, allowing for smooth driving with minimal friction.
+The first step when building a drivetrain is to construct the chassis. This consists of the *4 C-Channels* that hold the wheels together, plus the bracing that keeps them aligned, allowing for smooth driving with minimal friction.
 
-Unfortunately, due to inconsistencies and tolerances within the screw-C-channel contact, these 4 C-channels are often misaligned, leading to friction and instability. To minimise these inconsistencies, we used a technique called *"squaring"* when building the chassis. This involves attaching the 4 main drive C-channels to 2 other C-channels to create a "box" where all components are either perpendicular or parallel to each other.
+Unfortunately, due to inconsistencies and tolerances within the screw-C-Channel contact, these 4 C-Channels are often misaligned, leading to friction and instability. To minimise these inconsistencies, we used a technique called *"squaring"* when building the chassis. This involves attaching the 4 main drive C-Channels to 2 other C-Channels to create a "box", where all components are either perpendicular or parallel to each other.
 
 #image("./imgs/Squared Drive.jpg", height: 250pt)
 
-We then used an engineer’s square to ensure that each angle was *90 degrees*. Afterward, we fitted the braces to ensure that our drivetrain remains straight, reducing friction as much as possible. After fitting these, we removed the temporary braces, leaving us with this:
+We then used an engineer’s square to ensure that each angle was *90 degrees*. Afterwards, we fitted the braces to ensure that our drivetrain remains straight, reducing friction as much as possible. After fitting these, we removed the temporary braces, leaving us with this:
 
 #image("./imgs/Braced Drive.jpg", height: 250pt)
 

@@ -30,11 +30,11 @@
   There are 5 mobile goals ('mogos') on the field, and they can be freely manipulated by teams.
   - 10'' diameter Hexagonal bird's eye view profile
   - 14.5'' height
-  - Rubber cap to make descoring more difficult
+  - Flexible rubber cap
   *Potential Challenges*
   - Weighted bottom could make manipulation difficult
   - Scoring would require an elevated mechanism.
-  - Rubber caps mean force must be required to score/descore
+  - Rubber caps means that force is required to score/descore
 ],
 [#image("./imgs/HigherStakes.png")], [
   *Elevated Stakes: Neutral and Alliance*\
@@ -61,16 +61,16 @@
 == Scoring Takeaways
 - All scoring requires vertical capability
 - Employing multiple methods of scoring (mogo, neutral/alliance stake) would require multiple systems or 1 complex system such as a lift
-- Emphasis must be put on precision and reliability as there is little room for error
+- Emphasis must be put on *precision* and *reliability* as there is little room for error
 = Rules Analysis
 == Scoring Table
 Ultimately, scoring can be summarized into one table, called a scoring table. While it will not allow us to gain insight on the specific intricacies of each rule and the challenge it presents -- it can allow us to quickly see what aspects of the game score more points, therefore allowing to adjust our game strategy.
 #align(center)[
   #box(fill: gradient.linear(rgb(113, 120, 128), rgb(60, 63, 66), angle:45deg), inset: 15pt, radius: 8pt)[
     #table(columns: 3, stroke: rgb(0, 0, 0, 0), align: horizon,
-      [Rule name],
-      [Points scored],
-      [Associated Rule],
+      [*Rule name*],
+      [*Points scored*],
+      [*Associated Rule*],
       [Autonomous Bonus],
       [6 Points],
       [#link("https://www.vexrobotics.com/high-stakes-manual#sc2")[\<SC2\>]],
@@ -168,7 +168,7 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
   + Neither robot contacting or breaking plane of alliance's starting line
   + At least 1 robot contacting ladder
 *Problems*
-- Even if we can complete as many tasks as possible, AWP is still reliant alliance teammate, especially with no. 3
+- Even if we can complete as many tasks as possible, AWP is still alliance teammate dependent because of criteria no. 3
 *Potential Solution*
 - Ensure prior coordination with teammate to ensure that they move off the line at the start#footnote([If the team does not have a (working) autonomous, advice/technical help can be given to simply move off the line, ensuring AWP])
 == Specific Game Rules
@@ -184,15 +184,15 @@ Examples included #link("https://www.vexrobotics.com/high-stakes-manual#sc6")[he
 ])
 \
 *Problems*
-- Mechanisims that rely on expansion must be contained within the footprint of the robot, or not expand over 6'' on one side only
+- Mechanisms that rely on expansion must be contained within the footprint of the robot, or not expand over 6'' on one side only
 *Potential Solutions*
 - Design all expanding mechanisms to expand on one side only
 - Use as little space of the 18'' x 18'' to maximise expansion capability
 *\<SG3\>*
-- *Vertical expansion is limited*; vertical expansion cannot break #underline([2]) or more levels of the ladder
+- *Vertical expansion is limited*; vertical expansion cannot break *2 or more* levels of the ladder
 #image("./imgs/vert_expansion.png")
 *Problems*
-- This rule makes climbing to the top with 1 movement impossible -- unlike in Over-Under -- instead teams have to climb the ladder like... a ladder, using each rung and not skipping levels
+- This rule makes climbing to the top with 1 movement impossible -- unlike in Over Under -- instead teams have to climb the ladder like a ladder, using each rung and not skipping levels
 *Potential Solutions*
 - When designing climbing mechanisms, multi-stage movements must be incorporated; making sure that the robot does not break 2 or more planes #underline([no matter the rotation])#footnote([This is because the planes are measured from the perspective of the field (see long explanation #link("https://www.vexrobotics.com/high-stakes-manual#sg3")[here])])
 *\<SG4\>*
@@ -226,7 +226,7 @@ Certain solutions appear more than once, meaning we can *prioritise them* to mit
 == Driver Skill
 We have concluded that driving is a factor in nearly all the rules especially those targeted for defence and offence. High Stakes is a skillful game that requires lots of practice from the driver. Putting emphasis on training our driver, using drills, friendly matches etc. must be a priority.
 == Control and Precision
-We have also concluded that precision is key to avoiding rule infringement and also to maintain effectiveness. All mechanisms must be designed with extreme precision with lots of time allocated for fine-tuning in order to:
+We have also concluded that *precision is key* to avoiding rule infringement and also to maintain effectiveness. All mechanisms must be designed with extreme precision with lots of time allocated for fine-tuning in order to:
 - maximise effectiveness of mechanism
 - avoid breaking rules such as SG4 and SG7.
 = The Plan
@@ -235,4 +235,4 @@ This game and rule analysis has allowed us to form a plan on how we will approac
 - We will place emphasis on having time for plenty of driver practice
 - We plan to spend lots of time tuning the autonomous, in order to get it *consistent*, which means we will have to make ample room for autonomous testing in the timeline
 == Careful Design
-- We will also be making sure that all our designs are designed with *strength, precision and effectiveness* in mind during all stages of the design process -- this is especially prominent during the CAD phase
+- We will also be making sure that all our designs are designed with *strength, precision and effectiveness* in mind during all stages of the design process -- this is especially prominent during the CAD phase. Keeping these three factors in mind will ensure that the systems utilised in our robot are as *competitive* as possible.

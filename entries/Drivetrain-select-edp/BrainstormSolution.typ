@@ -11,6 +11,9 @@
 = What are the different types of Drive?
 The first solution to our somewhat obvious problem "We need a drivetrain"#footnote([The typical 'identify problem' page is omitted due to the obvious problem of needing a drivetrain.]) is the most conventional VEX drivetrain of them all - the Differential Drive, which features mirrored sides in a typical "tank" formation and allows for independent manipulation of each side in order to achieve the movement we want to see. Second is the Omni Drive which features one omni wheel in the centre of the drivetrain and allows for horizontal movement as well as the conventional forward and backwards. Third is the Mecanum Drive which takes advantage of the VEX mecanum wheels which allow for strafing and a limited form of horizontal movement. 
 
+= Differential Drives vs Holonomic Drives
+Since there are fewer types of differential drives and since there is less variance between them we shall first talk about them before moving onto the different types of holonomic drives.
+
 == Differential Drive
 #components.pro-con(
  pros: [ 
@@ -42,7 +45,6 @@ The first solution to our somewhat obvious problem "We need a drivetrain"#footno
   ]
 )
 
-= Variants of Drives:
 == Holonomic Drivetrains
 === X Drive:
 #figure([#image("./imgs/XDrive.png", height: 200pt)], caption: [
@@ -50,22 +52,22 @@ The first solution to our somewhat obvious problem "We need a drivetrain"#footno
 ])
 #components.pro-con(
   pros: [
-    + Higher Speed: X Drive is generally faster than both Mecanum and H-Drive, as it naturally provides more efficient power transfer for quick movements due to the 45-degree wheel orientation
-    + Simplicity: Compared to Mecanum, an X Drive is simpler to build and program, as it doesn’t require complex motor tuning or algorithms for strafing
-    + Better Diagonal Movement: X Drive excels in diagonal motion without the power loss or inefficiencies found in Mecanum, making it smoother for navigating tight angles and corners
+    - Higher Speed: X Drive is generally faster than both Mecanum and H-Drive, as it naturally provides more efficient power transfer for quick movements due to the 45-degree wheel orientation
+    - Simplicity: Compared to Mecanum, an X Drive is simpler to build and program, as it doesn’t require complex motor tuning or algorithms for strafing
+    - Better Diagonal Movement: X Drive excels in diagonal motion without the power loss or inefficiencies found in Mecanum, making it smoother for navigating tight angles and corners
   ],
   cons: [
-    + Lower Pushing Power: X Drive generally lacks traction and pushing force compared to Mecanum, making it less effective in scenarios requiring high torque or pushing resistance.
-    + Inefficient Use of Space: X Drive's diagonal wheel layout takes up more space on the robot, which can limit the available area for other mechanisms compared to more compact configurations like H-Drive
-    + Complex programming
-    + Complex design -- especially at the CAD stage
+    - Lower Pushing Power: X Drive generally lacks traction and pushing force compared to Mecanum, making it less effective in scenarios requiring high torque or pushing resistance.
+    - Inefficient Use of Space: X Drive's diagonal wheel layout takes up more space on the robot, which can limit the available area for other mechanisms compared to more compact configurations like H-Drive
+    - Complex programming
+    - Complex design -- especially at the CAD stage
   ]
 )
 X Drive has traditionally been used by teams for extremely precise programming as it can provide an edge over more traditional drivetrains in terms of accurate movements in things like autonomous skills, however in a more traditional competition format with the goal of Tournament Champions, X Drive does not seem like the most popular choice. X Drives use a compound gear ratio to get around the difficulties in making the wheels diagonal, this can mean that it becomes quite difficult to build and maintain in comparison with more traditional drivetrains. Packaging the brain and pneumatic tank around this drivetrain can be difficult due to the odd motor placements. 
 \ 
 
 === H Drive:
-#figure([#image("./imgs/HDrive.jpg", height: 200pt)], caption: [
+#figure([#image("./imgs/HDrive.jpg", height: 125pt)], caption: [
   Here we see a CAD model of an H Drive found on the website Purdue Sigbots made by the University of Kentucky @brls
 ])
 
@@ -81,7 +83,7 @@ X Drive has traditionally been used by teams for extremely precise programming a
     - Limited Lateral Power: The central strafing wheel in H Drive has less traction and pushing power compared to the Mecanum or X Drive, leading to weaker side-to-side movement
     - Less Agility: H Drive doesn't handle diagonal movement as smoothly as X Drive or Mecanum, reducing its manoeuverability in accurate and precise movements
     - Vulnerability to Central Wheel Issues: The reliance on a single central wheel for strafing means that any failure or inefficiency in that wheel significantly impacts performance
-    - Programming Complexity: H Drives also consider some (although less than X and Mecanum) programming challenges
+    - Programming Complexity: H Drives still provides considerable (although less than X and Mecanum) programming challenges
     - Space: Having the wheel in the middle can result in less space for other subsystems such as odometry pods
 ]
 )
@@ -105,12 +107,13 @@ X Drive has traditionally been used by teams for extremely precise programming a
     - Programming Complexity: Mecanum Drives are also harder to program
   ]
  )
-The Mecanum Drive is one of if not the most frowned upon drivetrain in the whole of VEX, as it utilises the otherwise useless Mecanum wheels which take up a large amount of room and are not very versatile. However in a Mecanum Drive you acquire the ability to complete control and assurance that movement is not the problem, however in building this drivetrain the ability to gear is almost completely gone, as in order to maintain the very much wanted 3-4 wide hole gap between the drivetrain C Channels the mecanum wheel leaves no room for a gear, meaning many gear ratios are no longer achievable.
+The Mecanum Drive is one of – if not – the most frowned upon drivetrain in VEX, as it utilises the otherwise useless Mecanum wheels which take up a large amount of room and are not very versatile. However Mecanum drives have excellent manoeuverability, ensuring that there are very few restrictions in terms of movement. However in building this drivetrain, the ability to gear is almost completely gone, as in order to maintain the very much wanted 3-4 wide hole gap between the drivetrain C-Channels the size of the mecanum wheels means there is no room for a gear, this means that many gear ratios aren't achievable any more.
 \
 \
 \
 \
-=== Use of Traction Wheels:
+= Wheel type and configurations:
+== Use of Traction Wheels:
 #figure([#image("./imgs/traction.png", height: 120pt)], caption: [From #link("https://wiki.purduesigbots.com/hardware/misc.-vex-parts-1/motion/traction-wheels")[BRLS Wiki] @brls])
 
 For our drive an important consideration was the inclusion and amount of traction wheels which we wanted to use. Having more traction wheels increases our grip but also reduces our skidding which can mean that our bot will struggle to do tight turns quickly. However, not having enough traction wheels means we may be easier to push around and struggle more to push others.\
@@ -136,9 +139,7 @@ Overall, it is important to decide how many traction wheels we use and where. Ul
 \
 \
 \
-\
-\
-=== All Omniwheel Drive:\
+== All Omniwheel Drive:\
 #grid(
   columns: (280pt, 1fr),
   rows: (auto),
@@ -150,7 +151,7 @@ Overall, it is important to decide how many traction wheels we use and where. Ul
   ),
 )
 
-=== Number of Wheels:
+= Number of Wheels:
 #grid(
   columns: (260pt, 1fr),
   rows: (auto),
