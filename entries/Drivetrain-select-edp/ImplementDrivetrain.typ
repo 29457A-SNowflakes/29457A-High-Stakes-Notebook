@@ -49,13 +49,15 @@ Here is the CAD model of our drivetrain that we will use to build the drivetrain
 \
 \
 = Drivetrain CAD Drawings
-Before starting construction on our drivetrain, we have created a set of engineering drawings which show the measurements of the drivetrain in inches which is helpful for design of parts that do not come directly from VEX, such as polycarbonate pieces which we will use throughout the build process for custom parts serving purposes that VEX may not solve directly or inefficiently:
+Before starting construction on our drivetrain, we have created a set of engineering drawings which show the measurements of the drivetrain in inches, which is helpful for design of parts that do not come directly from VEX, such as polycarbonate pieces, which we will use throughout the build process for custom parts serving purposes that VEX may not solve directly or inefficiently:
 
 #image("./imgs/DrivetrainDrawings2.PNG", height: 200pt)
-Here we see the top down view of the drivetrain (without bracing) showing the measurements (in inches) 
+Here we see the top down view of the drivetrain (without bracing) showing the measurements in inches.
 
 #image("./imgs/DrivetrainDrawings1.PNG")
-Here is the side on view showing the height of our drivetrain, which is fairly low to the ground due, which will aid us in our quest to achieve a low centre of mass.
+Here is the side on view showing the height of our drivetrain, which is fairly low to the ground, which will aid us in our quest to achieve a low centre of mass. Maintaining a low centre of mass is important because it means we are less likely to tip over and overall be more stable.
+\
+\
 \
 \
 \
@@ -64,18 +66,16 @@ Here is the side on view showing the height of our drivetrain, which is fairly l
 \
 \
 = Building the Drivetrain
+== Step 1: Building the Chassis
+The first step when building a drivetrain is to construct the chassis. This consists of the *4 C-Channels* that hold the wheels together, plus the bracing that keeps the C-Channel aligned in a perpendicular fashion, allowing for smooth driving with minimal friction.
 
+Unfortunately, due to inconsistencies and tolerances within the screw-C-Channel contact, these 4 C-Channels are often misaligned, leading to friction and instability. To minimise these inconsistencies, we used a technique called *squaring* when building the chassis. This involves attaching the 4 main drive C-Channels to 2 other C-Channels to create a box, where all components are either perpendicular or parallel to each other.
 
-= Step 1: Building the Chassis
-The first step when building a drivetrain is to construct the chassis. This consists of the *4 C-Channels* that hold the wheels together, plus the bracing that keeps them aligned, allowing for smooth driving with minimal friction.
+#image("./imgs/Squared Drive.jpg", height: 150pt)
 
-Unfortunately, due to inconsistencies and tolerances within the screw-C-Channel contact, these 4 C-Channels are often misaligned, leading to friction and instability. To minimise these inconsistencies, we used a technique called *"squaring"* when building the chassis. This involves attaching the 4 main drive C-Channels to 2 other C-Channels to create a "box", where all components are either perpendicular or parallel to each other.
+We then used an engineer’s square to ensure that each angle was *90 degrees*. Afterwards, we fitted the braces to ensure that our drivetrain remains straight as keeping these angles perpendicular will reduce friction as much as possible. After fitting these, we removed the temporary braces, leaving us with this:
 
-#image("./imgs/Squared Drive.jpg", height: 250pt)
-
-We then used an engineer’s square to ensure that each angle was *90 degrees*. Afterwards, we fitted the braces to ensure that our drivetrain remains straight, reducing friction as much as possible. After fitting these, we removed the temporary braces, leaving us with this:
-
-#image("./imgs/Braced Drive.jpg", height: 250pt)
+#image("./imgs/Braced Drive.jpg", height: 150pt)
 
 = Step 2: Screwjoints and Friction
 Now that the drive is braced and sturdy, we can attach the wheels and test the friction both for the wheels themselves and when they are attached to the gears in the motors. To do this, we used the function on the brain that allows us to see how much power each motor is pulling at any given time. Typically, a VEX motor outputs about *0.2W of friction* on its own, meaning this is the target for friction for the entire drivetrain, allowing for peak efficiency and an acceleration curve that can beat anyone else on the field.

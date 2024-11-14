@@ -25,12 +25,14 @@ Additionally, we must consider the order in which we implement changes noting th
 That all being said we are most likely to approach the time before the upcoming competition by firstly recadding/building then improving autonomous and getting in drivers practice simultaneously. Below we shall discuss what we have planned to change in terms of our robot's design based on performance in the most recent competition (as of time of writing), which was the JWS regional.
 \
 \
-= Rebuild changes
-We have concluded that there's nothing wrong with our drive base since we took a lot of care into getting that right the first time and we found that our drive worked well for us in matches. However, in order to make room for the changes, which we want to do to the bot we need to redo the drive bracing. One of the things which is being reworked is the mogo mech: we are going for the same dual piston design architecture but with a vertical layout rather than a pivot based design. This will *drastically* change the angle at which the mogo is clamped. However, this ties into the changes we are planning to make to our intake and ring mech. We are planning to retain our current first stage design but we want to lower the profile of the mech. We are also considering implementing a wall stakes mechanism in our second iteration.
+= Robot Analysis
+Before we can make any changes we need to decide what needs to be changed. We have concluded that there's nothing wrong with our drive base since we took a lot of care into getting that right the first time and we found that our drive worked well for us in matches. However, in order to make room for the changes, which we want to do to the bot we will almost certainly need to redo the drive bracing.\
 \
-Below is all the changes which we have considered in terms of existing parts/systems
+ One of the things which is being reworked is the mogo mech: we are going for the same dual piston design architecture but with a vertical layout rather than a pivot based design. This will *drastically* change the angle at which the mogo is clamped.\
+ \
+ However, this ties into the changes we are planning to make to our intake and ring mech. We are planning to retain our current first stage design but we want to lower the profile of the mech. We are also considering implementing a wall stakes mechanism in our second iteration.
 \
-\
+Below are the changes that we have considered and reevaluated in terms of existing systems.
 \
 \
 \
@@ -60,7 +62,6 @@ Below is all the changes which we have considered in terms of existing parts/sys
  ("\n\n\n8 Wheels\n\n\n", 3, 5, 3, 5),
 )
 \
-\
 == Reconsidering the types of wheels which we use.
 #components.decision-matrix(
  properties: (
@@ -71,3 +72,40 @@ Below is all the changes which we have considered in terms of existing parts/sys
  ("\n\n\nMixture\n\n\n", 3, 3),
  ("\n\n\nAll Omniwheel\n\n\n", 4, 1),
 )
+\
+== Reconsidering the type of mogo mech used.
+#components.decision-matrix(
+ properties: (
+ (name: "Grip"),
+ (name: "Actuation amount"),
+ (name: "Build ease"),
+ (name: "Handling"),
+ (name: "Activation speed"),
+ (name: "Mogo clamping ability"),
+ (name: "Weight")
+ ),
+ ("\n\n\nPiston\n\n\n", 5, 3, 4, 5, 4, 4, 4),
+ ("\n\n\nMotor\n\n\n", 3, 4, 3, 4, 3, 3, 3),
+ ("\n\n\nPlough\n\n\n", 1, 5, 5, 1, 5, 0, 5),
+)
+== Reconsidering our second stage intake
+#components.decision-matrix(
+ properties: (
+ (name: "Consistency"),
+ (name: "Speed"),
+ (name: "Weight"),
+ (name: "Wall Stakes Ability"),
+ ),
+ ("\n\n\nHood Mech\n\n\n", 4, 3, 3, 3),
+ ("\n\n\nHook Mech\n\n\n", 4, 4, 4, 5),
+)
+
+#admonition(type:"decision")[
+  Our current plans in terms of rebuilding is to:
+  - Keep the drivebase the same
+  - Keep mogo mech mechanism but change lever class from 1 to 3 and tune clamping angle
+  - Keep first stage intake but lower profile
+  - Redo ring mech angle 
+  - Add a wall stakes mech (time permitting)
+  - Get colour sorting working (time permitting)
+]
