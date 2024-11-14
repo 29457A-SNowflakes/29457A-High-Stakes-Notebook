@@ -8,7 +8,7 @@
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
-  date: datetime(year: 2024, month: 10, day: 25),
+  date: datetime(year: 2024, month: 10, day: 17),
 )
 
 = The most consistent wins
