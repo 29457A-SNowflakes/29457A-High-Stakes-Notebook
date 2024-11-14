@@ -8,7 +8,7 @@
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
-  date: datetime(year: 2024, month: 9, day: 15),
+  date: datetime(year: 2024, month: 9, day: 4),
 )
 
 = Deciding on the mechanism

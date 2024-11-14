@@ -8,7 +8,7 @@
   type: "identify",
   author: "Jonah Fitchew, Daniel Dew",
   witness: "Thomas Robb",
-  date: datetime(year: 2024, month: 9, day: 16),
+  date: datetime(year: 2024, month: 9, day: 30),
 )
 
 // TODO: SPaG

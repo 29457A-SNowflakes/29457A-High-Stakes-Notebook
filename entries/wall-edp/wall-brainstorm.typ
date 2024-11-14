@@ -8,7 +8,7 @@
   type: "brainstorm",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
-  date: datetime(year: 2024, month: 10, day: 26),
+  date: datetime(year: 2024, month: 10, day: 8),
 )
 = Passive Redirect
 One potential solution is to have a trapdoor mechanism mounted on the hook, which is tensioned to allow rings to be intook upwards, but when the intake is reversed it slides backwards down onto a plastic sheet and transitions into a claw or bucket mechanism, which can be used to score rings.
