@@ -16,15 +16,10 @@ After competing in the Coventry Regional, we have as a team distilled our though
 
 = The Competition
 == Qualification
-This competitiom didn't have the greatest start, since we lost our practise match against 61150W Andromeda and 1408V Venom, whilst partnered with 30110D. We lost that match since 61150W managed to steal our full stack of rings from us, whilst we were fighting for the positive corner. They placed it in the negative corner, which caused us to lose the match. However, losing a practice match and learning from it is a much more desirable outcome than losing a qualifier or elimination match. We ended up winning our first qualifier (Q5) with 46037A Titan against 1408V Venom and 69922G NUAST Tiger, because [insert strategy here]. Unfortunately, we lost Q12 against 15650C Memento Mori and 46846P Subject to Change since they 
-\
-\
-Our second qualifying match - Q11, we played against 10478S Gearers and 13765T MTS_Bubblegum, whilst being allied to 10478B SubZeroRobotics. We lost this match 19-3 because we let them take positive corner first, which gave them a sizable point advantage.
-\
-However, we managed to win our 5 other matches, winning AWP for 1 of them. In a later chapter our head strategist, Thomas Robb, will provide an indepth analysis of strategy and plays made during qualification and elimination. This meant that we qualified 4th out of 24 teams. Looking at our objectives, this means that we have definitely succeeded with our first objective "A Force to Be Reckoned With".
+This competitiom didn't have the greatest start, since we lost our practise match against 61150W Andromeda and 1408V Venom, whilst partnered with 30110D. We lost that match since 61150W managed to steal our full stack of rings from us, whilst we were fighting for the positive corner. They placed it in the negative corner, which caused us to lose the match. However, losing a practice match and learning from it is a much more desirable outcome than losing a qualifier or elimination match. We ended up winning our first qualifier (Q5) with 46037A Titan against 1408V Venom and 69922G NUAST Tiger, because [insert strategy here]. Unfortunately, we lost Q12 against 15650C Memento Mori and 46846P Subject to Change due to [insert why here]. From this we can take away that... . From there we won all of our remaining qualifiers and we ended up ranking 6th place at the end of qualifications.
 
 == Aliance Selection and Elimination
-For Alliance Selection, 17711E Entropy were our alliance partner, meaning we made No. 1 Seed for elimination. We picked each other because we were both consistent bots, both with the ability to carry the match if needed to. We won our QF match against 1875N Noodle and 13765T MTS_Bubblegum by securing positive corners.
+For Alliance Selection, 13765T MTS_Bubblegum were our alliance partner, with us being 5th seed. 
 
 For the SF we were up against 15650C Memento Mori and 10478S Gearers, in this match both Red and Blue alliances were disqualified because of major violations, that were both match affecting, we were called up on ploughing a mogo whilst possessing one already. This meant that our match had to be replayed. However this time both 15650C and 10478S were able to secure positive corners and auton bonus additionally, which meant that we lost 13-28. In future, our drive team are looking to ways to avoid this as much as possible as match replays cause shaken confidence and can lead to losing critical matches, which in this case it unfortunately did.
 
