@@ -45,6 +45,6 @@ It is sometimes very useful to note down what each person initially thinks, as o
 
 
 = Results and Reflection
-Overall for our second competitiom and the context of the timeframe we had prior to this competition, we did exceptionally well. Making 5th seed in arguably the UK's largest tournament, which for reference we made 14th seed at this competition last year, ironically also with 13675T as our alliance captain (what a beautiful cyclical structure). Additionally, we managed to win the Create Award and did all of this in under two weeks.
+Overall for our second competition and the context of the timeframe we had prior to this competition, we did exceptionally well. Making 5th seed in arguably the UK's largest tournament, which for reference we made 14th seed at this competition last year, ironically also with 13675T as our alliance captain. Additionally, we managed to win the Create Award and did all of this in under two weeks.
 \
 Moving onwards, we need to ensure that we have *enough time* to fit all of the changes, which we plan to make.

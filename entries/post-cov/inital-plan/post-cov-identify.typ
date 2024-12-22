@@ -20,7 +20,7 @@ The ultimate plan for this rebuild is: Optimisation. We want to improve on and r
 The most consistent/best part of our bot was:
 - The wall stake mech
 - Ring mech scoring
-- Dewie's driving
+- Daniel's driving
 
 = Moving onwards
 Our next competition is the 4th January, in which neither Jonah nor Aubert can make due to holidays, and we have approximately 1 month and 3 weeks until then. In this time, we need to relax as we are all very tired from this competition and 4 out of the 5 members on this team are involved in the school musical, which takes up almost the entirety of the week commencing the 18th November.\
