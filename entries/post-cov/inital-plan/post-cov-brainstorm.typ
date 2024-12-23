@@ -16,9 +16,11 @@ Our post JWS bot had issues with the mogo clamping and aligning. Between JWS and
 #components.pro-con(
   pros: [
     - Can offer mechanical advantage
+    - Effort can go inside, which can be more space efficient
   ],
   cons: [
     - Slower
+    - Might be tricky to fit in - if limited space inside the bot
   ]
 )
 
@@ -29,10 +31,15 @@ Our post JWS bot had issues with the mogo clamping and aligning. Between JWS and
   ],
   cons: [
     - Provides less clamping force 
+    - Since Load and Effort are on one side this can increase complexity and footprint
   ]
 )
 
-= Improving centre of mass and stability
+#admonition(type: "note")[
+  Ultimately, there's little difference in terms of performance between a class 1 and a class 3. It is more situation dependant, where the overall design within the context is important, rather than any subsystems capabilities on paper.
+]
+
+= Improving stability/weight issues
 There are several methods which can be used to improve our robot's centre of mass. Firstly, removing weight off the top and shifting components to be as low to the ground as possible greatly helps. Minimising overhangs and widening drive base will also help with stability. Finally, we can additional weight to the bottom of our drive, as that will shift centre of mass downwards. We did this last year and we found that the the best way to do this in OU was to box C-Channel and put nylocks wrapped in nonslip mat held down by zipties, in order to shift our centre of mass forward.
 
 == Removing/Shifting existing weight down
@@ -76,3 +83,4 @@ There are several methods which can be used to improve our robot's centre of mas
 )
 
 = Ways to fix intake
+The main problem with the intake was that it would jam occasionally and struggle to suck in rings. There are several approaches, which can help curb this. Firstly, experimenting with different flex wheel configurations can help increase traction with more flex wheels tending towards more grip. In addition, we can try redesigning intake chain so its on the same axis as the chain. In addition, we can experiment with the use of plastic to make our intake lighter yet still durable. This weight saving doesn't necessarily help with the inherent problem with the intake, but weight saving is generally a good idea.
