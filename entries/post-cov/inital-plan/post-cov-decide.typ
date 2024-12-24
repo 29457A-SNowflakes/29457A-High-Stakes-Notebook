@@ -48,8 +48,8 @@ Removing excess weight will increase our motor performance and reduce friction c
 We have decided that we are going to try as many things possible to improve the intake - in terms of its core problem but also just general upgrades. This consists of the changes proposed in the brainstorm section: different flex wheel configurations, chain position and use of chain reverser, plus a focus on weight saving. However, much of the improvements will come from tuning and tinkering once fully built.
 
 = Deciding on improvements
-== 18522R or 1028A based wall stakes
-Here's a relative comparison of both a lady brown or a direct mech, based on the following criteria:
+== Two bar or direct mech
+Here's a relative comparison of both a two bar mech and a direct mech, based on the following criteria:
 - speed
 - compactness
 - weight
@@ -59,10 +59,10 @@ Here's a relative comparison of both a lady brown or a direct mech, based on the
     (name: "Compactness"),
     (name: "Weight"),
   ),
- ("\n\n\nLady Brown Inspired Design (18522R) \n\n\n", 3, 4, 2),
- ("\n\n\nDirect Mech Inspired Design (1028A)\n\n\n", 3, 5, 2)
+ ("\n\n\nTwo bar mech \n\n\n", 3, 4, 2),
+ ("\n\n\nDirect mech\n\n\n", 3, 5, 2)
 )
 
 #admonition(type:"decision")[
-  In conclusion, our proposed redesign will focus on improving the mogo clamp, improve stability by shifting down weight and trimming off excess weight and will put a special focus on improving the intake via tuning. In terms of wall stakes mechs between a direct mech and the already established lady brown, as a team we believe that the direct mech has a lot of potential and since we have enough time to work with it and fully figure it out. An additional bonus is that is a lot more compact than 18522R's design. However, we know that the lady brown works and is a safe fallback.
+  In conclusion, our proposed redesign will focus on improving the mogo clamp, improve stability by shifting down weight and trimming off excess weight and will put a special focus on improving the intake via tuning. In terms of wall stakes mechs between a direct mech and the already established two bar mech, as a team we believe that the direct mech has a lot of potential and since we have enough time to work with it and fully figure it out. An additional bonus is that is a lot more compact than existing two bars. However, we know that two bar mechs are a consistent and safe fallback.
 ]
