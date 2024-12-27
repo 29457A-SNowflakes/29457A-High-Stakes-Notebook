@@ -2,3 +2,4 @@
 #include "./inital-plan/post-cov-brainstorm.typ"
 #include "./inital-plan/post-cov-decide.typ"
 #include "./the-mocks-incident/identify.typ"
+#include "./the-mocks-incident/decide.typ"
