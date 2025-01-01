@@ -17,6 +17,15 @@
 
 #grid(
 columns: 2, gutter: 20pt,
+[#image("./members/Dew.png")], [#image("./members/DaSilva.png")],
+[
+  Daniel Dew
+  - Captain
+  - CAD Designer
+  - Head Programmer
+  - Driver
+  My role within the team primarily resides in the programming of the robot's code including autonomous and driver control. I also aid with the design and CAD phases of building. I am also the primary driver.
+],
 [#image("./members/Jonah.png")], [#image("./members/Aubert.png")],
 [
   Jonah Fitchew
@@ -29,14 +38,6 @@ columns: 2, gutter: 20pt,
   - Co-Head Builder
   - Head Chef
   Hello I am Aubert Seysses and my role within the team is to  help design and virtually CAD the robot, also, I aid with the physical construction of the robot.
-],
-[#image("./members/Dew.png")], [#image("./members/DaSilva.png")],
-[
-  Daniel Dew
-  - Head Programmer
-  - Driver
-  - Driveteam
-  My role within the team primarily resides in the programming of the robot's code including autonomous and driver control. I also aid with the design and CAD phases of building. I am also the primary driver.
 ],
 [
   Daniel DaSilva
