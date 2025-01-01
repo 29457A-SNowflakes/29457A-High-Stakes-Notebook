@@ -16,7 +16,8 @@ In order to compete as effectively as we can we want to improve our overall perf
 - robot design
 - autonomous routines
 - driver skill.
-\Ultimately, effective time management of these three aspects is vital for robotic success within the world of VEX. It is also important to note that we can not overcommit ourselves to VEX or work inconsistently on this project in order not to overburden the team and cause social and academic burnout.
+\
+Ultimately, effective time management of these three aspects is vital for robotic success within the world of VEX. It is also important to note that we can not overcommit ourselves to VEX or work inconsistently on this project in order not to overburden the team and cause social and academic burnout.
 \
 \
 Additionally, we must consider the order in which we implement changes noting that rebuilding tasks can generally not be done in parallel with driver practice or autonomous. Also building should be done before programming because its important that for as much time as possible we have a functional robot within the scope of the game's meta because that allows for more practice time and also more time to tune auton and secondly it is taken as a given that any changes in terms of drivers practice or autonomous routine will be renderred useless because of the many micro adjustments in a rebuild.

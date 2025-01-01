@@ -32,7 +32,7 @@ We had two judges interviews, our first being a general interview and our second
 It is sometimes very useful to note down what each person initially thinks, as often the 'face value' notes are the most useful to keep in mind.
 //TODO: FILL OUT
 == Daniel Dew
-
+Coventy was our best look at the national standard so far, the competition is in fact larger than UK Nationals, with the best teams and steepest competition showing up. This competition was an amazing insight to the required strategies, mechanisms, and even code to compete at the highest level. We can take many tips from this competition, in particular in driving strategy; for example, leaving mobile goals unnattended is a must _not_, goals must either be carried or flipped to avoid the points being negated.
 == Jonah
 
 == Daniel da Silva

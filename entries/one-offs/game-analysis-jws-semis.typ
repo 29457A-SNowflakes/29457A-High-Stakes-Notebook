@@ -13,7 +13,7 @@
 
 // TODO:
 //* Thomas - step by step game analysis, what we shoulve done etc
-
+//! thomas do ts
 = JWS analysis
 Despite losing more thaan 1 game in this competition, i will only be focusing on the semifinal games that ultimately caused us to lose, as they were not only th emost significant, but also the most high strategy games that we could hav epossibly won if we played it another way. The first half on this 
 section I will discuss the game that ended with a double disqualification, before moving on to the game that we lost, and that caused us to be eliminated from the competition.
