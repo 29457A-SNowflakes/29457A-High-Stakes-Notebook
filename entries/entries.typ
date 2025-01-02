@@ -12,7 +12,7 @@
 #include "./JWS_autons/all.typ"
 #include "./one-offs/JWSChecklist.typ"
 #include "./one-offs/JWSReflection.typ"
-// #include "./one-offs/game-analysis-jws-semis.typ"
+#include "./one-offs/game-analysis-jws-semis.typ"
 #include "./one-offs/decisions_after_JWS.typ"
 #include "./pre-cov-rebuild/all.typ"
 #include "./wall-edp/all.typ"
