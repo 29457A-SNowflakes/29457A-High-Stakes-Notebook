@@ -63,7 +63,7 @@ The matrix is weighted like so:
       [#image("./imgs/odom cad.JPG", height: 100pt)],
       [#image("./imgs/half-cut-process.JPG", height: 100pt)],
       [#image("./imgs/half-cut-end.JPG", height: 100pt)],
-      [#image("./imgs/odom-pods-finish.JPG", height: 10pt)],
+      [#image("./imgs/odom-pods-finish.JPG", height: 100pt)],
     )
   ]
 ]
