@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "In Depth Analasys - JWS Semifinals",
+  title: "In Depth Analysis - JWS Semifinals",
   type: "test",
   author: "Thomas Robb",
   witness: "Daniel Dew",

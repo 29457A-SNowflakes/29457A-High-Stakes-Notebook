@@ -9,7 +9,7 @@
   witness: "Daniel Dew"
 )
 = Obvious Issues
-In our first build through of the drive we did not take the greatest care and precision to build the drive. The drive suffered from bowing meaning the drive was wider in the middle than on the ends causing the width to be between 4-4.7 hole wide this meant we could not properly brace the drive due to the wholes not lining up. Despite this we did a variety of tests to try to see if it would be capable of meeting our needs.
+In our first build through of the drive we did not take the greatest care and precision to build the drive. The drive suffered from bowing meaning the drive was wider in the middle than on the ends causing the width to be between 4-4.7 hole wide this meant we could not properly brace the drive due to the holes not lining up. Despite this we did a variety of tests to try to see if it would be capable of meeting our needs.
 = Testing The Drivebase
 == Friction Test overview
 === Equipment:
