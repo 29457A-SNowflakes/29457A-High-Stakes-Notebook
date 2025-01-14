@@ -41,9 +41,13 @@ It is sometimes very useful to note down what each person initially thinks, as o
 Personally, I think the competition was a success, not only becasue we brought home the Judges Award, but also because of the key practice and experience we gained. As the programmer and driver, High Stakes brings several complex problems that seem huge and rather difficult, JWS helped to solve some of those issues and put the game into perspective -- a much needed boost of confidence.
 == Jonah
 As a member of the drive team and a builder, the competition and promise we showed at JWS really boosted my confidence in what we can achieve in the future. I feel that, since last season, we have improved as a team much more than we realized. Our strategy and driving set us apart as one of the top teams in the UK, even when they didn't always align perfectly with our robot's capabilities.
+<<<<<<< Updated upstream
 
 == Daniel da Silva
 In my opinion, I'm very happy with our debut to this season. After a slightly rocky start, we were able to recover and not lose a match until the Semi-Finals, despite this I think the drive team did excellent in the face of difficult opposition. I'm very excited to see how much we improve from here.
+=======
+== Daniel DaSilva
+>>>>>>> Stashed changes
 == Thomas
 In such an unpredictable game like high stakes, coming 4th was a success for us, and we were delighted to alliance with Entropy, which is in my opinion, one of the most powerful teams out there. Despite losing the semi-finals through a very close replayed match, we were thrilled to have not only come away with a judges award, but also a (hopefully!) strengthened bond with Entropy, as,despite losing, our teams worked well together with not only great robots, but great drivers too. Looking back, we have definitely noticed flaws and mistakes in both the robot, and also our game strategy, which will both be duly implemented in time for our next competition. We enjoyed being back competing, and teams will definitely be seeing us again.
 == Aubert
