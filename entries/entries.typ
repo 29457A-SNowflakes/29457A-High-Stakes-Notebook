@@ -2,6 +2,7 @@
 #include "./one-offs/INNOV-SUB.typ"
 #include "./game-analasys/game-analasys.typ"
 #include "./initial-team-management/team-management.typ"
+#include "./one-offs/BuildingEthos.typ"
 #include "./Drivetrain-select-edp/all.typ"
 #include "./programming-approach/all.typ"
 #include "./sensors-edp/all.typ"

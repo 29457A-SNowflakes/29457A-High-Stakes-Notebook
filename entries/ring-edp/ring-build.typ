@@ -37,5 +37,5 @@ Finally we added the flex wheels and the motor to the rest of the frame, we used
 = Why we built like this:
 \
 - We used a C Channel frame because this frame is lightweight and rigid allowing for weight savings without the cost of a flimsy mechanism, we also have a lot on hand so extra purchases were not necessary 
-- We implemented high strength shafts since they are incredibly rigid and help mitigate where friction could occur, since less bending occurs, the flex wheels, flex wheels already have an insert to convert them from hexagons a second to convert to low strength shaft is one we want to avoid. 
+- We implemented high strength shafts since they are incredibly rigid and help mitigate bending which could cause friction since flex wheels already have an insert to convert their hexagonal centre to one that would fit on a high strength shaft, should we have used low strength we would have to add a further insert which could be the source for more friction
 - We went with flex wheels because we had them on hand from last season which *minimises costs*. Also as rings are made of a similar material to triballs we felt that the grip flex wheels provide would yield optimal performance since they worked well in last year's game. Additionally they are also fairly low profile and lightweight.
