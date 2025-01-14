@@ -11,10 +11,8 @@
   date: datetime(year: 2024, month: 9, day: 30),
 )
 
-// TODO: SPaG
-
-After a succesful competition at the JWS regional there is much to reflect on about the performance of our robot, as we now have true match data showing how we can perform in a competition environment,
-= What needs improving?
+After a succesful competition at the JWS regional there is much to reflect on about the performance of our robot, as we now have true match data showing how we can perform in a competition environment.
+= Improvements:
 Although we were among the top contenders in terms of competition at JWS, forming the first seeded alliance, and making it to semifinals through some arduous matches, it is clear that we need to improve in some of the aspects of our robot.
 
 == The intake:
@@ -25,7 +23,7 @@ In the first iteration of our robot, we used a flex wheel intake with three sepa
 Our goal is to intake rings without needing to drive over them, which will improve the consistency of autonomous routines and provide smoother gameplay by eliminating the pauses caused by the inconsistencies of the first iteration.
 
 == Scoring mechanism:
-For JWS, we used a 'hook' design to transport rings up a chain pathway and pivot them at high speed onto the mobile goal, effectively addressing the challenge posed by the flange at the top of the goal. However, this design had limitations in speed. To maintain scoring consistency, we had to run the chain relatively slowly, which led to long cycle times. The downside is that spending extended time on each mobile goal and ring gives our opponents the opportunity to secure the positive corner. One lesson we took from JWS is that once both corners are lost, recovery becomes very difficult.
+For JWS, we used a 'hook' design to transport rings up a chain pathway and pivot them at high speed onto the mobile goal, effectively addressing the challenge posed by the flange at the top of the goal. However, this design had limitations in terms of speed. To maintain scoring consistency, we had to run the chain relatively slowly, which led to long cycle times. The downside is that spending extended time on each mobile goal and ring gives our opponents the opportunity to secure the positive corner. One lesson we took from JWS is that once both corners are lost, recovery becomes very difficult.
 
 ==  Mogo Mech:
 In iteration 1 of our robot, we used a simple diagonal clamp to secure mobile goals. While this approach was lightweight and straightforward, it wasn't very secure and added unwanted compression to certain parts of the drive, particularly the braces. When the mobile goal mechanism was activated, it caused a squeezing effect between the drivetrain's two piston contact points, which negatively impacted bracing; ideally, we want all components to maintain right angles, with no bends in the C-channels. We also experienced one instance where the mechanism was stolen, which was less than ideal and ultimately cost us a match.
@@ -40,9 +38,9 @@ The elements of our robot with serious flaws / needing improvement are:
 - Mogo Mech (easy to steal from, flimsy and bent parts of the drivetrain)
 
 = Decision to rebuild:
-After analysing each part of our robot that required improvement it is obvious what the next step for our robot's development is, a rebuild of all mechanisms apart from the drivetrain. This will allow us to move forward into competitions with a higher chance of winning and moving forward to nationals. Our rebuild will involve improved versions of all of the above.
+After analysing each part of our robot that required improvement it is obvious what the next step for our robot's development is: a rebuild of all mechanisms *apart from* the drivetrain. This will allow us to move forward into competitions with a higher chance of winning and securing a place in nationals. Our rebuild will involve improved versions of all of the above.
 
-= Managing the Team for Rebuilding -- Daniel Dew
+= Leading the team/rebuild (Daniel Dew):
 With such a tight timeline, as we must be ready for the Coventry Regionals, it is extremely important that we maintain high standards, therefore team management must be used effectively to achieve maximum results.
 == Keeping On Top of Tasks
 With a rebuild, comes many different aspects to keep on top of on including:
@@ -75,7 +73,7 @@ Another huge aspect of managing the team through a rebuild is time management, b
   - Logbook
     - Logbook is done throughout, and kept up to date based on developments
   - CAD
-    - CAD for base features aimedto be finished by 05/10
+    - CAD for base features aimed to be finished by 05/10
     - Complex system CAD aimed to be finished by 12/10
     - Building of core features can overlap with CADing of complex features
   - Build
