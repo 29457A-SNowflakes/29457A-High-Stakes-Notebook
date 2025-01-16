@@ -4,3 +4,5 @@
 #include "./initial-plan/post-cov-cad.typ"
 #include "./the-mocks-incident/identify.typ"
 #include "./the-mocks-incident/decide.typ"
+#include "./rebuild/desing-CAD.typ"
+#include "./rebuild/building.typ"

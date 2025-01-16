@@ -25,8 +25,7 @@ not enough space to tuck the wall steaks mech as low as
 = Building
 == Gear Ration
 We began by instaling gears in a 12 to 72 gear ratio in 
-order to acheave a 6x gear down from 200rpm to 33.3rpm 3.s.f. This 
-gave us prisice and managble controlle we did this 
+order to acheave a 6x gear down from 200rpm to 33.3rpm 3.s.f. This gave us prisice and managble controlle we did this 
 because we valued the ability to ensure you score the 
 ring rather that doing faster but less acuretly and 
 potential fail to score it. 
