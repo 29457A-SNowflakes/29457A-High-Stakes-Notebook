@@ -23,7 +23,8 @@ We decided to keep the drive train. We are verry comfortable with the speed and 
 === Ramp:
 For the ramp we desided to go with to peaces of lazer cut delrin rather than the pollycarbontae plate heated and bent. we did this becaus eyou can eliminat the human error that comes with manualy bending pollycarbontae additionaly in acomodates the curvature of the ring beter making for a smoother and better intake prosses.
 === First Stage and Intake Rollers
-//frist stage level yap 
+We made the first stage on a level plain this gave better more consistant traction while intaking the rings. we also used delrin to Brace the whole thing.
+ 
 === Gear Reversal 
 We elected to have both the frist and Second stage intake be powered by the same motor in order to be able to dedicate one motor to the wall stakes mech. The only problem with this is one we allso faced in V2 of the robot the intake rollers and hooks have got to spin in opisit direction in order to work in V2 a geared chain reversal was a simple and effective way of solving the problem if not verry well exicuted on V2.
 //diagram of chain reversal and rotation directions 
@@ -44,8 +45,7 @@ For the mogo mech we reverted to a 1st class lever while the previous lever was 
 ==== 
 The mogo clamp has 2 sets of progs a first set of prongs inset further into the robot these have verry good leverage and alow us to use less PSI on tring to lift the robot from a worst leaverage position. a secound set of prong serve simply to secure the mogo and presvent it from sliping out these aply on pressure on the mogo and insted act mor like a seat belt or hard stop. 
 == Wall steaks mech 
-The wall steaks mech was designed with extream precision as we wanted a 360
-//daneil yap for wall stake need help 
+The wall steaks mech was designed with extream precision as we wanted a walls steaks mech that was able to rotate through its full posible ark without going out of size limits this allowes us to score on the aliance stake and alow us to tip Mogos. the ilimination of the size issues stops the possibility that we get dicued because of hard stop failure.  
 //CAD of lb
 == Doinker 
 the Doinker was unchaged with the exeption of geting new plastic able to push all the rings rather than the top 3 as we found that was a desing flaw in our last design. 
