@@ -9,45 +9,51 @@
   date: datetime(year: 2024, month: 11, day: 20),
 )
 
-== Recap all issues with curent robot 
-- Center of mass it to high (tipps a bit under rapid accerleration)
-- Robot is to heavy 
-- Intake ramp was bent manualy a therfore the curve is suboptimal 
-- Mogo mech was week.
+== Recap of all issues with curent robot: 
+- Center of mass is too high (tips a bit under rapid acceleration)
+- Robot is too heavy 
+- Intake ramp was bent manually therefore the curve is suboptimal 
+- Mogo mech was weak
 = Design
-== Drive Train 
-We decided to keep the drive train. We are verry comfortable with the speed and accerlerationwe get from ithowever we do want to shrink it by 2 wholes. We have been woking on a 30 x 30 wholes drive + length of intake funnels. However a smaller bot is alway more maneverable for this reason we are going to cut the slight exess metal we have on the front of the robot. This will reduce the space available for the intake however it will not do so drasticaly. To acomodate the first stage intake better we have opted to get rid of the front brace. After carfully waying the pros and cons we oppted to remove it as it was largley redundent due to the already present other 2 brace. Aditionaly it reduces the weight of the robot witch leads to better accerleration. Force / mass = accerleration the the force is limeted by the motor output of the drive therfore the lighter the bot the better the accerleration. We also acomodated 2 Odom pods for better positioning and more consitant autons.
+== Drivetrain 
+We decided to keep the base drivetrain because we are very comfortable with the speed and acceleration we get from our current gear ratios. The drive's size is 30x30 holes plus the length of the intake funnels. We want to cut down the robot size slightly since a smaller bot is more manoueverable and it gives us more room to expand in our chosen direction. We are going to cut the excess 2 holes of metal we have on the front of the robot. This will reduce the space available for the intake but not reduce it enough to be a problem.
+
+To better accomodate the first stage intake, we have opted to get rid of the front brace. After carfully weighing the pros and cons, we decided that brace was largely redundant due to the 2 other braces on the bot. Additionally it reduces the mass of the robot, which leads to better acceleration given that $"acceleration / ms"^(-2) = "resultant force / N"/"mass / kg"$. Since our drivetrain's pushing force is limited by the motor's power output, the lighter our bot is the better its acceleration will be. We also plan to use 2 odometry pods for accurate horizontal and vertical positioning, which allow our autons to be more consistent.
 
 //screen shot of drive cad 1-2 angles 
-== First Stage Intake and transition 
+== First Stage Intake and Transition 
 === Ramp:
-For the ramp we desided to go with to peaces of lazer cut delrin rather than the pollycarbontae plate heated and bent. we did this becaus eyou can eliminat the human error that comes with manualy bending pollycarbontae additionaly in acomodates the curvature of the ring beter making for a smoother and better intake prosses.
+For the ramp we decided to go with pieces of laser cut Delrin rather than the heat bent polycarbonate plate, which we used last time. The greatest advantage of this method is that laser cutting is more precise, which means that ring alignment is more consistent. Additionally, the curvature of the laser cut pieces matches the ring better making for a smoother and more efficient intake process.
 === First Stage and Intake Rollers
-We made the first stage on a level plain this gave better more consistant traction while intaking the rings. we also used delrin to Brace the whole thing.
+We made the first stage on a level plane as this gave more consistent traction while intaking the rings. We also used Delrin to brace the whole thing.
  
 === Gear Reversal 
-We elected to have both the frist and Second stage intake be powered by the same motor in order to be able to dedicate one motor to the wall stakes mech. The only problem with this is one we allso faced in V2 of the robot the intake rollers and hooks have got to spin in opisit direction in order to work in V2 a geared chain reversal was a simple and effective way of solving the problem if not verry well exicuted on V2.
+We elected to have both the first and second stage intake be powered by the same motor, which means that we can allocate one motor to the wall stakes mech. The only problem with this approach is that the intake rollers and hooks have to spin in opposite directions. We also faced this problem in V2 of the robot. A geared chain reversal was a simple and effective way we used to solve this issue.
 //diagram of chain reversal and rotation directions 
 ===
- A chain reversal presents 2 main problem friction and tentioning. Tipicaly when dealing with the meshing of 6 tooth sprokets and gears the only way to do it is using low strength shaft witch make for verry pore friction. we solved this problem by using a creative combination of inserst to couble a gear and a sproket together as shown bellow.
- //cad of coupling the things
- ===
- This alowes us to use screw joints witch produce far far less friction than the lowstrength shaft joint.
- Chain needs to be under a bit of tention in order to work properly other wise the chan will simply skip now this would'nt be a problem exept that the intake need the ability to lift to be able to pic up the top ring on a stak 2 high during autons thrphor the chan need to be able to be under tention in 2 positions most people solve this problem by using a tetioner a pece of plastic over witchthe chain runs it is lighly ruber bander outwards to that the it moves to keep the chain under tention in both position biciles have a similar mechanisme used to keep the chain under tention nomater the gear the bike is in. We chose a diffrent solution as tentioners are falable itch could potentialy ruin are ability to score any points in a round. our soloustion wast to have the chan go to and form the intake roler while spining about the joint about withc the frist tage inake is mounted this meand that the 2 sprokets remain equadistant nomater the angle and is much less falabl. 
+A chain reversal presents 2 main problems: friction and tensioning. Typically, when dealing with the meshing of 6 tooth sprockets and gears you connect them using low strength shaft, which are very bad for friction. We solved this problem by using a creative combination of inserts to couple a gear and a sprocket together as shown below:
+//cad of coupling the things
+===
+This allows us to use screw joints, which produce far less friction than the low strength shaft joint.
+The chain needs to be under a bit of tension in order to work properly otherwise the chain will simply skip. This normally isn't a problem although there are times that the intake needs to be able to lift up in order to grab the top ring on a 2 high stack during autons. Therefore the chain needs to be under tension while in 2 positions.
+
+Most people solve this problem by using a tensioner: a piece of metal on a screwjoint with spacers to reduce friction. It is rubber banded outwards, to provide tension and remove slack. Bicycles have a similar mechanism used to keep the chain under tension no matter which gear that the bike is in. We chose a different solution as tensioners can fail which could potentially *ruin our ability to score*. Our solution was to have the chain go to and from the intake roller while spining about the joint about which the first stage intake is mounted this meant that the 2 sprockets remain equidistant regardless of the angle and this design is less likely to fail.
+#figure([#image("./imgs/Bike.jpg", height: 100pt)], caption: [#link("https://en.wikipedia.org/wiki/Tensioner")[Example of tensioner on bike]])
+//#image("", height: 210pt)//
  // screen shot of th whole area i just discribed 
  
 == Second Stage Intake
-The secound stage intake remains largley unchanged simply many chain links with hooks to carry the rings there it is run on 24 tooth sprokets as this gives the prefered chain speed. Futhermor we put flex weels in order to give the hooks a more optimal ark. The frame is slighly altered in the details but over all remains the same: central pillar nowmade of 1 x 1 instead of  2x - c-chan because it is not weight bering therfore 1 x 1 is strong enough for this purpose and lighter than 1x1 
-//picture of secound stage intake cad
+The second stage intake remains largely unchanged, being made of many chain links with hooks to carry the rings to the top of the conveyor. It is run on 24 tooth sprockets, as this gives the preferred chain speed. Futhermore, we put flex wheels at the top of conveyor, this helps score rings onto the mogo since flex wheels provide a lot of traction. The frame is slightly altered in the details but overall remains the same: central pillar now made of 1 x 1 instead of 2x C-Chan because it is not weight bearing therefore 1 x 1 is strong enough for this purpose and much lighter than C-Channel. 
+//picture of second stage intake cad
 == Mogo Mech 
-For the mogo mech we reverted to a 1st class lever while the previous lever was more compact the trade off in required PSI was not worth it as it limited the number of actuations available to us during a match. It also meant that when accerlerating the to mof the mogo would tip bacward lighlly and ring scoring would be far less consitant. This mogo was disinged with the flaws of the last in mind as a result the Design has a big emphisas on taking adavatage of leaverage to be able to run it at verry low PSI while remaining secure and we are verry proud of it. The credit for the design goes to our team leader/head programer daniel dew who disinged it aswell as articualting it fully in CAD. 
+For the mogo mech we reverted to a 1st class lever, while the previous lever was more compact, the trade off in required PSI was not worth it, as it drastically limited the number of actuations available to us during a match. It also meant that when accelerating the mogo would tip backwards slightly, which made ring scoring very inconsistent. This mogo clamp was designed with the flaws of the last one in mind. As a result the design has a big emphasis on taking advantage of leverage so it uses very little PSI, whilst still providing a secure grip. We are very proud of our new system, which was designed by our team leader Daniel Dew, who also created the CAD version of it as seen below: 
 //diagram or picture of CAD to anotated to explain forces
 ==== 
-The mogo clamp has 2 sets of progs a first set of prongs inset further into the robot these have verry good leverage and alow us to use less PSI on tring to lift the robot from a worst leaverage position. a secound set of prong serve simply to secure the mogo and presvent it from sliping out these aply on pressure on the mogo and insted act mor like a seat belt or hard stop. 
-== Wall steaks mech 
-The wall steaks mech was designed with extream precision as we wanted a walls steaks mech that was able to rotate through its full posible ark without going out of size limits this allowes us to score on the aliance stake and alow us to tip Mogos. the ilimination of the size issues stops the possibility that we get dicued because of hard stop failure.  
+The mogo clamp has 2 sets of prongs: a first set of prongs inset further into the robot - these have very good leverage and so help us to use less PSI. A second set of prongs serve simply to secure the mogo. These prongs apply on pressure on the mogo and instead act more like a seat belt or hard stop and prevent the mogo from misaligning. 
+== Wall Stakes Mech 
+The wall stakes mech was designed with extreme precision as we wanted a wall stakes mech that was able to rotate through its full arc without going out of size limits. This is important to us because it allows us to score on the alliance stakes (very useful for autons) and also allows us to tip mogos over. The reduction in sizing prevents the possibility that we get disqualified because of a hard stop failure.  
 //CAD of lb
 == Doinker 
-the Doinker was unchaged with the exeption of geting new plastic able to push all the rings rather than the top 3 as we found that was a desing flaw in our last design. 
+The doinker was unchanged with the exception of geting new plastic able to push all the rings rather than the top 3. As we found that there was a design flaw since it restricted our ability to clear positive corners and place mogos there. 
 //cad of doinker + new plastic
 //big picture of whole robot all together
