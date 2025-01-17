@@ -33,5 +33,5 @@ In the second stage intake, when we first built it we encountered several issues
 The wall stakes mech was based on the position of the end of the second stage intake, which moved due to a slight error in the CAD. However this had a knock on effect on our CAD, which meant that the wall stakes mech needed to be changed. We resolved this by tuning, clipping and doing other micro ajustments (e.g. carefully cutting the metal in a way so that it would slot in at a diagonal because that is the only angle which can reach the top of the stakes). Tuning this was probably the biggest job apart from adjustments to the drivetrain. But eventually we succeeded in fixing it and could score with it reliably.
 // pictue of wall steak mech 
 == Doinker 
-The doinker was easily executed as it was mostly unchanged from before.
+The doinker was easily executed as it was mostly unchanged from before.\
 Picture of whole bot in big and seenick.
