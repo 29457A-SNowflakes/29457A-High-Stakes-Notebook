@@ -41,7 +41,7 @@ On the whole I believe that this was a really important competition for us and o
 
 
 == Aubert
-I think that Coventry was verry instructive. It was great for an experience gaining point of vew. We compeated on an essentialy national level. All the best UK teams were present and we where able to compare our selves to them. what I in particularly took from it was that our robot was over all viable however our lack of tested autons held us back from acheving as highly as I beleave we could have. In future I plan to keep in mind autonomous compatibility when building the robot.
+I think that Coventry was very instructive. It was great for an experience gaining point of view. We competed on an essentialy nationals level. All the best UK teams were present and we were able to compare ourselves to them. What I in particularly took from it was that our robot was overall viable but our lack of tested autons held us back from achieving as highly as I believe we could have. In future, I plan to keep in mind autonomous compatibility when building the robot.
 = Results and Reflection
 Overall for our second competition and the context of the timeframe we had prior to this competition, we did exceptionally well. Making 5th seed in arguably the UK's largest tournament, which for reference we made 14th seed at this competition last year, ironically also with 13675T as our alliance captain. Additionally, we managed to win the Create Award and did all of this in under two weeks.
 \
