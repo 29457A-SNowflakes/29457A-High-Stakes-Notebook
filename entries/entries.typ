@@ -19,3 +19,4 @@
 #include "./wall-edp/all.typ"
 #include "./one-offs/COVReflection.typ"
 #include "./post-cov/all.typ"
+#include "./one-offs/STOWEReflection.typ"

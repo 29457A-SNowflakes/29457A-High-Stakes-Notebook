@@ -15,23 +15,23 @@
 //ow we overcame issues 
 //how the bot now works 
 //picture of the beauty full bot 
-= Building the:
+= Building the drive:
 
-== Drive 
-We rebuilt the same drive we where using from scrach but wuth more atention to detail and maged to get the friction down to 0.1W so esentialy negligable 
+== Drivetrain
+We rebuilt the same drive, which we where using before from scratch but with more attention to detail and managed to get the friction down to 0.1W, which is essentialy negligible.
 //picture of Drive
 == First Stage and Chain Reversal 
-The whole construction of the first stage intake including chain revarsa was flawless thanks to the cad forplaning with the slight exeption of ramp bracing where standofs to close to the slope witch this slowed and mesed with the transition of the rings. It was not a big isue and easly resoved by driling a new whole slighly mor inset
+The whole construction of the first stage intake, including chain reversal was flawless thanks to the CAD done in advance. But there was only one small problem, which was with the ramp bracing, where the standoffs were too close to the slope, which slowed and messed with the ring transition. It was not a big issue and easily resolved by drilling a new hole inset into the bot slightly more.
 //picture of first stage 
-== Mogo mech
-The mogo mech was largley flawless thanks to the CAD. Required minimal tuning. the only slight isue is that the secound prongs where abrasive enought to somtimes catch on the edge of the mogo causing it to not score properly however all we had to do to resove this was sand down the riviest on the side contacting the mogo and the isure was resolved 
+== Mogo Mech
+The mogo mech was largley flawless because we had CAD done in advance so the mech only required minimal tuning. We only needed to change the second prongs, since they were abrasive enough to sometimes catch on the edge of the mogo causing it to not score rings properly. However, all we had to do to resolve this was sand down the threads on the screws on the side contacting the mogo and the issue was resolved. 
 //picture of mogo mech 
-== secound stage intake
-In the secound stage intake we encoundterd issues. when we first built it the ring only scored roughly 1/8 times after extensive testing we concluded that it was due to the placement of the hooks being roughly 0.5in to low. This in of of its self was not terible we just atached a peace of 1x1 to extend the legth of he central pilar slightly. after quite a bit of tuning and stweeking tight marging we had scoring and a verry consistant level. 
+== Second stage intake
+In the second stage intake, when we first built it we encountered several issues: the ring only scored roughly 1 in 8 times. After extensive testing, we concluded that it was due to the placement of the hooks being roughly 0.5in too low. This in of itself was not terible, we just attached a piece of 1 x 1 to extend the length of the central pilar slightly. After quite a bit of tuning and tweaking we had scoring working within tight margins. 
 //pictures of this
-== wall staks mech 
-The wall staks mech was verry based around the position of the end oof the secound stage intake witch move due to a slight error in the CAD however this had the knok on effec that the beatifly planded and caded wall steaks mech needed to be changed the tuning cliping and micro ajustments needed to make this work(e.g. carfully cuting the metal in a way so that it would slot in at a diagonal because that is the only angleis could reach the top of the stakea) was probably the bigest job apart from the drive. but eventualy we sucseeded in fixing tit and gaind the ability to score with it.
+== Wall Stakes Mech 
+The wall stakes mech was based on the position of the end of the second stage intake, which moved due to a slight error in the CAD. However this had a knock on effect on our CAD, which meant that the wall stakes mech needed to be changed. We resolved this by tuning, clipping and doing other micro ajustments (e.g. carefully cutting the metal in a way so that it would slot in at a diagonal because that is the only angle which can reach the top of the stakes). Tuning this was probably the biggest job apart from adjustments to the drivetrain. But eventually we succeeded in fixing it and could score with it reliably.
 // pictue of wall steak mech 
 == Doinker 
-The doinker was easitly eicuted as it was unchaged. 
-picture of whole bot in big and seenick.
+The doinker was easily executed as it was mostly unchanged from before.
+Picture of whole bot in big and seenick.
