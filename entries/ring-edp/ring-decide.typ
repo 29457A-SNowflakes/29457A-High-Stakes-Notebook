@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Deciding On An Intake",
+  title: "Deciding on an Intake for V1",
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

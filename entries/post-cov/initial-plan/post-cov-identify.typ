@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "What needs improving",
+  title: "What needs Improving",
   type: "identify",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

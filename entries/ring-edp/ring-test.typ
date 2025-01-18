@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Testing the Intake",
+  title: "Testing the V1 Intake",
   type: "test",
   author: "Aubert",
   witness: "Daniel Dew",

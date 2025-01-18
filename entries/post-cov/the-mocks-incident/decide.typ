@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Overcoming this problem",
+  title: "Overcoming this Problem",
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

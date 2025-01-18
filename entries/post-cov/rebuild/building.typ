@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Building V3 of the bot ",
+  title: "Building our V3 Bot ",
   type: "build",
   author: "Aubert Seysses",
   witness: "Daniel Dew",

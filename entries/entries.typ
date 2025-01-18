@@ -5,9 +5,9 @@
 #include "./one-offs/BuildingEthos.typ"
 #include "./Drivetrain-select-edp/all.typ"
 #include "./programming-approach/all.typ"
-#include "./sensors-edp/all.typ"
+#include "./manual-update1/manual-update.typ"//swapped sensors and manual update
 #include "./mogo-mech/all.typ"
-#include "./manual-update1/manual-update.typ"
+#include "./sensors-edp/all.typ"//swapped sensors and manual update
 #include "./ring-edp/all.typ"
 #include "./one-offs/program-showcase.typ"
 #include "./JWS_autons/all.typ"
@@ -20,3 +20,4 @@
 #include "./one-offs/COVReflection.typ"
 #include "./post-cov/all.typ"
 #include "./one-offs/STOWEReflection.typ"
+#include "./one-offs/ESSEXReflection.typ"

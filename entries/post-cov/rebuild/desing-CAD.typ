@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Designing V3 of the robot",
+  title: "Designing our V3 Robot",
   type: "build",
   author: "Aubert Seysses",
   witness: "Daniel Dew",

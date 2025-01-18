@@ -3,7 +3,7 @@
 
 
 #show: create-body-entry.with(
-  title: "High Stakes Programming Approach",
+  title: "Potential Programming Approaches",
   type: "brainstorm",
   author: "Daniel Dew, Daniel da Silva",
   witness: "Jonah Fitchew",

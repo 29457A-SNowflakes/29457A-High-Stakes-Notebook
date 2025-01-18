@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Building the Intake",
+  title: "Building the Intake for V1",
   type: "build",
   author: "Jonah Fitchew",
   witness: "Daniel Dew",

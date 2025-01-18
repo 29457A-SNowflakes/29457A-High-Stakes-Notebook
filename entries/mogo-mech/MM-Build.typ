@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Building Our Mogo Mech",
+  title: "Building our Mogo Mech",
   type: "build",
   author: "Jonah Fitchew",
   witness: "Daniel Dew",

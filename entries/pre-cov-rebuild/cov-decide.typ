@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Deciding on improvements",
+  title: "Deciding on Improvements for V2",
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

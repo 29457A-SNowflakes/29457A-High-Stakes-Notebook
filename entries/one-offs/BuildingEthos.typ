@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Maintaing Building Practices",
+  title: "Maintaining Building Practices",
   type: "management",
   author: "Jonah Fitchew",
   witness: "Aubert Seysses",

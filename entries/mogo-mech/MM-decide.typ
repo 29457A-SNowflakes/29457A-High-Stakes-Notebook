@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Deciding on a Mogo Mech",
+  title: "Deciding on our V1 Mogo Mech",
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

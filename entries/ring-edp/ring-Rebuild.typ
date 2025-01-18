@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Rebuilding the Intake",
+  title: "Rebuilding the V1 Intake",
   type: "build",
   author: "Aubert Seysses",
   witness: "Daniel Dew",

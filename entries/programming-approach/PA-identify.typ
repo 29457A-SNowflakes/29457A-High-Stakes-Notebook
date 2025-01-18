@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "High Stakes Programming Approach",
+  title: "Our Programming Needs",
   type: "identify",
   author: "Daniel Dew",
   witness: "Daniel da Silva",

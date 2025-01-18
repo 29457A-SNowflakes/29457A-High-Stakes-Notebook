@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Brainstorming Mogo Mech",
+  title: "Brainstorming our V1 Mogo Mech",
   type: "brainstorm",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

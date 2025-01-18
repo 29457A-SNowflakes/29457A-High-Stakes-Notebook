@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "CADing the New Design",
+  title: "CADing our V3 Bot",
   type: "build",
   date: datetime(year: 2024, month: 08, day: 7),
   author: "Daniel Dew",

@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Deciding on a High Stakes Mech",
+  title: "Deciding on a Wall Stakes Mech",
   type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",

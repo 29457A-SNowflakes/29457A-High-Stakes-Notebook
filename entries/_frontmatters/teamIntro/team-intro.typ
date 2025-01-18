@@ -40,8 +40,9 @@ columns: 2, gutter: 20pt,
   Hello I am Aubert Seysses and my role within the team is to  help design and virtually CAD the robot, also, I aid with the physical construction of the robot.
 ],
 [
-  Daniel DaSilva
+  Daniel da Silva
   - Programmer
+  - Note Book
   Hi I’m Daniel da Silva and my role within the team is to support the development of the robot’s software and to help organise it into the logbook.
 ],
 [#image("./members/Thomas.png", height: 20%)], [

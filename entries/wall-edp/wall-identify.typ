@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "The Need for a Wall Stakes Mech",
+  title: "Wall Stakes Mech for our V2 Bot",
   type: "identify",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
