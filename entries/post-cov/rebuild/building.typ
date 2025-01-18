@@ -15,14 +15,16 @@
 //ow we overcame issues 
 //how the bot now works 
 //picture of the beauty full bot 
-= Building the drive:
+= Building the Bot:
 
 == Drivetrain
 We rebuilt the same drive, which we where using before from scratch but with more attention to detail and managed to get the friction down to 0.1W, which is essentialy negligible.
 //picture of Drive
+
 == First Stage and Chain Reversal 
 The whole construction of the first stage intake, including chain reversal was flawless thanks to the CAD done in advance. But there was only one small problem, which was with the ramp bracing, where the standoffs were too close to the slope, which slowed and messed with the ring transition. It was not a big issue and easily resolved by drilling a new hole inset into the bot slightly more.
 //picture of first stage 
+
 == Mogo Mech
 The mogo mech was largley flawless because we had CAD done in advance so the mech only required minimal tuning. We only needed to change the second prongs, since they were abrasive enough to sometimes catch on the edge of the mogo causing it to not score rings properly. However, all we had to do to resolve this was sand down the threads on the screws on the side contacting the mogo and the issue was resolved. 
 //picture of mogo mech 
@@ -34,4 +36,8 @@ The wall stakes mech was based on the position of the end of the second stage in
 // pictue of wall steak mech 
 == Doinker 
 The doinker was easily executed as it was mostly unchanged from before.\
-Picture of whole bot in big and seenick.
+//Picture of whole bot in big and seenick.
+#align(center)[
+
+  #figure(image("./imgs/bot built.jpg", height: 650pt), caption: [])
+]
