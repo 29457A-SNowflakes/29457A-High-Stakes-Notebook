@@ -10,5 +10,7 @@
   witness: "Daniel da Silva",
   date: datetime(year: 2024, month: 11, day: 17),
 )
-= This is the start of our V3 design cycle
+
+// ?
+// Would a note at the start of new bot EDPs be better?
 #lorem(250)
