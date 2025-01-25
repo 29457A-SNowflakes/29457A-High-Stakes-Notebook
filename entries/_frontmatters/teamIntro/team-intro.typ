@@ -26,24 +26,26 @@ columns: 2, gutter: 20pt,
   - Driver
   My role within the team primarily resides in the programming of the robot's code including autonomous and driver control. I also aid with the design and CAD phases of building. I am also the primary driver.
 ],
+[
+  Daniel da Silva
+  - Programmer
+  - Primary Notebooker
+  Hi I’m Daniel da Silva and my role within the team is to support the development of the robot’s software and to help organise it into the logbook.
+],
 [#image("./members/Jonah.png")], [#image("./members/Aubert.png")],
 [
   Jonah Fitchew
   - Co-Head Builder
-  - Driveteam
+  - Reserve Driveteam
   Hello I am Jonah Fitchew and my role within the team is the physical construction of the robot, documentation and assisting the driver during matches.
 ],
 [
   Aubert Seysess
   - Co-Head Builder
+  - CAD Designer
+  - Driveteam
   - Head Chef
   Hello I am Aubert Seysses and my role within the team is to  help design and virtually CAD the robot, also, I aid with the physical construction of the robot.
-],
-[
-  Daniel da Silva
-  - Programmer
-  - Note Book
-  Hi I’m Daniel da Silva and my role within the team is to support the development of the robot’s software and to help organise it into the logbook.
 ],
 [#image("./members/Thomas.png", height: 20%)], [
   Thomas Robb

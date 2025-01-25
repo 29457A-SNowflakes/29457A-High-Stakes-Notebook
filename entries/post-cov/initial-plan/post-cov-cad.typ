@@ -7,7 +7,10 @@
   date: datetime(year: 2024, month: 08, day: 7),
   author: "Daniel Dew",
   witness: "Aubert Seysses"
-  )
+)
+
+// * For direct mech bot
+
 #set quote(block: true)
 = Starting the New Design
 == Recycling
@@ -57,12 +60,14 @@ In our case, this can be used to allow for space for various mechanisms, or just
 So far, the modifications are only proposed, the point of CAD is to prove such proposals are feasable and to then later provide a basis on which to build on.
 === Shortening drivetrain
 This step is incredibly simple, it simply requires replacing the 30-long drivetrain pieces with 27-long pieces. We decided on this length becasue it was the maximum we could shave off without jeopardising structural strength.
+=== Stacked Motors
+This step is also simple, as it only entails creating a raised platform on small standoffs -- where the motors can be moved onto a stack.
 #grid(columns: (63%, 37%), gutter: 10pt, [
   #figure(
-    box(fill: rgb(225, 225, 225, 100%), inset: 10pt, radius: 8pt, image("./imgs/cad/post-mod-dt.png", height: 200pt)),
+    box(fill: rgb(225, 225, 225, 100%), inset: 10pt, radius: 8pt, image("./imgs/cad/post-mod-dt.png", height: 220pt)),
     caption:
     [
-      The drivetrain CAD after implementing proposed design changes -- 'front' denoted by green arrow.
+      The drivetrain CAD after implementing proposed design changes -- front denoted by green arrow.
     ]
   )
 ],
@@ -71,5 +76,30 @@ This step is incredibly simple, it simply requires replacing the 30-long drivetr
     === Notes on CAD
     - The shortened drivetrain is not particularly evident, but the frame has been shortened by 3 holes (1.5'') and the funnels have been moved back one hole (0.5'').
     - More evidently, the motor that would be at the back is moved onto a stack with the middle motor; this allows us to 'envelop' the corner post of the ladder, potentially facilitating our future ladder climb plans.
+    \
   ])
+])
+\
+\
+= Designining Complex Moving Mechanisms
+== Motor Distribution
+With this design there are several complex design strategies we can employ.\
+For example, there are a few ways to organise the distrubution of the remaining 22W of motor power; we could, for example, allow 1x 11W motor for our intake mechanism, similar to V2; therefore allowing 1x 11W for the direct high stake mechanism.\
+If we wanted to dedicate more power to the more complex chain bar required for direct mech, we could use only 5.5W for the intake/hooks, and therefore use the remaining 16.5W for the chain bar.
+=== Motor Sharing
+We have decided that both the intake/hooks and the chain bar neeed more than 11W; this is normally unobtainable using normal motor distrubution, however we wish to emply the method of *motor sharing*.
+#admonition(type: "example", [
+  *What Is Motor Sharing*
+  - Motor sharing is the technique of using the same motors over the different mechanisms.
+  - Obviously, we dont wan't the intake and chain bar lift running at the same time, so we can employ a *ratchet* mechanism.
+    - Rachet mechanisms allow for a system to be mechanically disconnected while the motors run one way, then engage when the motors are reversed
+    - In this case, we can allow the intake to run at all times, but when it is reversed; the ratchet engages and the chain bar lifts.
+  #align(center, grid(columns: (40%, 40%), [
+    #figure(image("imgs/cad/ratchet example.jpeg", height: 200pt))
+  ], [
+    #align(horizon, [
+      _An example of a ratchet mechanism (left) @RatchetEx.\ Here, the metal gear spins no matter what -- in one direction, the screw freely skips over the gear (therefore the green sprocket remains stationary#footnote([The gear has a round insert and is therefore unaffected by shaft spinning.])). In the other direction, the screw catches, and rotational torque is transferred to the large gear_
+    ])
+  ]))
+  
 ])
