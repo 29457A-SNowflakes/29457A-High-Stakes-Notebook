@@ -10,5 +10,4 @@
   witness: "Daniel da Silva",
   date: datetime(year: 2024, month: 08, day: 7),
 )
-= This is the start of our V1 design cycle
-#lorem(250)
+#image("./cover_imgs/Vex JWS.png",height:500pt)
