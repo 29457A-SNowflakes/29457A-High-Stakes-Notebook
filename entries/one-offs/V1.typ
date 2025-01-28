@@ -10,4 +10,5 @@
   witness: "Daniel da Silva",
   date: datetime(year: 2024, month: 08, day: 7),
 )
+//#align(centre)
 #image("./cover_imgs/Vex JWS.png",height:500pt)

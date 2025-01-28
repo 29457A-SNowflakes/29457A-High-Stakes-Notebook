@@ -10,26 +10,32 @@
   witness: "Aubert Seysses",
   date: datetime(year: 2024, month: 08, day: 7),
 )
-= Making Sure We Build right
-one of the most important things to consider when building a robot is "Build Quality" this is not a term that is used lightly as the better the build quality the more likely that it survives a competition. 
-As a team we have decided that this year "Build Quality" be paramount in our considerations when constructing this season's robots. This essentially comes with a set of rules for how to build a robot that we must follow to a tee in order to consrtruct a long term robot that can be brought to multiple competitions as the less iterations we have the longer we have to tune and practice. 
-= The rules
-As previously mentioned we are abiding by a set of rules that together can create a truly robust robot. 
-#components.admonition(type: "build")[
-== Boxing
-the first of these rules that we shall document is the practice of "boxing" parts of the robot:
+= Ensuring quality
+One of the most important things to consider when building a robot is its Build Quality. This is really important to us as the better our build quality; the fewer repairs which we will need to do mid competition. In addition, better build quality has a positive correlation with competitive competition performance.
+As a team we have decided that this year ensuring good build quality is paramount in our considerations when constructing each robot this season. This essentially comes with a set of principles for how we should build a robot that we should adhere closely to in order to construct a robot that can be brought to multiple competitions, as the fewer rebuilds we do the more time that we'll have to tune and practice. 
+= Our building principles
+As previously mentioned we are abiding by a set of rules, which have the intention of improving build quality.
 
+== Boxing
+The first of these practices is *boxing* parts of the robot, which is used to provide structural integrity.
+There are two main types of boxing:
+- Spacer Boxing
+- Keps Boxing
+
+=== Spacer Boxing
 #grid(columns: 2, gutter: 20pt, [
-  This image taken from the CAD of a previous drivetrain shows the use of boxing quite effectively, by putting spacers in the gap between the "flanges" of the C Channel we achieve the effect of preventing deformation, as when tighetning a screw to ensure stability the flimsy aluminium flanges often bend which can cause friction and many other problems should it happen throughout the robot build, doing this provides rigidity and structure to joints that otherwise would bend 
+  This image taken from the CAD of a previous drivetrain is a good example of boxing. Spacers are placed in the gap in the C-Channel to prevent deformation. As when tightening screws its quite easy to bend the flimsy aluminium flanges, which can cause friction and many other complications should it happen throughout the robot build. By doing this to our joints we increase rigidity and structure to joints and so minimise bending. 
 ], [
   #image("./jws_imgs/Boxingimage.png", height: 90pt, width: 90pt, fit: "stretch")
 ])
+
+=== Keps Nut Boxing
 #grid(columns: 2, gutter: 20pt, [
-  There is however often elements of the robot in the way of boxing through C Channels, such as bearings so in the event of this we will use another type of boxing known as "Keps Boxing" this provides some of the same functionality that boxing does with the addition of keeping space for bearings and the like, it utilises keps nuts on each "top" and "bottom" of the C Channel, providing help against bending in a compromised position.
+  Spacer Boxing isn't always possible because elements of the robots design may get in the way - such as bearings - so in the event of this we can use Keps Boxing instead. This provides some of the same functionality that boxing does with the addition of keeping space parts such as bearings. It utilises a screw with keps nuts fastened to the top and bottom of the C-Channel with a nylock on the bottom that holds it all together. This can be used to make the structure more rigid, which is important for things such as braces.
 ], [
   #image("./jws_imgs/KepsBoxingimage.png", height: 90pt, width: 90pt, fit: "stretch")
 ])
-
+#components.admonition(type: "build")[
 == Squaring
 #grid(columns: 2, gutter: 20pt, [
 Squaring a drivetrain involves temporarily bracing the main C-channels to hold them in place. This allows for precise measurements to verify that all angles within the chassis are 90 degrees. Subsequently, permanent bracing is added, ensuring it is perpendicular and parallel to the C-channels. This meticulous process guarantees proper bracing alignment and minimizes friction within the drivetrain.], [
