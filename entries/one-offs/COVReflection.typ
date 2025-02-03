@@ -8,7 +8,7 @@
   type: "management",
   author: "Daniel da Silva",
   witness: "Aubert Seysses",
-  date: datetime(year: 2024, month: 12, day: 7),
+  date: datetime(year: 2024, month: 11, day: 17),
 )
 
 = Introduction
