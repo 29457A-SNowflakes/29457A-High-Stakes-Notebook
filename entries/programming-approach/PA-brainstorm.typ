@@ -251,7 +251,7 @@ int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
 #components.pro-con(
   pros: [
     - Organised and readable code
-    - Code can be run multiple times using less lines
+    - Similar code can be run multiple times without being repeated
     - Classes allow for even further organisation
     - Classes can help mitigate developer mistakes
   ],
@@ -272,7 +272,7 @@ There are many different Version Control Software. For this logbook, we are usin
 - Mercurial
 
 == Program Structure
-As well as using subprograms and classes for organisation, the usage of libraries and splitting the code up into different files helps keep the software for the robot structured and helps prevent accidental changes when working on different parts of the code. Our experience from last year taught us that its best practise to have the code for driver control, match autonomous and autonomous skills on seperate files. In last years game OU this principal was taken further since we had different routes for our left and right side autonomous for matches.\
+As well as using subprograms and classes for organisation, the usage of libraries and splitting the code up into different files helps keep the software for the robot structured and helps prevent accidental changes when working on different parts of the code. Our experience from last year taught us that its best practise to have the code for driver control, match autonomous and autonomous skills on seperate files. In last years game OU, this principal was taken further since we had different files controlling our left and right side autonomous routes for qualification and elimination matches.\
 //Last year, for autonomous control we ended the season learning how to use PROS alongside the Okapalib and later LemLib libraries. We are planning to use this again this season.
 #components.admonition(type: "warning")[
   Global variables have to be initialised in 1 file to avoid Null Pointer Exceptions since the C++ compiler doesn’t specify initialisation order.
