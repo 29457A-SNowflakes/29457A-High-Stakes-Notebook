@@ -60,6 +60,7 @@ One problem with our V1 first stage was that it kept lifting each time it intook
 
 == Hard stops
 The most obvious solution would be to use hardstops to create an ideal rest angle for the intake so that the flex wheels make contact with the rings but not cause the intake to lift too much.
+#image("./imgs/hardstopsintake.png",height:300pt)
 #components.pro-con(
   pros: [
     - Can adjust height to give a variety of angles
