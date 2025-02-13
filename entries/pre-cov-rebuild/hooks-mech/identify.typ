@@ -6,7 +6,7 @@
   type: "identify",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
-  date: datetime(year: 2024, month: 10, day: 1),
+  date: datetime(year: 2024, month: 10, day: 2),
 )
 = Identify the problem
 In order to precisely identify the problem, we will analyse what worked well about our current solution and what didnt.
@@ -14,10 +14,10 @@ In order to precisely identify the problem, we will analyse what worked well abo
 It was able to score consistently at lower RPMs
 
 = To be improved
-As mentioned previously, the intake struggled with initially sucking in rings since it was angled too far downwards, which meant that a ring would lift up the entire intake whilst it slid underneath the flex wheels. This generally meant that our intake wasn't as clean as we would like it to be. Additionally, our intake ramp touched the floor, which increased drive friction.
+The ring mech was unable to score consistently at higher RPMs, which meant that it was overall slower than other robots on the field. Additionally, we may want to implement some form of colour sort to automatically discard unwanted rings.
 
 = What we want
-Moving forwards we want an intake solution, which:
-- can suck in rings without external help
-- doesn't lift much when intaking
-- has a ramp that is flush with the floor but not actually touching it
+Moving forwards we want a ring mech solution, which:
+- must score rings consistently
+- should score rings quickly
+- can potentially discard unwanted rings

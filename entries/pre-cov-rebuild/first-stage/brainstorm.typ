@@ -15,6 +15,7 @@
 The first consideration is to look at ways we can make the rings intake more efficiently. 
 == Utilising flex wheels
 Our current solution uses flex wheels on a low strength shaft, with a flex wheel positioned centrally and two at the sides so the traction is concentrated on the edge of the rings. The main considerations are the placement, amount and durometer of the flex wheels.
+#image("./imgs/1stStageIntakeFlexWheel.png",height:300pt)
 #components.pro-con(
   pros: [
     - Fast intaking speed
@@ -30,6 +31,7 @@ Our current solution uses flex wheels on a low strength shaft, with a flex wheel
 )
 == Utilising rubber bands
 An alternative to traction wheels is utilising rubber bands, gears and non slip mats. This distributes the pressure uniformly across the entire ring. This solution is fairly similar to utilising flex wheels but flex wheels provide slightly better traction in our testing.
+#image("./imgs/1stStageIntakeRubberBandNonSlip.png",height:300pt)
 #components.pro-con(
   pros: [
     - Fast intake speed
@@ -122,6 +124,7 @@ If we move the ramp back and adjust its angle and shape slightly we can ensure t
 
 == No ramp
 If we don't have a ramp and adjust our ring mech we could transition directly from intake to hooks rather than from intake to ramp to hooks.
+#figure(image("./imgs/goofyhooks.png", height: 250pt), caption: [Sketch of a intake to hook mech inspired by #link("https://youtu.be/PVJiYMsHSSw?si=0V0Sepkc-mJaabY4&t=173")[1000A]])
 #components.pro-con(
   pros: [
     - Nothing is touching the floor
@@ -129,11 +132,13 @@ If we don't have a ramp and adjust our ring mech we could transition directly fr
   cons: [
     - Hooks may struggle to grab ring
     - Reduced performance of hooks mech
+    - Ring clamp is likely required
   ]
 )
 
 == Different ramp design//needs image
-We could go for a completely new ramp design, which utilises two pieces of plastic cut so that it has a smooth concave shape.
+We could go for a completely new ramp design, which utilises laser cut pieces of plastic so that it has a smooth concave shape. Below is an example of what it could look like:
+#image("./imgs/rampdesign.png",height:300pt)
 #components.pro-con(
   pros: [
     - Potentially smoother transition to ring mech
