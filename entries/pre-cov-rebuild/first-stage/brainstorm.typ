@@ -99,7 +99,8 @@ Replacing the pivot on the intake with a rigid joint means that the intake can't
   ],
   cons: [
     - No possibility of intaking top ring only (useful for autonomous)
-    - Finding corret height can be difficult
+    - Finding correct height can be difficult
+    - Rings can get jammed in the intake as it passes through it
     - No lifting pins the ring to the ground
   ]
 )
@@ -131,7 +132,7 @@ If we don't have a ramp and adjust our ring mech we could transition directly fr
   ]
 )
 
-== Different ramp design
+== Different ramp design//needs image
 We could go for a completely new ramp design, which utilises two pieces of plastic cut so that it has a smooth concave shape.
 #components.pro-con(
   pros: [
