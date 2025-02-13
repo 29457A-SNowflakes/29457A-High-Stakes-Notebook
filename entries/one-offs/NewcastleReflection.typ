@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Reflecting on Nottingham",
+  title: "Reflecting on Newcastle",
   type: "management",
   author: "Daniel da Silva",
   witness: "Jonah Fitchew",
@@ -14,15 +14,19 @@
 = Introduction
 We went up to Newcastle for the North East Regional, here's a quick summary of the competition. In this competition, skills opened and closed before qualifiers so we shall summarise that first.
 
+= Before the Competition
+== The Dilemna
+Whilst on the train platform, we realised that we had somehow forgotten our hooks mechanism and it wasn't on our bot. However, from the spare parts we had in our travel kit, we were able to create a two hook chain mechanism and managed to tune it so that it was arguably better than our current hooks. This tuning took up a good amount of the evening in our hotel room.
+
 = The Competition
 == Skills
-Drivers skills go brrr
+For drivers skills we got a new personal best with 52 points total, which ties us for first in the UK in that category. For autonomous skills we got 4 points, which wasn't particularly good but we plan to focus on autonomous routines in future before Nationals since they have been a constant problem throughout the season for us. We finished skills in 2nd place by 1 point.
 
 == Qualification
-Overall, qualifications went very well. We won our practice match by a large margin and won every practise match up until Q10 against Falcon due to a tactical misplay by our alliance partner. However, we managed to win the rest of our qualifiers ending up finishing qualifiers in first place, which means we have successfully defended our title as *a force to reckoned with*#footnote["see Managing the Team"] once again.
+Qualifications went fairly well. We played every match very well and our only loss was due to a misplay from our alliance. We finished qualifications ranked second.
 
 == Eliminations
-For eliminations, we chose 6023F as our alliance partner as we thought that they would co-operate and synergise well with our robot and align with overall game strategy. Since we were no 1 seed and there were 16 teams we were automatically through to the semi finals. We won our semi finals match and made it through to finals, where we won 20-11 against 6023R and 1408H.
+In eliminations, first seed was rejected four times, which meant that our ideal choice 46846T Int and our reserve choice 54732B Team 1 were no longer options for alliance. We went with 71368A QESFC and went straight to Semi Finals, which we won by a large margin. We won the Finals against 1st seed 24-0, which meant that we won the tournament.
 
 = Results and Reflection
-We performed very well at this competition, since we managed to rank 1st in alliance selection and we went undefeated in eliminations, which won us the Tournament Champions award. Additionally, this competition served as good driver practice, which is especially important as Nationals are coming up at the end of this month.
+We had a lot of fun at this competition and spent quite a bit of time talking to other teams about Robotics, which was good. Since we were already qualified, the main purpose of this competition was to give us drivers practise. In addition, we were impressed with our ability to adapt and overcome to the problem presented by the hooks mech.
