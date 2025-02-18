@@ -64,14 +64,23 @@ The most obvious solution would be to use hardstops to create an ideal rest angl
 #components.pro-con(
   pros: [
     - Can adjust height to give a variety of angles
+    - Allows for intake to lift a bit
   ],
   cons: [
     - ???
   ]
 )
-
+\
+\
+\
+\
+\
+\
+\
+\
 == Banding intake down
 Running a rubber band from the intake to the drivetrain, to create tension that pulls it downwards and so counteracts any lifting, which occurs. The main problem is this presses the ring to the floor and increases friction.
+#image("./imgs/bandingintakedown.png",height:250pt)
 #components.pro-con(
   pros: [
     - Counteracts lifting motion
@@ -81,12 +90,27 @@ Running a rubber band from the intake to the drivetrain, to create tension that 
     - Lifting still occurs
   ]
 )
-
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 == Banding intake up
 Running a rubbber band from the intake to a higher mounting point, which means the intake presses less on the rings and also fixes the angle.
+#image("./imgs/bandingintakeup.png",height:250pt)
 #components.pro-con(
   pros: [
     - Little lifting occurs
+    - Improved distribution of traction from flex wheels
   ],
   cons: [
     - Harder to adjust intake position
