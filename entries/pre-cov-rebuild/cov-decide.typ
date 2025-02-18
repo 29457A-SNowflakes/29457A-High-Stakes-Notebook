@@ -103,7 +103,7 @@ Below are the changes that we have considered and reevaluated in terms of existi
 
 #admonition(type:"decision")[
   Our current plans in terms of rebuilding is to:
-  - Keep the drivebase the same
+  - Keep the drivebase the same (but redo drive bracing)
   - Keep mogo mech mechanism but change lever class from 1 to 3 and tune clamping angle
   - Keep first stage intake but lower profile
   - Redo ring mech angle 

@@ -8,8 +8,8 @@
 #include "./programming-approach/all.typ"
 #include "./manual-update1/manual-update.typ"//swapped sensors and manual update
 #include "./mogo-mech/all.typ"
-#include "./sensors-edp/all.typ"//swapped sensors and manual update
 #include "./ring-edp/all.typ"
+#include "./sensors-edp/all.typ"//swapped sensors and manual update
 #include "./one-offs/program-showcase.typ"
 #include "./JWS_autons/all.typ"
 #include "./one-offs/JWSChecklist.typ"
@@ -29,3 +29,6 @@
 #include "./one-offs/ESSEXReflection.typ"
 #include "one-offs/manual-update-28-01.typ"
 #include "./nats-countdown/all.typ"
+#include "./one-offs/V4.typ"
+#include "./one-offs/NottinghamReflection.typ"
+#include "./one-offs/NewcastleReflection.typ"

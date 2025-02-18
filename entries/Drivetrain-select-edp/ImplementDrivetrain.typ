@@ -78,12 +78,14 @@ We then used an engineer’s square to ensure that each angle was *90 degrees*. 
 #image("./imgs/Braced Drive.jpg", height: 150pt)
 
 = Step 2: Screwjoints and Friction
-Now that the drive is braced and sturdy, we can attach the wheels and test the friction both for the wheels themselves and when they are attached to the gears in the motors. To do this, we used the function on the brain that allows us to see how much power each motor is pulling at any given time. Typically, a VEX motor outputs about *0.2W of friction* on its own, meaning that this is the target for friction for the entire drivetrain. Reducing friction is important because high drive friction will limit the power output of our drive, which means that we effectively lose torque and speed, which is wasteful and ultimately undesirable. Therefore, having low friction is a high priority, which is a lesson we learned from last season as we struggled a lot with friction in last year's game.
+Now that the drive is braced and sturdy, we can attach the wheels and test the friction - both for the wheels themselves and when they are attached to the gears in the motors. To do this, we used the function on the brain that allows us to see how much power each motor is pulling at any given time. Typically, a VEX motor outputs about *0.2W of friction* on its own, meaning that this is the target for friction for the entire drivetrain. 
+
+Reducing friction is important because high drive friction will limit the power output of our drive, which means that we effectively lose torque and speed, which is wasteful and ultimately undesirable. Therefore, having low friction is a high priority, which is a lesson we learned from last season as we struggled a lot with friction in last year's game.
 
 To attach the wheels with minimum friction, we used something called a *screwjoint*, which utilises the fact that a VEX screw is much sturdier and less prone to bending than an axle. When working with a geared drivetrain, this is particularly helpful as it means that the motors do not need to power the wheels directly.
 
-= Step 3: Wheel "Pods"
-For this to work, we used the *VEX round inserts* in each of our wheel "pods," which contain a gear and wheel screwed together. On a screwjoint, they would otherwise spin independently.
+= Step 3: Wheel Pods
+For this to work, we used the *VEX round inserts* in each of our wheel pods, which contain a 48t gear and wheel screwed together. On a screwjoint, they would otherwise spin independently.
 
 #image("./imgs/Wheel Pod.png", height: 250pt)
 
@@ -94,8 +96,9 @@ The next step is to attach the wheel pods to the drivetrain so that it becomes d
 
 #image("./imgs/dt with wheels.png", height: 250pt)
 
-In this photo, we can see that the wheels are attached in conjunction with the *36t gears* that allow us to have *450 RPM* on our drivetrain. You can also see another technique we use when building, which is to have *"hotswap" motors*. This means they can be easily switched out in the event of a burnout during competition.
+In this photo, we can see that the wheels are attached in conjunction with the *36t gears* that allow us to have *450 RPM* on our drivetrain. You can also see another technique we use when building, which is to have *hotswap motors*. This means they can be easily switched out in the event of a burnout during competition.
 
-What this entails is that the motor itself, along with the gear cartridge, has been removed from the "cap." The cap has been solely attached to the robot, and the cartridge and motor are attached with a zip tie or rubber band so they are secure during driver control.
+What this entails is that the motor itself, along with the gear cartridge, has been removed from the motor cap. The cap is fastened securely to the drive with screws, whereas the cartridges and motor are attached with a zip tie or rubber bands so they are secure during driver control.
 
-
+= Completing the Drive train
+At this point, we had a drivetrain, which was fully braced with C-Channel and high strength shaft. Additionally, with all of the gearing on our drivetrain done, we were in a position to test our drive for friction to see if it is acceptable for competition performance.

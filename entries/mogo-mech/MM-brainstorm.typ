@@ -11,6 +11,7 @@
   date: datetime(year: 2024, month: 9, day: 2),
 )
 
+// We might need a second piston variation for Brainstorm
 = Piston based clamping
 The two most common ways to clamp things in VEX is by either using pistons or motors. We will start by looking at piston based clamping.
 In general, piston based clamping works using a lever applying effort to one side to support a load on the other. Below is a basic concept sketched in photoshop.

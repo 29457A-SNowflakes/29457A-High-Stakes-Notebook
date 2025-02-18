@@ -10,9 +10,9 @@
   date: datetime(year: 2024, month: 8, day: 10),
 )
 = Brainstorming Approaches
-Here, we will define what approach(es) we will use when coding, aiming to improve useability, team communication and debugging capabilities.
+Here we will define what approaches we will use when coding, aiming to strengthen team co-ordination, programming efficiency and debugging speed.
 == Language and Software
-One of the most important decisions to make is the programming langauge and its accompanying software and libraries. For robotics, the two most common langauges are C++, Python and now, Rust which is making an appearance with #link("https://github.com/vexide/vexide", [vexide])#footnote([An open source Rust runtime for v5 robots]), but the software used alongside it is also very important.
+One of the most important decisions to make is the programming language and its accompanying software and libraries. For robotics, the two most common languages are C++, Python and increasingly Rust, which is making an appearance with #link("https://github.com/vexide/vexide", [vexide])#footnote([An open source Rust runtime for v5 robots]), but the software used alongside it is also very important.
 === Python with VEXCode V5 or RoboMesh Studio:
 - The only current way to code with python is using VEXCode V5 or RoboMesh Studio
 #components.pro-con(
@@ -28,9 +28,28 @@ One of the most important decisions to make is the programming langauge and its 
     - Fairly limited device API, less control over devices
   ]
 )
+Some example python pseudo code for tank drive (2 stick control) looks like this:
+```py
+import vex
+#Function to instantiate new controller object
+control = vex.controller()
+#Function that returns all motors in a list
+motors = vex.GetAllMotors()
+
+def DriverControl(self, controller):
+  #function that returns the left joystick inputs
+  movementLeft = control.ReturnLeft()
+  #function that returns the right joystick inputs
+  movementRight = control.ReturnRight()
+  for i in range(len(motors)):
+    if i %% 2 == 0:
+      motors[i].velocity = movementLeft
+    else:
+      motors[i].velocity = movementRight
+```
 === C++ with VEXCode or VEXCode Pro
 - VEX offers an alternative to python with C++ in the IDEs VEXCode and VEXCode Pro
-- VEXCode Pro allows users to use multiple files, along with header files and other c++ functionalities.
+- VEXCode Pro allows users to use multiple files, along with header files and other C++ functionalities.
 #components.pro-con(
   pros: [
     - C++ offers much more raw functionality as it is a lower level language#footnote([A language that is closer to manipulating raw memory, giving users more control over memory])
@@ -43,10 +62,14 @@ One of the most important decisions to make is the programming langauge and its 
     - Cannot declare devices both in code and with GUI, must choose one or the other
   ]
 )
+Some example C++ code for tank drive (2 stick) may look like this:
+```cpp
+using vex;
+```
 === C/C++ with PROS
 #grid(columns: 2, gutter: 20pt, [
-  - #link("https://pros.cs.purdue.edu/")[PROS] is an open source development envirionment for VEX founded by Purdue University
-  - Allows users to write code in C++ or C (C++ is generally pereferred)
+  - #link("https://pros.cs.purdue.edu/")[PROS] is an open source development environment for VEX founded by Purdue University
+  - Allows users to write code in C++ or C (C++ is generally preferred)
   - Integrated within existing IDEs, e.g. VSCode or Atom
 ], [#image("./PROS.png", height: 75pt)])
 #components.pro-con(
@@ -64,28 +87,33 @@ One of the most important decisions to make is the programming langauge and its 
     - Can be harder to understand concepts
   ]
 )
+Some example PROS code for tank drive (2 stick) may look like this:
+```cpp
+using vex;
+using pros;
+```
 === Rust with Vexide
-- #link("https://github.com/vexide/vexide")[Vexide] is an open source 'no-std'#footnote(['no-std' is a type of package that limits the use of standard libraries. The V5 brain runs without an OS, meaning std libraries impossible to use.]) Rust runtime for vex V5
+- #link("https://github.com/vexide/vexide")[Vexide] is an open source 'no-std'#footnote(['no-std' is a type of package that limits the use of standard libraries. The V5 brain runs without an OS, meaning std libraries are impossible to use.]) Rust runtime for vex V5
 - It is a successor to #link("https://github.com/vexide/pros-rs")[pros-rs], which binds Rust code to the PROS API.
-- Allows users to code using Rust, while supplying a CLI to manage projects or interact with a device
-- Vexide will be included in a family of vex based applications, such as #link("https://github.com/vexide/vex-v5-qemu")[vex-v5-qemu], a CPU level simulation for PROS and Vexide code (includes node-based GUI for device configuration).
+- Allows users to code using Rust, while supplying a CLI to manage projects/interact with devices
+- Vexide will be included in a family of vex based applications, such as #link("https://github.com/vexide/vex-v5-qemu")[vex-v5-qemu], a CPU level simulation for PROS and Vexide code (this also includes node-based GUI for\ device configuration).
 #components.admonition(type: "warning", [
   Vexide is still considered experimental, it has a small base of contributors that are working to make it more and more usable.
 ])
 #components.pro-con(
   pros: [
-    - Rust is a langauge designed around memory safetly, including things like variable 'ownership' to avoid memory leaks.
+    - Rust is a language designed around memory safetly, including things like variable 'ownership' to avoid memory leaks.
     - Vexide will eventually work seemlessly with a range of other projects developed by the vexide team.
   ],
   cons: [
     - Rust is not an easy or intuitive language to learn -- we have very limited experience with Rust
     - Because of it being so new, vexide does not have a stable base of users -- meaning less documentation and support
-    - No-std means basic mathematical functions are not accessable#footnote([There are ways around this])
-    - CLI is still limited especially when comparing it to PROS
+    - No-std means basic mathematical functions are not accessible#footnote([There are ways around this])
+    - CLI is still limited especially when compared to PROS
   ]
 )
 == Variable Naming
-Naming conventions are very useful when writing _and_ reading code. They can make long, complicated names easy to read; or can help clarify the intent or context around a variable.
+Naming conventions are very useful when writing _and_ reading code. They can make long, complicated names easy to read; and additionally can help clarify the intent, context and scope of a variable in a program.
 === Variable requirements:
 Most languages (C++ included) require variables to adhere to certain rules:
 - Must not start with a digit
@@ -105,7 +133,6 @@ int dateNow() {
 bool thisIsAVariable = true;
 int currentDate = dateNow();
 ```
-#underline([_Pros/Cons:_])
 #components.pro-con(
   pros:
   [
@@ -117,11 +144,7 @@ int currentDate = dateNow();
     - Variable names can become long
     - Some words can look confusing e.g 'A' in 'thisIsAVariable' ('A' can be hard to see)
   ]
-)\
-\
-\
-\
-
+)
 === snake\_case
 #underline([_Explanation:_])\
 - Using underlining to represent whitespace
@@ -146,14 +169,14 @@ int current_date = date_now();
   ]
 )
 #components.admonition(type: "note")[
-  The difficulty from frequently using '\_' can be circumvented by using a program such as Auto HotKey to rebind '\_' to something such as "Shift" + "Space". However, this work around may not be worth it for the express purpose of making a naming convention easier.
+  The difficulty from frequently using '\_' can be circumvented by using a program such as Auto HotKey to rebind '\_' to something such as "Shift" + "Space".\
+  However, this work around may not be worth it for the express purpose of making a naming convention easier.
 ]
-\
 
 === Boolean 'is' naming
 #underline([_Explanation:_])\
 - Start all booleans with 'is'
-- Often times subprograms that return booleans start with 'get' ('getIs...')
+- Often times subprograms that return boolean values start with 'get' ('getIs...')
 #underline([_Example:_])
 ```cpp
 // (Using camelCase)
@@ -162,11 +185,6 @@ bool getIsSaturday() {
 }
 bool isSaturday = getIsSaturday();
 ```
-\
-\
-\
-\
-\
 #underline([_Pros/Cons:_])
 #components.pro-con(
   pros: [
@@ -200,17 +218,18 @@ int currDate = getCurrDate(); // current = curr
   ],
   cons: [
     - Not all abbreviations will make sense to everyone
-    - Not using standard english can make documentation and understanding code harder: text autocompletion in modern IDEs means that long names aren't a problem to type.
+    - Not using standard english can make understanding code harder
+    - Text autocompletion in IDEs means that long names aren't a problem to type.
   ]
 )
 === Unit classification
 #underline([_Explanation:_])\
 - Suffixing all variable names (where applicable) with a unit (e.g. rpm, lbs, kgs etc.)
-- Using an underscore to seperate unit
+- Using an underscore to seperate units
 - Best used with snake\_case
 #underline([_Example:_])
 ```cpp
-int getMotorSpeed() { // Dont need unit classification for subprograms
+int getMotorSpeed() { // Don't need unit classification for subprograms
   // Get RPM
 }
 int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
@@ -223,16 +242,16 @@ int motorSpeed_rpm = getMotorSpeed(); // suffixed with '_rpm'
   ],
   cons: [
     - Takes longer to document all variables' types
-    - Increases variable length
+    - Increases variable length #footnote("It doesn't increase it by much and also text autocompletion is still a thing")
   ]
-)\
+)
 == Using Subprograms and Classes
 - Subprograms are smaller blocks of code that can be run anywhere in user code
 - Classes are structures that allow for variables to be 'owned' and can drastically help organisation#footnote([We may do a deep dive on classes at a later point])
 #components.pro-con(
   pros: [
     - Organised and readable code
-    - Code can be run multiple times using less lines
+    - Similar code can be run multiple times without being repeated
     - Classes allow for even further organisation
     - Classes can help mitigate developer mistakes
   ],
@@ -253,7 +272,7 @@ There are many different Version Control Software. For this logbook, we are usin
 - Mercurial
 
 == Program Structure
-As well as using subprograms and classes for organisation, the usage of libraries and splitting the code up into different files helps keep the software for the robot structured and helps prevent accidental changes when working on different parts of the code. Our experience from last year taught us that its best practise to have the code for driver control, match autonomous and autonomous skills on seperate files. In last years game OU this principal was taken further since we had different routes for our left and right side autonomous for matches.\
+As well as using subprograms and classes for organisation, the usage of libraries and splitting the code up into different files helps keep the software for the robot structured and helps prevent accidental changes when working on different parts of the code. Our experience from last year taught us that its best practise to have the code for driver control, match autonomous and autonomous skills on seperate files. In last years game OU, this principal was taken further since we had different files controlling our left and right side autonomous routes for qualification and elimination matches.\
 //Last year, for autonomous control we ended the season learning how to use PROS alongside the Okapalib and later LemLib libraries. We are planning to use this again this season.
 #components.admonition(type: "warning")[
   Global variables have to be initialised in 1 file to avoid Null Pointer Exceptions since the C++ compiler doesn’t specify initialisation order.

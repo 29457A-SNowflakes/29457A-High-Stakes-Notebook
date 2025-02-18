@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "In Depth Analasys - JWS Semifinals",
+  title: "In Depth Analysis - JWS Semifinals",
   type: "test",
   author: "Thomas Robb",
   witness: "Daniel Dew",
@@ -19,9 +19,9 @@ Despite losing more than 1 game in this competition, I will only be focusing on,
 == Autonomous
 Since the auton is all pre-coded, there is little to no strategy that can be applied during the autonomous period, only what the next course of action should be based on the other teams positions.
 #image("./jws_imgs/Screenshot 2025-01-02 153549.png", height: 210pt)
-Here, you can see our robot has got "base control" of 2 MOGOS , having scored one red ring on both, which, despite being 1 less than our auton can do if done perfectly, is a good controlling start to the game. We can also see Entropy (our alliance member) controlling and possessing their own mobile goal, with a similar 1 red ring being scored.(All highlighted in red)
+Here, you can see our robot has got "base control" of 2 mogos , having scored one red ring on both, which, despite being 1 less than our auton can do if done perfectly, is a good controlling start to the game. We can also see Entropy (our alliance member) controlling and possessing their own mobile goal, with a similar 1 red ring being scored.(All highlighted in red)
 
-One of the teams on the opposing alliance, Memento Mori, managed to get an impressive 2 blue rings on their MOGO,(highlighted in blue) while their fellow alliance member, Gearers, didnt have an auton, and subsequently didn't move off the starting line throughout the period. This meant that, at this point in the game, we have more control over the field, but as you will soon see, this will quickly change. 
+One of the teams on the opposing alliance, Memento Mori, managed to get an impressive 2 blue rings on their mogo,(highlighted in blue) while their fellow alliance member, Gearers, didnt have an auton, and subsequently didn't move off the starting line throughout the period. This meant that, at this point in the game, we have more control over the field, but as you will soon see, this will quickly change. 
 
 == Driver Control
 
@@ -35,21 +35,21 @@ In my opinion, Entropy should have never dropped their mobile goal, and, althoug
 
 #image("./jws_imgs/Screenshot 2025-01-02 154606.png", height: 210pt)
 
-After successfully filling up our MOGO with 4 red rings, we decide to head to the Blue Alliance Side, in order to gain more red rings. We encouter Memento Mori, and attempt to block them from getting to the corner. However, our robot was not robust enough at this stage, so we were unable to, and they unfortunately managed to clear, and place their MOGO in the corner. Entropy is continuing to try get mroe rings on their Possessed MOGO, but are unable to. At this point Gearers are also close to a full MOGO, and we observe teh clear corner next to them.
+After successfully filling up our mogo with 4 red rings, we decide to head to the Blue Alliance Side, in order to gain more red rings. We encouter Memento Mori, and attempt to block them from getting to the corner. However, our robot was not robust enough at this stage, so we were unable to, and they unfortunately managed to clear, and place their mogo in the corner. Entropy is continuing to try get mroe rings on their possessed mogo, but are unable to. At this point Gearers are also close to a full mogo, and we observe teh clear corner next to them.
 
-Reflecting on the game, we should have signaled to Entropy to come and block the right postive corner, while we should have gone to the left postive corner, as we had a much fuller MOGO than Entropy.
+Reflecting on the game, we should have signaled to Entropy to come and block the right postive corner, while we should have gone to the left postive corner, as we had a much fuller mogo than Entropy.
 
 We also took note that we would need a more robust and stronger robot for future interactions like this, and this note was factored into our design proccess for our upcoming rebuild.
 
 #image("./jws_imgs/Screenshot 2025-01-02 154633.png", height: 210pt)
 
-Realising ( a bit too late) that Gearers are trying to place a goal in the postive corner, we quickly begin to move towards the repective corner, while gearers are trying to fully fill up their MOGO. It is also important to note that Memento Mori are about to clear their corner to, likewise, score.
+Realising ( a bit too late) that Gearers are trying to place a goal in the postive corner, we quickly begin to move towards the repective corner, while gearers are trying to fully fill up their mogo. It is also important to note that Memento Mori are about to clear their corner to, likewise, score.
 
 I believe that we played this part well given the postion we were in, as we pre-emptively saw Gearers trying to score, and attempted to stop it. My only criticism would be to try and communicate to Entropy more, and hopefully get them down this end of the field, where the majority of scoring was about to happen.
 
 #image("./jws_imgs/Screenshot 2025-01-02 154733.png", height: 210pt)
 
-Memento Mori successfully manage to score their MOGO in their corner, while Gearers manage to do the same.
+Memento Mori successfully manage to score their mogo in their corner, while Gearers manage to do the same.
 
 In Hindsight, we should have come to the corner a little earlier, and then we could have perhaps bloakced Gearers, or possibly place our own mobile goal. Once, again we should have communicated to Entropy more, and get them to come down to the positive corner end of the field.
 
@@ -61,13 +61,13 @@ At this point the Blue alliance have a huge lead on us, with many more rings sco
 
 #image("./jws_imgs/Screenshot 2025-01-02 154932.png", height: 210pt)
 
-As Gearers robot is less robust, and easier to move, Entropy begins to try and push them out of the corner, in order to allow us to place the full MOGO in teh positive corner. However, we quickly realise that this doesn't work due to the angles Gearers are at, which makes them very difficult to move. We decide to pivot to try and remove Memento Mori from the corner, and, as Entropy has the stronger robot, we drop our MOGO to allow them to score more points, while we try to fill up the 5th mobile goal, which has not been used for the Driver control period at all.
+As Gearers robot is less robust, and easier to move, Entropy begins to try and push them out of the corner, in order to allow us to place the full mogo in teh positive corner. However, we quickly realise that this doesn't work due to the angles Gearers are at, which makes them very difficult to move. We decide to pivot to try and remove Memento Mori from the corner, and, as Entropy has the stronger robot, we drop our mogo to allow them to score more points, while we try to fill up the 5th mobile goal, which has not been used for the Driver control period at all.
 
 I believe this is the correct move to make given the circumstances, and, although we were in a tough situation, we persevered and came up with a good, potentially game winning strategy.
 
 #image("./jws_imgs/Screenshot 2025-01-02 155023.png", height: 210pt)
 
-Despite our good strategy, this is where it all goes wrong. As you can see from the picture below, Entropy is contacting 2 mobile goals, and they are Possessing MOGO 1, and Plowing MOGO 2(As illustrated). This becomes a direct violation of <SG6> and since they end up plowing this goal into a corner, it is egregious and clearly intentional, making it match affecting and therfore a major violations, leading to a disqualification.
+Despite our good strategy, this is where it all goes wrong. As you can see from the picture below, Entropy is contacting 2 mobile goals, and they are possessing mogo 1, and plowing mogo 2(As illustrated). This becomes a direct violation of <SG6> and since they end up plowing this goal into a corner, it is egregious and clearly intentional, making it match affecting and therfore a major violations, leading to a disqualification.
 
 There is nothing we could have done in this situation, and it is ultimately Entropy's mistake, and, in their defense, it was an easy one to make, which unfortunately led us to being disqulified. Keep in mind we did not know for sure if we had been disqulified, as the referees may rule it differently so we continued to play at our best and the match was far from over.
 
@@ -85,7 +85,7 @@ This was an incredibly lucky moment for our alliance, as Memento Mori were under
 
 #image("./jws_imgs/Screenshot 2025-01-02 155140.png", height: 210pt)Screenshot 2025-01-02 155140
 
-Knowing Memento Mori would most likely be disqualified, we played the rest of the game safely, with Entropy cleverly scoring a red ring on top of the blue one, causing the MOGO's points to switch from 1-3 (red-blue) to 4-1. Since none of the robots could climb, and 3/5 MOGOs were placed in corners, Memento Mori and Gearers just tried to stop us from scoring anything, adn towards the end of the game, Memento Mori tried to score a wall stake, but ran out of time.
+Knowing Memento Mori would most likely be disqualified, we played the rest of the game safely, with Entropy cleverly scoring a red ring on top of the blue one, causing the mogo's points to switch from 1-3 (red-blue) to 4-1. Since none of the robots could climb, and 3/5 mogos were placed in corners, Memento Mori and Gearers just tried to stop us from scoring anything, adn towards the end of the game, Memento Mori tried to score a wall stake, but ran out of time.
 
 With nothing more we could do, we decided to play safe (in case we weren't already disqualified), and try to score a few more rings in the last few second, but were blocked by Memento Mori and Gearers.
 
