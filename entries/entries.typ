@@ -23,6 +23,8 @@
 #include "one-offs/cov-semis-analysis.typ"
 #include "./one-offs/V3.typ"
 #include "./post-cov/all.typ"
+#include "./prog-entries/macros-edp/all.typ"
+// pre stowe page?
 #include "./one-offs/STOWEReflection.typ"
 #include "./one-offs/ESSEXReflection.typ"
 #include "one-offs/manual-update-28-01.typ"
