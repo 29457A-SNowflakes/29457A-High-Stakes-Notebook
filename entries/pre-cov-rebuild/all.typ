@@ -2,5 +2,7 @@
 #include "./first-stage/brainstorm.typ"
 #include "./first-stage/decide.typ"
 #include "./hooks-mech/identify.typ"
+#include "./hooks-mech/brainstorm.typ"
+#include "./hooks-mech/decide.typ"
 #include "./cov-decide.typ"
 #include "./cov-redesign.typ"

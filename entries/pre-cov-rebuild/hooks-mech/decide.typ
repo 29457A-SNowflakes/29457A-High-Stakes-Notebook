@@ -2,8 +2,8 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "V2 Identify: Ring Mech",
-  type: "identify",
+  title: "V2 Decide: Ring Mech",
+  type: "decide",
   author: "Daniel da Silva",
   witness: "Daniel Dew",
   date: datetime(year: 2024, month: 10, day: 1),

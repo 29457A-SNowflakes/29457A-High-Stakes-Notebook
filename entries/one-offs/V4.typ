@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Start of Version 4",
+  title: [*Start of Version 4*],
   type: "notebook",
   author: "Snowflakes",
   witness: "Daniel da Silva",
