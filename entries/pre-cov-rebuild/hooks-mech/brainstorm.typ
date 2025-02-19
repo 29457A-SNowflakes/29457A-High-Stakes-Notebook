@@ -51,7 +51,7 @@ A third consideration is to use a flex wheel conveyor belt, like in a hood based
 
 = Improving Scoring Speed 
 == Changing gearing?
-
+== Motor speed
 = Exploring colour sort
 == Velocity Control 
 == Piston Based

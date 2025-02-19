@@ -6,7 +6,7 @@
 #show: create-body-entry.with(
   title: "Testing the V1 Intake",
   type: "test",
-  author: "Aubert",
+  author: "Aubert Seysses",
   witness: "Daniel Dew",
   date: datetime(year: 2024, month: 9, day: 24),
 )
