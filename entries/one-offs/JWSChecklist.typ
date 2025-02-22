@@ -16,11 +16,11 @@ On the 28th of September we are attending the regional competition at The John W
 = Packing for JWS
 Before the competition begins, we must ensure that we bring everything we need to compete, while also keeping spare parts for the sake of redundancy. Shown below is the list of things we must bring with us:
 \
-- Robot (obviously)
-- Battery X2 (with charger)
+- Robot
+- Battery x2 (with charger)
 - Screws 
 - Nuts 
-- Long C Channel (for quick replacements)
+- Long C-Channel (for quick replacements)
 - All pistons (in case we have an unexpected malfunction)
 - Pit decorations
 - Saw (quick replacements/adherences, that require cuts)
@@ -56,41 +56,38 @@ Handling a failure (non-driving) during a match can be handled like this:
   #figure(image("./jws_imgs/crisis.png", height: 230pt), caption: [A flowchart depicting how failures during a match can be handled])
 ]
 = Reconnaissance at JWS
-Usually, before a competition we like to refer to our notes and social media to see not only which teams and robots would be possible threats, but also which teams we would want on our alliance. Unfortunately ,  because this is the first competition of the season, we have very limited information (if any!) about the other teams, so we have to go into the competition "blind" and rely solely on our scouting at the beginning, adn throughout the competition.
+Usually, before a competition we like to refer to our notes and social media to see not only which teams and robots would be possible threats, but also which teams we would want on our alliance. Unfortunately,  because this is the first competition of the season, we have very limited information about the other teams. So we have to go into the competition "blind" and rely solely on our scouting at the beginning, and throughout the competition.
 
-As head of strategy, it is my role to go round to all the other teams at the start of the competition and make notes on a variety of things, such as, but not limited to:
+Our strategist, Thomas Robb, will speak with other teams and make notes on their bot on things such as:
 - *Autonomous*
-  - Do they have solo AWP Autonomous?
-  - Can they do an Autonomous from both sides or just the one?
-  - Do they have multiple Autonomouses and if so which one works best with our robot?
-  - Is the Autonomous reliable?
-  - Do they even have an Automnomous??
-- *Robot limitations*
-  - Can they score on Neutral Wall Stakes?
-  - What level can the robot climb to? ( if it can climb at all)
-  - Can the Robot descore?
-  - Can it even possess rings or mogos?
-- *General build quality*
-  - Is it a fast robot?
-  - Does it break / fall apart easily?
-  - Is the intake reliable?
-- *Does it work well with our robot?*
-  - Does the Autonomous intefere with ours?
-  - Can they score on the neutral stakes if we can't?
+  - Do they have a solo AWP?
+  - What sides do they have autonomous?
+  - What side autonomous works best with our bot?
+  - Is their autonomous reliable?
+- *Robot*
+  - Can they score on neutral wall stakes?
+  - What level can the robot climb to?
+  - Can their robot descore?
+  - Can it possess rings or mogos?
+  - Is their intake reliable?
+  - What RPM is their drive?
+  - Does they utilise good building practises such as boxing?
   
-All these factors play a massive part in helping us formulate a strategy for a game to game basis, for example, if we know that both opponents have an auton that only works on one side, we can confidently do a slightly riskier autonomous on the other side, as we know there is less chance of an entanglement / interaction at the Autonomous line, and less chnance of getting a violation in rules such as G11 and G12. Controversially, these facts also help us in choosing an Alliance partner (if we get there), as we can decide on a robot that works nicely with our robot, for example having a support Autonomous on the other side, and are a team, who we believe, will help us in (hopefully!) becoming Tournament Champions.
+All these factors play a massive part in helping us formulate a strategy for a game to game basis. For example, if we know that both opponents have an auton that only works on one side, we can confidently do a slightly riskier autonomous on the other side, as we know there is less chance of an entanglement / interaction at the Autonomous line, and less chance of getting a violation in rules such as G11 and G12. Additionally, these facts also help us in choosing an Alliance partner, and help us make an informed list of which robots are most likely to help us win the tournament. For example having a support Autonomous in the other quadrant.
 
-= At the pit checklist
-+ Motors are plugged In
-+ Sensors are plugged In
-+ All breaks are repaired from the last Match
+= Preparation
+We have a couple of checklists, which we go through, whilst in the pits and before matches.
+== At the pit checklist
++ Motors are plugged in
++ Sensors are plugged in
++ All breaks are repaired from the last match
 + All screws must be tight
 + Pneumatic pump is locatable
 + Check length of skills queue
-+ Colour of next Alliance
++ Check colour of next alliance
 
-= At the field checklist
-+ Safety Glasses
+== At the field checklist
++ Safety glasses
 + Pneumatic pumped
 + Battery
 + Controller

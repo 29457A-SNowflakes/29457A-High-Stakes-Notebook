@@ -18,9 +18,13 @@
 = Our Engineering Ethos
 \
 At its core, VEX Robotics is nothing but an engineering problem. It provides a goal, and the materials to get there. We believe that the key to success in Robotics intrinsicly lies in how you approach each problem; with open-mindness and the willingness to learn but most importantly the deterination to find the best solution possible.
-#quote(attribution: [Henry Gordon Stott])[
+#admonition(type:"quote")[
   Engineering: The art of organizing and directing men, and of controlling the forces and materials of nature for the benefit of the human race.
+  - Henry Gordon Stott
 ]
+//#quote(attribution: [Henry Gordon Stott])[
+//  
+//]
 = Our Engineering Design Process
 \
 For every new problem, we try to stick to an engineering method (similar to a scientific method) where different phases are used to maintain organisation. The process applies to all forms of design, including programming and sometimes even tactics.

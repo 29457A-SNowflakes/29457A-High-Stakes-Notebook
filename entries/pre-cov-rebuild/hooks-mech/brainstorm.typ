@@ -85,7 +85,7 @@ The premise of this type colour sorting is to use the momentum of a ring to eith
 == Piston Based
 This type of colour sorting uses a piston to prevent the ring from being pushed downwards onto the stake and also changes the ring trajectory so that it misses. Unlike velocity control, this doesn't affect ring cycling times at all, which is good. However, this implementation requires piston actuations, which means that more PSI is used in a game, but presuming no more than 5 actuations happen per game this should be sufficient. 
 #figure([#image("./imgs/piston puncher.png", height: 250pt)], caption: [Diagram showing piston puncher in action])
-#admonition(type: "note")[#link("https://youtu.be/Aa6HvUxea9Q?si=eKjjhOrP2_xSk9Jb&t=40")[18522R]'s colour sorter is a good example of this mechanism.]
+#admonition(type: "example")[#link("https://youtu.be/Aa6HvUxea9Q?si=eKjjhOrP2_xSk9Jb&t=40")[18522R]'s colour sorter is a good example of this mechanism.]
 #components.pro-con(
   pros: [
     - Colour sorts rings very consistently

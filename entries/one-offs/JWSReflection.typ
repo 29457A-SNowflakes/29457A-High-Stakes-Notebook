@@ -5,7 +5,7 @@
 
 #show: create-body-entry.with(
   title: "Reflecting on JWS Regional",
-  type: "management",
+  type: "reflect",
   author: "Daniel da Silva",
   witness: "Aubert Seysses",
   date: datetime(year: 2024, month: 9, day: 29),
