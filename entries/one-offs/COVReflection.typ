@@ -30,7 +30,7 @@ We had two judges interviews, our first being a general interview and our second
 
 = Notes From Team
 It is sometimes very useful to note down what each person initially thinks, as often the 'face value' notes are the most useful to keep in mind.
-//TODO: FILL OUT
+//TODO: Thomas to FILL OUT
 == Daniel Dew
 Coventry was our best look at the national standard so far, the competition is in fact larger than UK Nationals, with the best teams and steepest competition showing up. This competition was an amazing insight to the required strategies, mechanisms, and even code to compete at the highest level. We can take many tips from this competition, in particular in driving strategy; for example, leaving mobile goals unattended is a must _not_, goals must either be carried or flipped to avoid the points being negated.
 == Jonah
@@ -38,7 +38,6 @@ As a builder I felt that this competition showcased our position within the nati
 == Daniel da Silva
 On the whole I believe that this was a really important competition for us and our relative successes given our restraints shows that we are a competitive team. Looking forward, we should try be more organised with our time to ensure that we have more time to get the robot working to a standard we are truly proud of.
 == Thomas
-
 
 == Aubert
 I think that Coventry was very instructive. It was great for an experience gaining point of view. We competed on an essentialy nationals level. All the best UK teams were present and we were able to compare ourselves to them. What I in particularly took from it was that our robot was overall viable but our lack of tested autons held us back from achieving as highly as I believe we could have. In future, I plan to keep in mind autonomous compatibility when building the robot.

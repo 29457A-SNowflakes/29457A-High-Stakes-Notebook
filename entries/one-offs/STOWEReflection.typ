@@ -43,7 +43,9 @@ For skills, we did one drivers run, we scored 21 points. Unfortunately, our inta
 It is sometimes very useful to note down what each person initially thinks, as often the 'face value' notes are the most useful to keep in mind.
 //TODO: FILL OUT
 == Daniel Dew
-
+I think that Stowe went excellently, while we would not consider this competition a national standard competition, I would still say that the driving and tactics were displayed admirably. I especially believe that the finals was a perfect display of _sticking to the plan_, with us creating a solid, unexploitable plan with our alliance partners, 282S Spectrum, and sticking it throughout the match, making it impossible for the opponents to gain the upper hand.
+\
+Another aspect to consider was the on-the-fly building changes -- with our intake ramp breaking almost immediately, many in-pit repairs and building changes were made from Aubert, something that we all handled calmly.
 == Jonah
 
 == Daniel da Silva
