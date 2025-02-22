@@ -19,11 +19,12 @@ Holonomic drives and differential differ in terms of performance and we shall co
  (name: "Manoeuvrability"),
  (name: "Stability"),
  (name: "Ease of build"),
- (name: "Wheel size"),
- (name: "Gear ratios")
+ (name: "Size of wheels"),
+ (name: "Possible gear ratios"),
+ (name: "Torque")
  ),
- ("\n\n\nDifferential\n\n\n", 3, 5, 5, 4, 5),
- ("\n\n\nHolonomic\n\n\n", 4, 4, 2, 4, 3),
+ ("\n\n\nDifferential\n\n\n", 3, 5, 5, 4, 5,4),
+ ("\n\n\nHolonomic\n\n\n", 4, 4, 2, 3, 3, 2),
 )
 For our current purposes, a *differential drive* is the most optimal drive to consider using. This is because of their simplicity; which we feel is valuable this early in the season since most other drives are much more complex, which will ultimately make the designing of scoring systems more frustrating. In addition, differential drives provide good traction, which is helpful for pushing other bots, and their stability means we are less likely to tip over mid match, which is *catastrophic*. Differential have more gearing options than Holonomic drives. Furthermore, we have deemed that the downsides of a differential drive are either not substantial or can be compensated for by other parts of the drive. For example the lost manoeuverability can be made up for by incorporating omniwheels into our drivetrain.
 \

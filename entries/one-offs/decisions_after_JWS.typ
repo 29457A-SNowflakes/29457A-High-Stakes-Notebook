@@ -26,18 +26,16 @@ Our goal is to intake rings without needing to drive over them, which will impro
 For JWS, we used a 'hook' design to transport rings up a chain pathway and pivot them at high speed onto the mobile goal, effectively addressing the challenge posed by the flange at the top of the goal. However, this design had limitations in terms of speed. To maintain scoring consistency, we had to run the chain relatively slowly, which led to long cycle times. The downside is that spending extended time on each mobile goal and ring gives our opponents the opportunity to secure the positive corner. One lesson learned from JWS is that once both positive corners are lost, it is almost impossible to win.
 
 ==  Mogo Mech:
-In iteration 1 of our robot, we used a simple diagonal clamp to secure mobile goals. While this approach was lightweight and straightforward, it wasn't very secure and added unwanted compression to certain parts of the drive, particularly the braces. When the mobile goal mechanism was activated, it caused a squeezing effect between the drivetrain's two piston contact points, which negatively impacted bracing; ideally, we want all components to maintain right angles, with no bends in the C-channels. We also experienced one instance where the mechanism was stolen, which was less than ideal and ultimately cost us a match.
+In iteration 1 of our robot, we used a simple diagonal clamp to secure mobile goals. While this approach was lightweight and straightforward, it wasn't very secure and added unwanted compression to certain parts of the drive, particularly the braces. When the mobile goal mechanism was activated, it caused a squeezing effect between the drivetrain's two piston contact points, which negatively impacted bracing; ideally, we want all components to maintain right angles, with no bends in the C-Channels. We also experienced one instance where the mechanism was stolen, which was less than ideal and ultimately cost us a match.
 
 == Drivetrain: 
 Iteration 1 featured a 450 RPM, 2.75-inch, 8-wheeled drivetrain that performed reliably throughout the competition, leaving no areas for improvement. The hot-swappable motors enabled us to cool the drivetrain quickly and efficiently, while the 450 RPM allowed us to be the fastest on the field most of the time. Our bracing ensured the drive remained stable and frictionless, even under intense stress. We plan to continue with this drivetrain in future iterations.
 
-= In conclusion:
-The elements of our robot with serious flaws / needing improvement are:
+= Decision to rebuild:
+The elements of our robot we want to improveme are:
 - Intake (grip on ring is weak and exterior forces are required for consistency)
 - Scoring mechanism (slow and inconsistent leading to slow cycle times and mis-scoring)
 - Mogo Mech (easy to steal from, flimsy and bent parts of the drivetrain)
-
-= Decision to rebuild:
 After analysing each part of our robot that required improvement it is obvious what the next step for our robot's development is: a rebuild of all mechanisms *apart from* the drivetrain. This will allow us to move forward into competitions with a higher chance of winning and securing a place in nationals. Our rebuild will involve improved versions of all of the above.
 
 = Leading the team/rebuild (Daniel Dew):

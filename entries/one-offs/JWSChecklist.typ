@@ -50,12 +50,12 @@ Before the competition begins, we must ensure that we bring everything we need t
 \
 = Crisis Management at JWS
 While this seems like a dramatic caption, we need to define clear and easy to fillow guidlines for if something goes wrong.
-== Faliure During Match
-Handling a faliure (non-driving) during a match can be handled like this:
+== Failure During Match
+Handling a failure (non-driving) during a match can be handled like this:
 #align(center)[
-  #figure(image("./jws_imgs/crisis.png", height: 230pt), caption: [A flowchart depicting how faliures during a match can be handled])
+  #figure(image("./jws_imgs/crisis.png", height: 230pt), caption: [A flowchart depicting how failures during a match can be handled])
 ]
-= Reconaissance at JWS
+= Reconnaissance at JWS
 Usually, before a competition we like to refer to our notes and social media to see not only which teams and robots would be possible threats, but also which teams we would want on our alliance. Unfortunately ,  because this is the first competition of the season, we have very limited information (if any!) about the other teams, so we have to go into the competition "blind" and rely solely on our scouting at the beginning, adn throughout the competition.
 
 As head of strategy, it is my role to go round to all the other teams at the start of the competition and make notes on a variety of things, such as, but not limited to:
@@ -69,7 +69,7 @@ As head of strategy, it is my role to go round to all the other teams at the sta
   - Can they score on Neutral Wall Stakes?
   - What level can the robot climb to? ( if it can climb at all)
   - Can the Robot descore?
-  - Can it even possess rings / MOGOS?
+  - Can it even possess rings or mogos?
 - *General build quality*
   - Is it a fast robot?
   - Does it break / fall apart easily?

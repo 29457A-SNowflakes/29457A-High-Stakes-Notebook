@@ -95,11 +95,11 @@ We have decided that both the intake/hooks and the chain bar neeed more than 11W
     - Rachet mechanisms allow for a system to be mechanically disconnected while the motors run one way, then engage when the motors are reversed
     - In this case, we can allow the intake to run at all times, but when it is reversed; the ratchet engages and the chain bar lifts.
   #align(center, grid(columns: (40%, 40%), [
-    #figure(image("imgs/cad/ratchet example.jpeg", height: 200pt))
+    #figure(image("imgs/cad/ratchet example.jpeg", height: 180pt))
   ], [
     #align(horizon, [
       _An example of a ratchet mechanism (left) @RatchetEx.\ Here, the metal gear spins no matter what -- in one direction, the screw freely skips over the gear (therefore the green sprocket remains stationary#footnote([The gear has a round insert and is therefore unaffected by shaft spinning.])). In the other direction, the screw catches, and rotational torque is transferred to the large gear_
     ])
   ]))
-  
 ])
+*_Unfortunately, it was at this point that our plans had to change..._*

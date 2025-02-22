@@ -8,7 +8,7 @@
   type: "management",
   author: "Daniel da Silva",
   witness: "Aubert Seysses",
-  date: datetime(year: 2024, month: 12, day: 7),
+  date: datetime(year: 2024, month: 11, day: 17),
 )
 
 = Introduction
@@ -38,6 +38,7 @@ As a builder I felt that this competition showcased our position within the nati
 == Daniel da Silva
 On the whole I believe that this was a really important competition for us and our relative successes given our restraints shows that we are a competitive team. Looking forward, we should try be more organised with our time to ensure that we have more time to get the robot working to a standard we are truly proud of.
 == Thomas
+Coventry, being the second largest competition in the Uk, was a privelege to attend and a tremendous learning experience. Managing to get to the semifinals again was a huge success for us, especially since we were competing againts some of the highest level teams in the uk. Although it was dissapointing to lose the semifinals, it was an extremely close match with a closely called negative goal at the end which ulitmately caused us to lose. Despite this, placing 6th with a 6-1 Win-Loss ration wasa tremendous for us, and we learnt a lot from both a strategical, and build aspect of our robot. We are looking forward to implementing some new changes adn hopefully getting qualified with our next competition.
 
 == Aubert
 I think that Coventry was very instructive. It was great for an experience gaining point of view. We competed on an essentialy nationals level. All the best UK teams were present and we were able to compare ourselves to them. What I in particularly took from it was that our robot was overall viable but our lack of tested autons held us back from achieving as highly as I believe we could have. In future, I plan to keep in mind autonomous compatibility when building the robot.

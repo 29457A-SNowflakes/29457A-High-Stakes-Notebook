@@ -8,8 +8,8 @@
 #include "./programming-approach/all.typ"
 #include "./manual-update1/manual-update.typ"//swapped sensors and manual update
 #include "./mogo-mech/all.typ"
-#include "./sensors-edp/all.typ"//swapped sensors and manual update
 #include "./ring-edp/all.typ"
+#include "./sensors-edp/all.typ"//swapped sensors and manual update
 #include "./one-offs/program-showcase.typ"
 #include "./JWS_autons/all.typ"
 #include "./one-offs/JWSChecklist.typ"
@@ -20,7 +20,15 @@
 #include "./pre-cov-rebuild/all.typ"
 #include "./wall-edp/all.typ"
 #include "./one-offs/COVReflection.typ"
+#include "one-offs/cov-semis-analysis.typ"
 #include "./one-offs/V3.typ"
 #include "./post-cov/all.typ"
+#include "./prog-entries/macros-edp/all.typ"
+// pre stowe page?
 #include "./one-offs/STOWEReflection.typ"
 #include "./one-offs/ESSEXReflection.typ"
+#include "one-offs/manual-update-28-01.typ"
+#include "./nats-countdown/all.typ"
+#include "./one-offs/V4.typ"
+#include "./one-offs/NottinghamReflection.typ"
+#include "./one-offs/NewcastleReflection.typ"

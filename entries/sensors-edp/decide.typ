@@ -20,7 +20,7 @@ Below are the possible sensor combinations to choose from.
 - 2x rotation sensor odometry pods & IMU -- Odometry
 - 3x rotation sensor odometry pods -- Odoemtry
 - 2x OSEs sensor odometry pods & IMU -- Odometry
-== Descision Matrix
+== Decision Matrix
 === Weights
 The matrix is weighted like so:
 - Cost: 5 (we don't want to spend money)
