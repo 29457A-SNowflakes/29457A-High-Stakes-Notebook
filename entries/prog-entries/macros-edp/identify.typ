@@ -18,7 +18,7 @@ This program...
 == Could:
 - Provide accurate positions for flipping and 'de-flipping'
 #align(center, line(length: 100%))
-= The need for controlling wall stakes mech:
+= The Need For Controlling Wall Stakes Mech:
 Having recently built our wall stakes mechanism, that in theory allows us to score on the higher, more challenging, neutral wall stakes, we now need to program a way to control it. This should allow the driver to, in a match, quickly and effectively score on these neutral stakes.
 == Why is this difficult?
 As with any problem that requires an engineered solution, the problem is more complex and layered than it may seem on the surface:
