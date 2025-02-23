@@ -15,10 +15,11 @@ Similarly, to what we did with the drivetrain, we are going to look at what did 
 Our current intake is able to intake rings fairly quickly and consistently, and was able to move rings towards the ramp in order for to be grabbed by our hooks mechanism.
 
 = What didn't
-However, our intake struggles with providing the correct amount of pressure on rings: too much force increases the friction with the floor and makes it hard to intake and too little means that the flex wheels can't grip the rings enough. This affected its speed and consistency so its important to get correct.
+However, our intake struggles with providing the correct amount of pressure on rings: too much force increases the friction with the floor and makes it hard to intake and too little means that the flex wheels can't grip the rings enough. This affected its speed and consistency so its important to get correct. In addition, our intake bent and part of the polycarb broke off.
 
 = Our focus
 These are the requirements for the intake and all its aspects:
 - must intake rings *consistently*
-- must move rings into position for 2nd stage
 - should intake rings quickly
+- must move rings into position for 2nd stage
+- should have a sturdy ramp

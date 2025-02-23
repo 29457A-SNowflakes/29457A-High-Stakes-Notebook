@@ -54,21 +54,6 @@ We are comparing each design in the following criteria:
  ("\n\n\nCentral traction wheels\n\n\n", 5, 3),
 )
 
-== Wheel size and amount
-We are considering changing the number of wheels on our drive and their size.\
-We currently have 8 2.75" in wheels but are considering changing that in favour of 6 3.25" wheels.
-The following considerations are as follows:
-- Top Speed (Vel)
-- Acceleration (Acc)
-#components.decision-matrix(
- properties: (
- (name: "Vel"),
- (name: "Acc"),
- ),
- ("\n\n\nSmaller Wheels\n\n\n", 2, 3),
- ("\n\n\nLarger Wheels\n\n\n", 4, 3),
-)
-
 == Gear positions
 We are considering switching from a wheel outside layout to a wheel inside layout.
 For this design decision we are comparing:
@@ -83,24 +68,13 @@ For this design decision we are comparing:
  ("\n\n\nWheels Inside\n\n\n", 5, 3),
 )
 
-== Gearing
-There are two major decisions in terms of gearing.
-=== Changing drive RPM
-The first of these is if we should switch from 450rpm to 400rpm, this decision will take into account our choice to change wheel size as well.
-We are comparing the following aspects of the design:
-- Top Speed (Vel)
-- Acceleration (Acc)
-- Interference with other systems (Int)
-
-#components.decision-matrix(
- properties: (
- (name: "Vel"),
- (name: "Acc"),
- (name: "Int"),
- ),
- ("\n\n\nKeeping 450\n\n\n", 4, 3, 1),
- ("\n\n\nSwitching to 400\n\n\n", 3, 4, 5),
-)
+== Deciding on Drive Gearing
+We are comparing:
+- Current Layout (450rpm on 2.75in)
+- 400rpm on 3.25in
+- 300rpm on 4in 
+- 600rpm on 2.75in
+- 300rpm on 3.25in
 
 == Implementing Motor Stacking
 We are deciding if want to implement motor stacking or not.
