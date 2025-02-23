@@ -5,7 +5,7 @@
 
 #show: create-body-entry.with(
   title: "Reflecting on Stowe",
-  type: "management",
+  type: "reflect",
   author: "Daniel da Silva",
   witness: "Aubert Seysses",
   date: datetime(year: 2025, month: 1, day: 17),
@@ -37,13 +37,15 @@ Our SF match was played well and we ended up winning 33-0.
 
 Finals 1 was against 3110D and 6023R and we ended up getting an autonomous tie. However, before driver control our bot started moving forwards on its own, whilst not recieving any inputs. It turns out that we had a faulty connection, so they restarted the match. Finals 1(rerun) again resulted in an autonomous tie because our bot didn't score a ring on the auton. 282S spent almost the entire match guarding one of the positive corners, whilst we ended up filling up a mogo entirely and we waited for 15 seconds to go off. At this point, we knew we had won but we decided to score additionally onto wall stakes for some extra points. We won 20-11 and hence won the finals.
 == Skills
-For skills, we did one drivers run, we scored 21 points. Unfortunately, our intake broke as our battery got jammed, which limited how much we could score. We didn't win skills champion but if we had the time prior to this competition, we would have had been able to get an autonomous skills working and we would have almost certainly won skills champion.
+For skills, we did one drivers run and we scored 21 points. Unfortunately, our intake broke as our battery got jammed, which limited how much we could score. We didn't have a good autonomous routine and skills closed before we could try it.
 
 = Notes From Team
 It is sometimes very useful to note down what each person initially thinks, as often the 'face value' notes are the most useful to keep in mind.
 //TODO: FILL OUT
 == Daniel Dew
-
+I think that Stowe went excellently, while we would not consider this competition a national standard competition, I would still say that the driving and tactics were displayed admirably. I especially believe that the finals was a perfect display of _sticking to the plan_, with us creating a solid, unexploitable plan with our alliance partners, 282S Spectrum, and sticking it throughout the match, making it impossible for the opponents to gain the upper hand.
+\
+Another aspect to consider was the on-the-fly building changes -- with our intake ramp breaking almost immediately, many in-pit repairs and building changes were made from Aubert, something that we all handled calmly.
 == Jonah
 
 == Daniel da Silva
@@ -54,5 +56,6 @@ I think strategically, we started very well but got better over the course of th
 
 == Aubert
 
-= Results and Reflection
-In conclusion, the Stowe Regional was a really good competition for us as we have securred our first tournament championship ever. Getting this award from winning finals and coming first in qualifiers means that we succeeded in one of our season goals and are still on track for another one. We have succeeded in getting a place at nationals and have still made top 5th Seed for every competition, which we've went to, meaning we are still on track for: A Force to be Reckoned with. From here we plan to get in as much practise as possible in order to be at our most competitive for worlds. However, we plan to be more careful as well as we still had a few close calls - not all of which were our fault.
+#admonition(type: "reflect")[
+The Stowe Regional was a really good competition for us as we have securred our first tournament championship ever. Getting this award from winning finals and coming first in qualifiers means that we succeeded in one of our season goals and are still on track for another one. We have succeeded in getting a place at nationals and have still made top 5th Seed for every competition, which we've went to, meaning we are still on track for: A Force to be Reckoned with. From here we plan to get in as much practise as possible in order to be at our most competitive for worlds. However, we plan to be more careful as well as we still had a few close calls - not all of which were our fault.
+]

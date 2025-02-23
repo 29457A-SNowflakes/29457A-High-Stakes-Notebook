@@ -8,16 +8,53 @@
   witness: "Daniel Dew",
   date: datetime(year: 2024, month: 10, day: 1),
 )
-= Identify the problem
-In order to precisely identify the problem, we will analyse what worked well about our current solution and what didnt.
-= What went well
-It was able to score consistently at lower RPMs
+= Scoring Rings Effectively
+The three design solutions, which we will be comparing are:
+- Using a hooks mechanism
+- Using a hood mechanism
+- Using a cross between the two
+We will be comparing the following aspects:
+- Consistency
+- Speed
+- Build Complexity
+- Range of Scoring Capabilities#footnote[The number of different elements it can score on: mogos, alliance and wall stakes. (Max 3 points)]
 
-= To be improved
-As mentioned previously, the intake struggled with initially sucking in rings since it was angled too far downwards, which meant that a ring would lift up the entire intake whilst it slid underneath the flex wheels. This generally meant that our intake wasn't as clean as we would like it to be. Additionally, our intake ramp touched the floor, which increased drive friction.
+#components.decision-matrix(
+ properties: (
+ (name: "Consistency"),
+ (name: "Speed"),
+ (name: "Build Complexity"),
+ (name: "Scoring Capabilities"),
+ ),
+ ("\n\n\nHooks\n\n\n", 4, 4, 4, 2),
+ ("\n\n\nHood\n\n\n", 4, 3, 3, 1),
+ ("\n\n\nHood to Hood Mech\n\n\n", 2, 2, 3, 3),
+)
+= Improving Scoring Speed
+As mentioned in brainstorm, we decided the best way to improve scoring speed is to tune the hooks mechanism, reduce its frcition and potentially adjust gearing until the bot scores consistently and quickly. Our goal will be to fill a goal in under 8 seconds.
 
-= What we want
-Moving forwards we want an intake solution, which:
-- can suck in rings without external help
-- doesn't lift much when intaking
-- has a ramp that is flush with the floor but not actually touching it
+= Colour Sorting
+If we enough time, we want to add colour sorting to our bot as it has many advantages in both autonomous routines and driver control. However, colour sorting is a stretch goal and won't be particularly useful if our scoring is slow or inconsistent anyway.
+We shall be comparing the following designs:
+- Velocity Control
+- Piston Design
+We shall be comparing the following aspects:
+- Affect on cycle time #footnote[This is a binary score, 0 for yes and 1 for no effect]
+- Possible actuations
+- Implementation complexity
+- Consistency
+
+#components.decision-matrix(
+ properties: (
+ (name: "Cycle time"),
+ (name: "Actuations"),
+ (name: "Implementation"),
+ (name: "Consistency"),
+ ),
+ ("\n\n\nVelocity control\n\n\n", 1, 5, 4, 3),
+ ("\n\n\nPiston based\n\n\n", 0, 3, 3, 5),
+)
+
+#admonition(type: "decision")[
+  We have decided that we are going to go with a hooks mech but we think that we are going to adjust the angle of the mech to be less steep. We are going to tune it and test different gearings to see which best fits our robots design constraints. If we have enough time we will add velocity control based colour sorting to our V2 bot.
+]

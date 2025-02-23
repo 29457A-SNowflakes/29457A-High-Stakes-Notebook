@@ -4,7 +4,7 @@
 
 
 #show: create-body-entry.with(
-  title: "Testting the High Stakes Mech",
+  title: "Testing the High Stakes Mech",
   type: "brainstorm",
   author: "Aubert Seysses",
   witness: "Daniel Dew",

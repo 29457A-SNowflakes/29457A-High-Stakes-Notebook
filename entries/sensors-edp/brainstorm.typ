@@ -266,6 +266,6 @@ figure(image("./imgs/optical-menu.png", height: 115pt), caption: [A screenshot o
   ]
 )
 = Brainstorm Summary
-In summary, many (oh so many) sensors can be used in autonomous, to provide the basis of routines, or to aid with peripheral functions.
+In summary, there are many sensors which can be used in autonomous, to provide the basis of routines, or to aid with peripheral functions.
 == Going Forward
 We can now begin to narrow down the options based on what we as a team want to target, and how we can most efficiently improve our autonomous routines.
