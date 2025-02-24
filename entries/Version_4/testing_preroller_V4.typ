@@ -98,3 +98,4 @@ Preroller jam test. This test is to see how many rings in succession the robot c
   #admonition(type: "decision")[
     In conclusion this testing stage has allowed us to root out the little issues with our intake and tune it to relative perfection, a jam of a ring a 15 degrees is what could cost a match in tense situations so it is good to have observed this before we have to learn it in a match. 
   ]
+  
