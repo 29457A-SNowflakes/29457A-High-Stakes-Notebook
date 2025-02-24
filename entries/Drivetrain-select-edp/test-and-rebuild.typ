@@ -23,7 +23,7 @@
 == Results
 *Left Side Power Consumption*
 #align(center)[
-  #box(inset: 15pt, radius: 8pt, fill: gradient.linear(rgb(4, 176, 27), rgb(27, 107, 38), angle:-45deg))[
+  #box(inset: 15pt, radius: 8pt, fill: gradient.linear(pink, violet, angle:-45deg))[
     #table(columns: 5, rows: 3,
       [Motor Speed / RPM], [], [Power Consumption / W (2 sf)], [], [],
       [], [Reading  1], [Reading  2], [Reading  3], [Average],
@@ -35,7 +35,7 @@
 ]
 *Right Side Power Consumption*
 #align(center)[
-  #box(inset: 15pt, radius: 8pt, fill: gradient.linear(rgb(4, 176, 27), rgb(27, 107, 38), angle:-45deg))[
+  #box(inset: 15pt, radius: 8pt, fill: gradient.linear(pink, violet, angle:-45deg))[
     #table(columns: 5, rows: 4,
       [Motor Speed / RPM], [], [Power Consumption / W (2sf)], [], [],
       [], [Reading  1], [Reading  2], [Reading  3], [Average],
