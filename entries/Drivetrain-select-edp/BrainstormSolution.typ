@@ -8,6 +8,7 @@
   author:  "Jonah Fitchew, Daniel da Silva",
   witness: "Daniel Dew"
 )
+<dt-original-edp>
 = The main types of Drivetrains:
 In VEX there are two main drivetrain archetypes, which we can we use to solve the fairly obvious problem, that we need to be able to move#footnote([The typical 'identify problem' page is omitted since the ability to move efficiently is non-disputable.]).
 \

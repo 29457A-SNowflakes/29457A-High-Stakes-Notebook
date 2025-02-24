@@ -44,7 +44,7 @@ Pros and cons for a piston redirect:
 )
 \
 = Lady Brown
-One of the more recent wall stakes design intially pioneered by #link("https://youtu.be/Aa6HvUxea9Q?si=avfr63X9KSH1YRcE")[18522R] utilises a two bar mechanism with a pivot at the base and a scoring mechanism at the top. Whilst a ring is on the hook mech the scoring mech clamps around it and it pivots directly off the hooks to score onto wall stakes. The placement of the two bar helps retain a low centre of mass and allows for clean and consistent scoring. This mech works well with a piston based ring sorter positioned at the apex of the hook mech as it doesn't clog up the intake and render it briefly unusable whilst a ring is being rejected unlike other sorter designs.
+One of the more recent wall stakes design intially pioneered by #link("https://youtu.be/Aa6HvUxea9Q?si=avfr63X9KSH1YRcE")[18522R] utilises a two bar mechanism with a pivot at the base and a scoring mechanism at the top. Whilst a ring is on the hook mech the scoring mech clamps around it and it pivots directly off the hooks to score onto wall stakes. The placement of the two bar helps retain a low centre of mass and allows for clean and consistent scoring. This mech works well with a piston puncher style colour sorter positioned at the apex of the hook mech as it doesn't clog up the intake and render it briefly unusable whilst a ring is being rejected unlike other sorter designs.
 
 #figure([#image("./imgs/LBPistonSorter.png", height: 160pt)], caption: [18522R Piston based ring sorter: When the wrong colour is detected a piston pops up, which alters the trajectory of the ring causing it to not be scored.])
 
@@ -65,12 +65,12 @@ Pros and cons for lady brown:
 = Fish Mech
 A very recent mech has enterred the meta, that is very similar to a lady brown mech in terms of design. It also uses a two bar mechanism but the pivot is positioned so that it picks the rings up during their ascent instead of at the apex. Fish mech typically uses a claw to grapple the rings. However, our analysis has led us to conclude that it is much easier to defend against because it's quite slow and the angle has to be perfect.
 
-Pros and cons for fish:
 #components.pro-con(
   pros: [
     - No redirect required
   ],
   cons: [
-    - Eclipsed by lady brown
+    - Less consistent than other wall stake mechanisms
+    - Slower than other wall stake mechs
   ]
 )

@@ -169,7 +169,6 @@ class Robot {
                         static lemlib::ControllerSettings latController;
                         static lemlib::ControllerSettings angularController;
 
-                        //TODO (non-urgent)
                         static const void DriveCurveTuning();
                         static lemlib::ExpoDriveCurve driveCurveLateral;
                         static lemlib::ExpoDriveCurve driveCurveAngular;
@@ -296,7 +295,6 @@ MotorGroup Robot::Motors::rightMotors (
 ExpoDriveCurve Robot::Auton::Tuning::driveCurveLateral (4, 6, 1.004);
 ExpoDriveCurve Robot::Auton::Tuning::driveCurveAngular (4, 6, 1.016);
 //* Drivetrain with track width 13.1'', Geard (down) for 450rpm, using horizontal drift of 8 due to traction wheel usage
-//TODO Measure dimensions
 const Drivetrain Robot::Motors::drivetrain(
     &leftMotors,
     &rightMotors,
@@ -315,7 +313,6 @@ Imu Robot::Sensors::imu (21); // IMU on port ?
 adi::Encoder vertEncoder('A', 'B');
 adi::Encoder horiEncoder('C', 'D');
 
-//TODO measure distances
 TrackingWheel Robot::Sensors::verticalTracking (&vertEncoder, Omniwheel::NEW_275_HALF, 0);
 TrackingWheel Robot::Sensors::horizontalTracking (&horiEncoder, Omniwheel::NEW_275_HALF, 0);
 
@@ -391,7 +388,6 @@ namespace Autons {
     void supportTouchLadder();
     void support();
     void rush();
-    // TODO: more?
 }
 ```
 

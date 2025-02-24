@@ -35,6 +35,6 @@ RUN wget https://github.com/google/fonts/raw/main/ofl/blinker/Blinker-Regular.tt
     mv ./*.ttf /home/vscode/.local/share/fonts
 
 # Install the notebookinator
-RUN git clone --depth 1 --branch ${NOTEBOOKiNATOR_VERSION} https://github.com/The-Notebookinator/notebookinator.git && \
+RUN git clone --depth 1 --branch 29457A-changes https://github.com/KillerDew/notebookinator.git && \
     ./notebookinator/scripts/package @local && \
    rm -rf notebookinator

@@ -10,4 +10,4 @@
   witness: "Daniel da Silva",
   date: datetime(year: 2024, month: 09, day: 30),
 )
-#image("/entries/one-offs/cover_imgs/Vex_Cov.png",height:650pt)
+#image("./cover_imgs/Vex_Cov.png", height:650pt)
